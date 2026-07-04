@@ -3,20 +3,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A free AI-agent repo preflight scanner and checklist for Claude Code, Cursor, Codex-style agents, MCP configs, and local automation risk review.">
   <title>AI Agent Safety Starter Pack</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 780px; margin: 48px auto; padding: 0 20px; line-height: 1.55; color: #172033; }
-    a.cta { display: inline-block; background: #111827; color: white; padding: 12px 18px; border-radius: 10px; text-decoration: none; font-weight: 700; }
-    code { background: #f1f5f9; padding: 2px 5px; border-radius: 5px; }
+    :root { color-scheme: light; --ink: #172033; --muted: #475569; --line: #dbe3ef; --panel: #f8fafc; --cta: #111827; --accent: #2563eb; }
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 920px; margin: 48px auto; padding: 0 20px; line-height: 1.55; color: var(--ink); background: white; }
+    header { display: grid; gap: 18px; padding: 32px; border: 1px solid var(--line); border-radius: 18px; background: linear-gradient(135deg, #f8fafc, #eef6ff); }
+    h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; margin: 0; }
+    h2 { margin-top: 38px; }
+    p { color: var(--muted); }
+    a { color: var(--accent); }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    a.cta { display: inline-block; background: var(--cta); color: white; padding: 12px 18px; border-radius: 10px; text-decoration: none; font-weight: 700; }
+    a.secondary { display: inline-block; color: var(--ink); padding: 11px 16px; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; font-weight: 700; background: white; }
+    code, pre { background: #f1f5f9; border-radius: 8px; }
+    code { padding: 2px 5px; }
+    pre { padding: 16px; overflow-x: auto; border: 1px solid var(--line); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin: 18px 0; }
+    .card { border: 1px solid var(--line); border-radius: 14px; padding: 18px; background: var(--panel); }
+    .card h3 { margin-top: 0; }
+    .note { font-size: 0.95rem; color: var(--muted); }
   </style>
 </head>
 <body>
-  <h1>AI Agent Safety Starter Pack</h1>
-  <p>A tiny preflight workflow for developers using Claude Code, Cursor, Codex-style agents, MCP configs, and local repo automations.</p>
-  <p>This public repo contains a free lite scanner and checklist. The full $7 bundle adds a full preflight mini, destructive-command hook, demo repo/report, buyer quickstart, and verification scripts.</p>
-  <p><a class="cta" href="https://payhip.com/b/1nmxV">Buy the $7 starter pack</a></p>
-  <h2>Free preview</h2>
-  <pre><code>python3 agent_preflight_lite.py /path/to/repo</code></pre>
-  <p>Not a sandbox or full security audit. It is a cheap first pass before letting an agent touch tools.</p>
+  <header>
+    <div>
+      <p class="note">Free lite scanner + paid $7 repo safety bundle</p>
+      <h1>Preflight your repo before giving AI coding agents tool access.</h1>
+    </div>
+    <p>AI coding agents can read instructions, run package scripts, touch MCP/Cursor/Claude configs, and trip over secret-adjacent files. This starter pack gives you a cheap first pass before Claude Code, Cursor, Codex-style agents, or local automations start working.</p>
+    <div class="cta-row">
+      <a class="cta" href="https://payhip.com/b/1nmxV">Buy the $7 starter pack</a>
+      <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack">Run the free scanner</a>
+    </div>
+  </header>
+
+  <h2>Free preview: run it in 60 seconds</h2>
+  <pre><code>git clone https://github.com/el-zachariah/ai-agent-safety-starter-pack.git
+cd ai-agent-safety-starter-pack
+python3 agent_preflight_lite.py /path/to/repo</code></pre>
+  <p>The lite scanner flags agent instruction files, MCP / Claude / Cursor config, workflow files, risky shell patterns, package scripts, and secret-adjacent filenames worth reviewing before a run.</p>
+
+  <div class="grid">
+    <section class="card">
+      <h3>Who it helps</h3>
+      <p>Developers and small teams letting AI agents work inside real repositories, especially unfamiliar repos with install, test, deploy, or automation scripts.</p>
+    </section>
+    <section class="card">
+      <h3>What the $7 bundle adds</h3>
+      <p>Full repo preflight mini, destructive-command hook, buyer quickstart, demo risky repo/report, report templates, verification scripts, and limitations FAQ.</p>
+    </section>
+    <section class="card">
+      <h3>What it is not</h3>
+      <p>Not a sandbox, malware scanner, secret scanner, or full security audit. It is a fast practical checklist before an agent gets tools.</p>
+    </section>
+  </div>
+
+  <h2>Why buy the full starter pack?</h2>
+  <ul>
+    <li>Turn one-off repo checks into a repeatable pre-agent workflow.</li>
+    <li>Block obvious destructive commands before they reach your shell.</li>
+    <li>Use report templates to decide what to allow, exclude, or review.</li>
+    <li>Verify the bundle locally before trusting it in your own repos.</li>
+  </ul>
+  <p class="cta-row">
+    <a class="cta" href="https://payhip.com/b/1nmxV">Get the full $7 bundle</a>
+    <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/examples/sample-report.md">View a sample report</a>
+  </p>
 </body>
 </html>
