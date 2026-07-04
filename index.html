@@ -48,6 +48,12 @@ python3 agent_preflight_lite.py /path/to/repo</code></pre>
   <pre><code>python3 agent_preflight_lite.py examples/sample-risky-repo</code></pre>
   <p>You should see five demo findings: an agent instruction file, a secret-adjacent file, package scripts, a curl-piped shell install, and a destructive delete command. That gives you a quick proof of what the scanner will surface in your own repo.</p>
 
+  <h2>New: free agent handoff playbook</h2>
+  <p>Turn the scan into a short operating note before Claude Code, Codex, Cursor, or an MCP-backed agent gets shell access. The playbook gives you a 10-minute scan → triage → run/avoid-list flow, plus copy-paste guardrail text for the agent task.</p>
+  <p class="cta-row">
+    <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/agent-handoff-playbook.md">Read the free handoff playbook</a>
+  </p>
+
   <h2>Use it right before an agent run</h2>
   <ul>
     <li>You just cloned an unfamiliar repo and want to know what an agent may read or execute.</li>
