@@ -42,6 +42,8 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("python3 agent_preflight_lite.py /path/to/repo", html)
         self.assertIn("python3 agent_preflight_lite.py examples/sample-risky-repo", html)
         self.assertIn("Try the included risky sample", html)
+        self.assertIn("red-flag to action matrix", html)
+        self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/red-flag-to-action-matrix.md", parser.links)
         self.assertIn("free agent handoff playbook", html)
         self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/agent-handoff-playbook.md", parser.links)
         self.assertIn("5-minute upgrade checklist", html)

@@ -37,6 +37,8 @@ python3 agent_preflight_lite.py examples/sample-risky-repo
 
 Example output is in [`examples/sample-report.md`](examples/sample-report.md).
 
+Red-flag matrix: [`docs/red-flag-to-action-matrix.md`](docs/red-flag-to-action-matrix.md) maps scan findings to run / ask / avoid decisions before an agent gets shell access.
+
 Free handoff guide: [`docs/agent-handoff-playbook.md`](docs/agent-handoff-playbook.md) shows a 10-minute flow for turning the scan into Claude Code/Codex/Cursor run rules before an agent gets tool access.
 
 Copy-paste task prompt: [`docs/copy-paste-agent-task-prompt.md`](docs/copy-paste-agent-task-prompt.md) gives a short agent instruction block to paste after the scan and before shell access.
