@@ -40,6 +40,8 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack", parser.links)
         self.assertIn("destructive-command hook", html)
         self.assertIn("python3 agent_preflight_lite.py /path/to/repo", html)
+        self.assertIn("python3 agent_preflight_lite.py examples/sample-risky-repo", html)
+        self.assertIn("Try the included risky sample", html)
 
 
 if __name__ == "__main__":

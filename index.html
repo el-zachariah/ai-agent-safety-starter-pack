@@ -44,6 +44,17 @@ cd ai-agent-safety-starter-pack
 python3 agent_preflight_lite.py /path/to/repo</code></pre>
   <p>The lite scanner flags agent instruction files, MCP / Claude / Cursor config, workflow files, risky shell patterns, package scripts, and secret-adjacent filenames worth reviewing before a run.</p>
 
+  <h2>Try the included risky sample</h2>
+  <pre><code>python3 agent_preflight_lite.py examples/sample-risky-repo</code></pre>
+  <p>You should see five demo findings: an agent instruction file, a secret-adjacent file, package scripts, a curl-piped shell install, and a destructive delete command. That gives you a quick proof of what the scanner will surface in your own repo.</p>
+
+  <h2>Use it right before an agent run</h2>
+  <ul>
+    <li>You just cloned an unfamiliar repo and want to know what an agent may read or execute.</li>
+    <li>You are about to let Claude Code, Codex, Cursor, or another local agent run install/test/build commands.</li>
+    <li>You enabled a new MCP/Cursor/Claude config and want a fast first-pass review list.</li>
+  </ul>
+
   <div class="grid">
     <section class="card">
       <h3>Who it helps</h3>

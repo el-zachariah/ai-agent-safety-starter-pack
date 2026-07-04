@@ -27,6 +27,14 @@ python3 agent_preflight_lite.py /path/to/repo
 python3 agent_preflight_lite.py /path/to/repo --json
 ```
 
+Want a no-risk demo first?
+
+```bash
+git clone https://github.com/el-zachariah/ai-agent-safety-starter-pack.git
+cd ai-agent-safety-starter-pack
+python3 agent_preflight_lite.py examples/sample-risky-repo
+```
+
 Example output is in [`examples/sample-report.md`](examples/sample-report.md).
 
 ## Why this exists
@@ -39,6 +47,8 @@ Before I let an autonomous coding agent work in a repo, I want a cheap first pas
 4. Which files deserve a human look before agent execution?
 
 The full starter pack turns this into a reusable preflight workflow plus a command hook that blocks obvious destructive shell commands.
+
+Use the free scanner before you clone-and-run an unfamiliar repo, hand a backlog task to Claude Code/Codex/Cursor, enable a new MCP config, or let an agent run install/test/deploy commands.
 
 ## Full bundle
 
