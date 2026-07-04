@@ -60,6 +60,9 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/copy-paste-agent-task-prompt.md", parser.links)
         self.assertIn("Free scan first, then upgrade only when it saves setup time", html)
         self.assertIn("If it flags work, use the $7 pack", html)
+        self.assertIn("30-second buy / skip decision", html)
+        self.assertIn("Buy the $7 pack if the scan is Yellow/Red", html)
+        self.assertIn("Skip it for now if the scan is Green", html)
 
 
 if __name__ == "__main__":

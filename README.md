@@ -8,6 +8,8 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Buy the full bundle:** https://payhip.com/b/1nmxV
 
+**30-second buy/skip rule:** run the free scan first. Buy the `$7` pack only when the result is Yellow/Red: two or more risk buckets, MCP/Cursor/Claude config, package scripts, secret-adjacent files, or shell commands the agent might run. If the result is Green, keep using the free lite scanner and normal review discipline.
+
 ## What the free lite scanner catches
 
 `agent_preflight_lite.py` looks for common AI-agent workspace risk signals:

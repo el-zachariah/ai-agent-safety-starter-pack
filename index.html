@@ -59,6 +59,11 @@
     .score.yellow { border-top: 5px solid var(--warn); }
     .score.red { border-top: 5px solid var(--danger); }
     .receipt { border: 1px solid #bfdbfe; border-radius: 16px; padding: 16px; background: #f8fbff; }
+    .decision { margin: 22px 0 8px; padding: 20px; border: 1px solid #bfdbfe; border-radius: 18px; background: #ffffff; box-shadow: 0 14px 40px rgba(37, 99, 235, 0.08); }
+    .decision h2 { margin-top: 0; }
+    .decision-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+    .decision-card { border: 1px solid var(--line); border-radius: 14px; padding: 16px; background: var(--panel); }
+    .decision-card strong { display: block; color: var(--ink); margin-bottom: 6px; }
     @media (max-width: 760px) { header { grid-template-columns: 1fr; padding: 24px; } }
   </style>
 </head>
@@ -83,6 +88,25 @@
       <p class="note">If the free scan lights up 2+ buckets, write the handoff before the agent gets shell access.</p>
     </aside>
   </header>
+
+  <section class="decision" aria-label="30-second buy or skip decision">
+    <h2>30-second buy / skip decision</h2>
+    <p>Run the free scan first. The paid pack is for the moment the scan creates real handoff work — not for fear-buying a blank repo.</p>
+    <div class="decision-grid">
+      <div class="decision-card">
+        <strong>Buy the $7 pack if the scan is Yellow/Red</strong>
+        <p>Two or more risk buckets, package scripts, MCP/Cursor/Claude config, secret-adjacent files, or shell commands the agent might run. The bundle gives you the reusable report template, destructive-command hook, demo, and verifier instead of rebuilding them during the task.</p>
+      </div>
+      <div class="decision-card">
+        <strong>Skip it for now if the scan is Green</strong>
+        <p>Zero or one low-risk signal, no agent config, no risky install/deploy scripts, and no secret-adjacent files. Use the free lite scanner and normal code review discipline.</p>
+      </div>
+    </div>
+    <p class="cta-row">
+      <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/upgrade-decision-checklist.md">Check the buy/skip rule</a>
+      <a class="cta" href="https://payhip.com/b/1nmxV">Buy the $7 starter pack</a>
+    </p>
+  </section>
 
   <h2>Free preview: run it in 60 seconds</h2>
   <pre><code>git clone https://github.com/el-zachariah/ai-agent-safety-starter-pack.git
