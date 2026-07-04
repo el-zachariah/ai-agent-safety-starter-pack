@@ -42,6 +42,8 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("python3 agent_preflight_lite.py /path/to/repo", html)
         self.assertIn("python3 agent_preflight_lite.py examples/sample-risky-repo", html)
         self.assertIn("Try the included risky sample", html)
+        self.assertIn("Free scan first, then upgrade only when it saves setup time", html)
+        self.assertIn("If it flags work, use the $7 pack", html)
 
 
 if __name__ == "__main__":

@@ -50,6 +50,15 @@ The full starter pack turns this into a reusable preflight workflow plus a comma
 
 Use the free scanner before you clone-and-run an unfamiliar repo, hand a backlog task to Claude Code/Codex/Cursor, enable a new MCP config, or let an agent run install/test/deploy commands.
 
+## Upgrade trigger
+
+Run the free lite check first. The `$7` bundle is meant for the moment the scan finds enough signals that you want a repeatable handoff instead of a one-off note:
+
+1. capture the repo preflight result,
+2. decide what the agent may read or run,
+3. block obvious destructive commands with a local hook, and
+4. keep a reusable report template with the repo before assigning Claude Code, Codex, Cursor, or another AI coding agent.
+
 ## Full bundle
 
 The `$7` Payhip bundle includes:
