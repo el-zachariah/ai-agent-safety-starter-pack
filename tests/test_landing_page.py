@@ -44,6 +44,8 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("Try the included risky sample", html)
         self.assertIn("free agent handoff playbook", html)
         self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/agent-handoff-playbook.md", parser.links)
+        self.assertIn("5-minute upgrade checklist", html)
+        self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/upgrade-decision-checklist.md", parser.links)
         self.assertIn("Free scan first, then upgrade only when it saves setup time", html)
         self.assertIn("If it flags work, use the $7 pack", html)
 

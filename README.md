@@ -39,6 +39,8 @@ Example output is in [`examples/sample-report.md`](examples/sample-report.md).
 
 Free handoff guide: [`docs/agent-handoff-playbook.md`](docs/agent-handoff-playbook.md) shows a 10-minute flow for turning the scan into Claude Code/Codex/Cursor run rules before an agent gets tool access.
 
+Upgrade decision guide: [`docs/upgrade-decision-checklist.md`](docs/upgrade-decision-checklist.md) turns the scan result into a concrete buy/skip checklist for the `$7` bundle.
+
 ## Why this exists
 
 Before I let an autonomous coding agent work in a repo, I want a cheap first pass that answers:
