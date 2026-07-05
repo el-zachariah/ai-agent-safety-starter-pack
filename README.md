@@ -179,6 +179,7 @@ Teams using [openai/codex](https://github.com/openai/codex)-style AI coding agen
 ### Gemini CLI terminal-agent preflight proof
 
 Teams using [Google Gemini CLI](https://github.com/google-gemini/gemini-cli) or similar terminal AI coding agents can now preview a concrete [Gemini CLI preflight receipt example](docs/examples/preflight-before-gemini-cli.md) before buying. It shows what to paste before the agent edits files or runs shell commands, and when the $7 pack is worth it because the scan is Yellow/Red.
+- [Browser-use web-agent preflight proof](docs/examples/preflight-before-browser-use-web-agents.md) — for teams running `browser-use/browser-use` or similar browser agents before repo/API credentials; Yellow/Red scan → buy the [$7 full pack](https://payhip.com/b/1nmxV).
 <!-- deadline-gemini-cli-proof:end -->
 
 <!-- deadline-opencode-proof:start -->
