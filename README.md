@@ -49,6 +49,8 @@ Claude Code slash-command bridge: copy [`commands/agent-preflight.md`](commands/
 
 Continuous-agent example: [`docs/continuous-agent-preflight-example.md`](docs/continuous-agent-preflight-example.md) shows a 7-minute receipt for persistent Claude Code / MCP / agent harnesses before they inherit repo context, command access, and long-running state.
 
+Claude Code hook/TDD proof: [`docs/claude-code-hook-preflight-proof.md`](docs/claude-code-hook-preflight-proof.md) gives hook, TDD guard, MCP routing, and continuous-agent users a 6-minute preflight receipt before automation starts running commands.
+
 CI preflight recipe: [`docs/ci-preflight-recipe.md`](docs/ci-preflight-recipe.md) shows a copy-paste GitHub Actions step for attaching a Green / Yellow / Red preflight receipt to AI-agent pull requests.
 
 Review comment template: [`docs/preflight-review-comment-template.md`](docs/preflight-review-comment-template.md) gives maintainers a copy-paste PR/issue comment for the scan result, allowed commands, must-ask actions, and buy/skip trigger.
