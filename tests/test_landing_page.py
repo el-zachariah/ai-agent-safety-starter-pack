@@ -169,6 +169,21 @@ class LangGraphStatefulAgentProofTests(unittest.TestCase):
         self.assertIn("agent-preflight-langgraph", proof_text)
 
 
+
+class OpenHandsTaskBranchProofTests(unittest.TestCase):
+    def test_openhands_task_branch_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-openhands-task-branches.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-openhands-task-branches.md", readme)
+        self.assertIn("OpenHands task-branch preflight proof", index)
+        self.assertIn("OpenHands/OpenHands", proof_text)
+        self.assertIn("preflight-openhands", proof_text)
+        self.assertIn("package-script", proof_text)
+
+
 if __name__ == "__main__":
     unittest.main()
 

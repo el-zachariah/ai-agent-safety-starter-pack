@@ -223,3 +223,9 @@ Teams using [SWE-agent](https://github.com/SWE-agent/SWE-agent)-style autonomous
 
 Teams using [LangGraph](https://github.com/langchain-ai/langgraph)-style stateful agents can now preview a concrete [LangGraph preflight receipt](docs/examples/preflight-before-langgraph-stateful-agents.md) before buying. It shows what to check before graph nodes, tool calls, checkpoint stores, package scripts, MCP/API connectors, or deployment config enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
 <!-- deadline-langgraph-proof:end -->
+
+<!-- deadline-openhands-proof:start -->
+### OpenHands task-branch preflight proof
+
+Teams using [OpenHands](https://github.com/OpenHands/OpenHands)-style autonomous software-engineering agents can now preview a concrete [OpenHands task-branch preflight receipt](docs/examples/preflight-before-openhands-task-branches.md) before buying. It shows what to check before an agent receives branch, shell, package-script, CI, or MCP/tooling scope, plus the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-openhands-proof:end -->
