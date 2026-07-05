@@ -1,0 +1,11 @@
+{
+  "name": "agent-safety-preflight",
+  "version": "0.1.0",
+  "description": "Claude Code slash-command bridge for running the AI Agent Safety Starter Pack lite repo preflight before tool-enabled agent work.",
+  "author": {
+    "name": "Signal Loom Works",
+    "url": "https://github.com/el-zachariah/ai-agent-safety-starter-pack"
+  },
+  "homepage": "https://github.com/el-zachariah/ai-agent-safety-starter-pack",
+  "repository": "https://github.com/el-zachariah/ai-agent-safety-starter-pack"
+}

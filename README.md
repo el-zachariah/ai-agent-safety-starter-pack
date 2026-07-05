@@ -43,6 +43,8 @@ One-minute scorecard: [`docs/one-minute-risk-scorecard.md`](docs/one-minute-risk
 
 Red-flag matrix: [`docs/red-flag-to-action-matrix.md`](docs/red-flag-to-action-matrix.md) maps scan findings to run / ask / avoid decisions before an agent gets shell access.
 
+Claude Code slash-command bridge: copy [`commands/agent-preflight.md`](commands/agent-preflight.md) into `.claude/commands/agent-preflight.md`, then run `/agent-preflight .` before a tool-enabled session. Setup notes: [`docs/claude-code-slash-command.md`](docs/claude-code-slash-command.md).
+
 Free handoff guide: [`docs/agent-handoff-playbook.md`](docs/agent-handoff-playbook.md) shows a 10-minute flow for turning the scan into Claude Code/Codex/Cursor run rules before an agent gets tool access.
 
 Copy-paste task prompt: [`docs/copy-paste-agent-task-prompt.md`](docs/copy-paste-agent-task-prompt.md) gives a short agent instruction block to paste after the scan and before shell access.
