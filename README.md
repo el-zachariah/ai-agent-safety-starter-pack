@@ -328,3 +328,8 @@ Teams wiring [Composio](https://github.com/ComposioHQ/composio)-style toolkits, 
 
 Teams using Dify, Flowise, or similar visual agent builders still expose real repo, API, `.env`, webhook, database, and deployment scope once a workflow leaves the demo sandbox. Use the [low-code agent builder preflight example](docs/examples/preflight-before-low-code-agent-builders.md) to decide when a visual workflow is safe to run and when the $7 checklist/templates are the faster path.
 
+
+
+## Buyer-specific preflight examples
+
+- [Cline autonomous VS Code agent preflight](docs/examples/preflight-before-cline-autonomous-vscode-agents.md) — named proof for teams letting Cline edit files, run commands, or use MCP tools before buying the starter pack.
