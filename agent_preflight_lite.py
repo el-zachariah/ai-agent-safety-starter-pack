@@ -17,6 +17,7 @@ from typing import Iterable, TypedDict
 AGENT_FILE_NAMES = {
     "AGENTS.md",
     "CLAUDE.md",
+    "copilot-instructions.md",
     ".cursorrules",
     ".cursorignore",
     ".mcp.json",
@@ -93,6 +94,7 @@ def is_agent_related(path: Path) -> bool:
         or ".cursor" in parts
         or ".claude" in parts
         or ".continue" in parts
+        or (".github" in parts and path.name == "copilot-instructions.md")
         or path.match(".github/workflows/*")
     )
 

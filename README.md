@@ -24,7 +24,7 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 `agent_preflight_lite.py` looks for common AI-agent workspace risk signals:
 
 - agent instruction files such as `AGENTS.md`, `CLAUDE.md`, `.cursorrules`, `.cursor/rules/*`
-- MCP / Claude / Cursor config files
+- MCP / Claude / Cursor / GitHub Copilot instruction config files
 - secret-adjacent files such as `.env`, `.npmrc`, `.pypirc`, `id_rsa`
 - risky shell patterns such as `rm -rf`, `curl | sh`, `chmod 777`, `docker.sock`, and `force push`
 - package scripts and GitHub Actions workflow files that an agent may touch
@@ -116,6 +116,12 @@ Run the free lite check first. The `$7` bundle is meant for the moment the scan 
 
 Teams using [`continuedev/continue`](https://github.com/continuedev/continue) or a similar IDE agent can preview a concrete [Continue.dev IDE agent preflight proof](docs/examples/preflight-before-continue-ide-agents.md) before exposing `.continue/` config, MCP/context providers, package scripts, and repo secrets to an agent run.
 <!-- deadline-continue-ide-agent-proof:end -->
+
+<!-- deadline-github-copilot-coding-agent-proof:start -->
+### GitHub Copilot coding agent preflight proof
+
+Teams using GitHub Copilot coding agent or repository-level `.github/copilot-instructions.md` can preview a concrete [Copilot coding agent preflight proof](docs/examples/preflight-before-github-copilot-coding-agent.md) before exposing workflow secrets, package scripts, repo instructions, or issue/PR automation scope. The free scanner now flags `copilot-instructions.md` as an agent instruction file so buyers can verify the handoff trigger before purchasing.
+<!-- deadline-github-copilot-coding-agent-proof:end -->
 
 ## Full bundle
 
