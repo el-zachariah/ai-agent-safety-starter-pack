@@ -61,6 +61,8 @@ Claude Code slash-command bridge: copy [`commands/agent-preflight.md`](commands/
 
 CrewAI multi-agent workflow proof: [`docs/examples/preflight-before-crewai-multi-agent-workflows.md`](docs/examples/preflight-before-crewai-multi-agent-workflows.md) shows the 5-minute receipt to write before a CrewAI-style crew gets tool access, package scripts, `.env` values, or API-backed execution scope.
 
+AutoGen multi-agent workflow proof: [`docs/examples/preflight-before-autogen-agent-workflows.md`](docs/examples/preflight-before-autogen-agent-workflows.md) shows the 5-minute receipt before AutoGen-style function-calling agents inherit repo, shell, package-script, MCP, browser, or API-backed tool access.
+
 Continuous-agent example: [`docs/continuous-agent-preflight-example.md`](docs/continuous-agent-preflight-example.md) shows a 7-minute receipt for persistent Claude Code / MCP / agent harnesses before they inherit repo context, command access, and long-running state.
 
 Claude Code hook/TDD proof: [`docs/claude-code-hook-preflight-proof.md`](docs/claude-code-hook-preflight-proof.md) gives hook, TDD guard, MCP routing, and continuous-agent users a 6-minute preflight receipt before automation starts running commands.

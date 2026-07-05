@@ -200,3 +200,17 @@ def test_live_distribution_proof_is_linked_and_specific():
     assert 'payhip.com/b/1nmxV' in proof
     assert 'github.com/e2b-dev/awesome-ai-sdks/pull/261' in proof
     assert 'CodeRabbit success' in proof
+
+
+class AutoGenAgentWorkflowProofTests(unittest.TestCase):
+    def test_autogen_agent_workflow_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-autogen-agent-workflows.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-autogen-agent-workflows.md", readme)
+        self.assertIn("AutoGen multi-agent workflow preflight proof", index)
+        self.assertIn("microsoft/autogen", proof_text)
+        self.assertIn("function-calling agents", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", index)
