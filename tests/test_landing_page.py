@@ -89,6 +89,18 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("anthropics/claude-code-action", proof_text)
         self.assertIn("pull_request_target", proof_text)
 
+    def test_vscode_agent_extension_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-vscode-agent-extensions.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-vscode-agent-extensions.md", readme)
+        self.assertIn("VS Code agent extension preflight proof", index)
+        self.assertIn("cline/cline", proof_text)
+        self.assertIn("RooCodeInc/Roo-Code", proof_text)
+        self.assertIn("MCP/tool config", proof_text)
+
 
 if __name__ == "__main__":
     unittest.main()

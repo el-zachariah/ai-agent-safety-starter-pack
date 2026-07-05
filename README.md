@@ -175,3 +175,7 @@ Using `anthropics/claude-code-action` or similar issue/PR-triggered coding autom
 
 Teams using [openai/codex](https://github.com/openai/codex)-style AI coding agents can now preview a concrete [Codex CLI preflight handoff example](docs/examples/preflight-before-codex-cli.md) before buying. It shows how to paste a Green/Yellow/Red receipt into a Codex task, constrain risky commands, and decide when the $7 paid pack is worth it.
 
+### VS Code agent extension preflight proof
+
+Teams using [Cline](https://github.com/cline/cline), Roo Code, or similar VS Code agent extensions can now preview a concrete [editor-agent preflight example](docs/examples/preflight-before-vscode-agent-extensions.md) before buying. It shows how to paste a risk receipt into the agent chat, constrain terminal/MCP/editor access, and decide when the $7 paid pack is worth it.
+
