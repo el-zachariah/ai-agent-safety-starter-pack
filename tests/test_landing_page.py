@@ -315,3 +315,17 @@ class CuratedClaudeSkillMarketplaceProofTests(unittest.TestCase):
         self.assertIn("agent-preflight-curated-skills", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
 
+class RufloAgentSwarmProofTests(unittest.TestCase):
+    def test_ruflo_agent_swarm_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-ruflo-agent-swarms.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-ruflo-agent-swarms.md", readme)
+        self.assertIn("Ruflo / Claude Flow-style swarm preflight proof", index)
+        self.assertIn("ruvnet/ruflo", proof_text)
+        self.assertIn("agent-preflight-ruflo-swarm", proof_text)
+        self.assertIn("multi-agent meta-harness", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+

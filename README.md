@@ -291,3 +291,9 @@ Teams using [Dev Containers](https://github.com/devcontainers/spec), GitHub Code
 
 Teams browsing high-trust skill/plugin marketplaces such as [`trailofbits/skills-curated`](https://github.com/trailofbits/skills-curated) or [`numman-ali/n-skills`](https://github.com/numman-ali/n-skills) can now preview a concrete [curated Claude skill marketplace preflight proof](docs/examples/preflight-before-curated-claude-skill-marketplaces.md) before enabling a skill in a real repo. It gives a 60-second receipt, named repo-risk checks, and the Yellow/Red trigger for the $7 workflow bundle.
 
+<!-- deadline-ruflo-swarm-proof:start -->
+### Ruflo / Claude Flow-style swarm preflight proof
+
+Teams using [Ruflo](https://github.com/ruvnet/ruflo) or a similar Claude Code / Codex / Hermes multi-agent swarm can now preview a concrete [swarm preflight receipt](docs/examples/preflight-before-ruflo-agent-swarms.md) before buying. It shows what to freeze before multiple workers inherit repo instructions, MCP/tool config, shell scope, memory/checkpoints, package scripts, or secret-adjacent files.
+<!-- deadline-ruflo-swarm-proof:end -->
+
