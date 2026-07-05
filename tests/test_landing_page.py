@@ -300,3 +300,18 @@ class CursorRulesBackgroundAgentProofTests(unittest.TestCase):
         self.assertIn("PatrickJS/awesome-cursorrules", proof_text)
         self.assertIn("agent-preflight-cursor-rules", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
+class CuratedClaudeSkillMarketplaceProofTests(unittest.TestCase):
+    def test_curated_claude_skill_marketplace_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-curated-claude-skill-marketplaces.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-curated-claude-skill-marketplaces.md", readme)
+        self.assertIn("Curated Claude skill marketplace preflight proof", index)
+        self.assertIn("trailofbits/skills-curated", proof_text)
+        self.assertIn("numman-ali/n-skills", proof_text)
+        self.assertIn("agent-preflight-curated-skills", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
