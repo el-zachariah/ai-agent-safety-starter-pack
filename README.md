@@ -334,3 +334,8 @@ Teams using Dify, Flowise, or similar visual agent builders still expose real re
 ## Buyer-specific preflight examples
 
 - [Cline autonomous VS Code agent preflight](docs/examples/preflight-before-cline-autonomous-vscode-agents.md) — named proof for teams letting Cline edit files, run commands, or use MCP tools before buying the starter pack.
+
+### Named buyer proof: n8n AI workflow automation
+
+- [n8n AI workflow preflight proof](docs/examples/preflight-before-n8n-ai-workflows.md) — for teams using self-hosted workflow automation, webhooks, credentials, custom code nodes, or low-code AI workflows before granting agent/repo/API scope. Buy the [$7 starter pack](https://payhip.com/b/1nmxV) when the scan is Yellow/Red; skip it when the workflow has no real credentials or repo access.
+
