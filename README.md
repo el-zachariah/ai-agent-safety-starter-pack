@@ -107,3 +107,7 @@ Payhip: https://payhip.com/b/1nmxV
 ## License
 
 The free lite files in this public repository are MIT licensed. The paid bundle is sold separately on Payhip.
+
+## Buyer-fit proofs
+
+- [Claude Code marketplace curator safety pass](docs/customer-proof-claude-code-marketplace-curators.md)
