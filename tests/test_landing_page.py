@@ -129,6 +129,19 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("The open source coding agent.", proof_text)
 
 
+    def test_e2b_code_interpreter_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-e2b-code-interpreter-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-e2b-code-interpreter-agents.md", readme)
+        self.assertIn("E2B code-interpreter agent preflight proof", index)
+        self.assertIn("e2b-dev/", proof_text)
+        self.assertIn("E2B_API_KEY", proof_text)
+        self.assertIn("agent-preflight", proof_text)
+
+
 if __name__ == "__main__":
     unittest.main()
 

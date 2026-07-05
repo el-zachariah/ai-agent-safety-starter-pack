@@ -182,6 +182,13 @@ Teams using [Google Gemini CLI](https://github.com/google-gemini/gemini-cli) or 
 - [Browser-use web-agent preflight proof](docs/examples/preflight-before-browser-use-web-agents.md) — for teams running `browser-use/browser-use` or similar browser agents before repo/API credentials; Yellow/Red scan → buy the [$7 full pack](https://payhip.com/b/1nmxV).
 <!-- deadline-gemini-cli-proof:end -->
 
+
+<!-- deadline-e2b-code-interpreter-proof:start -->
+### E2B code-interpreter agent preflight proof
+
+Teams using [E2B](https://github.com/e2b-dev/E2B)-style code-interpreter sandboxes can now preview a concrete [E2B preflight receipt example](docs/examples/preflight-before-e2b-code-interpreter-agents.md) before buying. It shows what to check before an agent receives repo files, sandbox templates, env vars, package scripts, or API-backed execution scope.
+<!-- deadline-e2b-code-interpreter-proof:end -->
+
 <!-- deadline-opencode-proof:start -->
 ### OpenCode terminal-agent preflight proof
 
