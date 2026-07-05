@@ -193,6 +193,7 @@ Teams using [Google Gemini CLI](https://github.com/google-gemini/gemini-cli) or 
 ### E2B code-interpreter agent preflight proof
 
 Teams using [E2B](https://github.com/e2b-dev/E2B)-style code-interpreter sandboxes can now preview a concrete [E2B preflight receipt example](docs/examples/preflight-before-e2b-code-interpreter-agents.md) before buying. It shows what to check before an agent receives repo files, sandbox templates, env vars, package scripts, or API-backed execution scope.
+- [Goose/local AI-agent preflight proof](docs/examples/preflight-before-goose-local-ai-agent.md) — for Block Goose / MCP / shell-enabled local agents before repo, env, extension, or package-script scope.
 <!-- deadline-e2b-code-interpreter-proof:end -->
 
 <!-- deadline-opencode-proof:start -->
