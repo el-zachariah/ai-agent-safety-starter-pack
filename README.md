@@ -218,4 +218,8 @@ Teams using [Aider](https://github.com/Aider-AI/aider)-style terminal pair-progr
 Teams using [SWE-agent](https://github.com/SWE-agent/SWE-agent)-style autonomous issue-to-patch workflows can now preview a concrete [SWE-agent preflight receipt](docs/examples/preflight-before-swe-agent-autonomous-patches.md) before buying. It shows what to paste into the run ticket before the agent edits files, runs tests, or touches package/workflow scripts in a real repo.
 <!-- deadline-swe-agent-proof:end -->
 
+<!-- deadline-langgraph-proof:start -->
+### LangGraph stateful-agent preflight proof
 
+Teams using [LangGraph](https://github.com/langchain-ai/langgraph)-style stateful agents can now preview a concrete [LangGraph preflight receipt](docs/examples/preflight-before-langgraph-stateful-agents.md) before buying. It shows what to check before graph nodes, tool calls, checkpoint stores, package scripts, MCP/API connectors, or deployment config enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-langgraph-proof:end -->

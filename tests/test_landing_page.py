@@ -154,6 +154,21 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("MCP/context providers", proof_text)
 
 
+
+class LangGraphStatefulAgentProofTests(unittest.TestCase):
+    def test_langgraph_stateful_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-langgraph-stateful-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-langgraph-stateful-agents.md", readme)
+        self.assertIn("LangGraph stateful-agent preflight proof", index)
+        self.assertIn("langchain-ai/langgraph", proof_text)
+        self.assertIn("checkpoint stores", proof_text)
+        self.assertIn("agent-preflight-langgraph", proof_text)
+
+
 if __name__ == "__main__":
     unittest.main()
 
