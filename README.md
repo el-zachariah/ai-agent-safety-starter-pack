@@ -145,3 +145,10 @@ Running a persistent Claude Code / MCP / hook loop such as Continuous Claude? Ke
 Using an Agent Skills / n-skills-style workflow with Claude Code, Codex, or other AI coding agents? This repo now includes a portable [`skills/agent-safety-preflight/SKILL.md`](skills/agent-safety-preflight/SKILL.md) package so teams can install the same local preflight habit before an agent gets command access.
 <!-- deadline-agent-skills-proof:end -->
 
+
+<!-- deadline-multi-harness-proof:start -->
+## Named workflow: preflight before multi-harness agent marketplace installs
+
+Using a Claude Code / Codex CLI / Cursor / OpenCode / Copilot / Gemini agent marketplace such as `wshobson/agents`? Keep a 5-minute receipt before the package inherits repo instructions, tool configs, and shell access: [Preflight before multi-harness agent marketplace installs](docs/examples/preflight-before-multi-harness-agent-marketplaces.md).
+<!-- deadline-multi-harness-proof:end -->
+
