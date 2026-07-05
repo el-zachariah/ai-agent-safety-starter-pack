@@ -323,3 +323,8 @@ Teams using [Semantic Kernel](https://github.com/microsoft/semantic-kernel)-styl
 
 Teams wiring [Composio](https://github.com/ComposioHQ/composio)-style toolkits, MCP connectors, auth-backed actions, or sandboxed workbenches into AI agents can now preview a concrete [Composio tool-agent preflight receipt](docs/examples/preflight-before-composio-tool-agents.md) before buying. It shows what to freeze before repo context, API tools, package scripts, or credential-adjacent files enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
 <!-- deadline-composio-tool-agent-proof:end -->
+
+### Dify / Flowise low-code agent builder proof
+
+Teams using Dify, Flowise, or similar visual agent builders still expose real repo, API, `.env`, webhook, database, and deployment scope once a workflow leaves the demo sandbox. Use the [low-code agent builder preflight example](docs/examples/preflight-before-low-code-agent-builders.md) to decide when a visual workflow is safe to run and when the $7 checklist/templates are the faster path.
+
