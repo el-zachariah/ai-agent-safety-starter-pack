@@ -230,3 +230,17 @@ class SmolagentsToolAgentProofTests(unittest.TestCase):
         self.assertIn("CodeAgent", proof_text)
         self.assertIn("agent-preflight-smolagents", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
+
+class PydanticAIAgentProofTests(unittest.TestCase):
+    def test_pydantic_ai_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-pydantic-ai-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-pydantic-ai-agents.md", readme)
+        self.assertIn("Pydantic AI production-agent preflight proof", index)
+        self.assertIn("pydantic/pydantic-ai", proof_text)
+        self.assertIn("agent-preflight-pydantic-ai", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
