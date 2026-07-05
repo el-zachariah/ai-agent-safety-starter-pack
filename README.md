@@ -179,3 +179,9 @@ Teams using [openai/codex](https://github.com/openai/codex)-style AI coding agen
 
 Teams using [Cline](https://github.com/cline/cline), Roo Code, or similar VS Code agent extensions can now preview a concrete [editor-agent preflight example](docs/examples/preflight-before-vscode-agent-extensions.md) before buying. It shows how to paste a risk receipt into the agent chat, constrain terminal/MCP/editor access, and decide when the $7 paid pack is worth it.
 
+<!-- deadline-aider-proof:start -->
+### Aider terminal pair-programming preflight proof
+
+Teams using [Aider](https://github.com/Aider-AI/aider)-style terminal pair-programming can now preview a concrete [Aider preflight receipt](docs/examples/preflight-before-aider-terminal-pair-programming.md) before buying. It shows what to paste into the handoff before an assistant edits files, runs tests, or touches install/build scripts in a real repo.
+<!-- deadline-aider-proof:end -->
+
