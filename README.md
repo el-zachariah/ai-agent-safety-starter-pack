@@ -132,3 +132,10 @@ The free lite files in this public repository are MIT licensed. The paid bundle 
 If you are installing a Claude Code enforcement hook such as TDD Guard, run the free local preflight first and keep the receipt with your first hook-enforced PR: [Preflight before TDD Guard hooks](docs/examples/preflight-before-tdd-guard.md).
 <!-- deadline-tdd-guard-proof:end -->
 
+
+<!-- deadline-continuous-claude-proof:start -->
+## Named workflow: preflight before Continuous Claude-style loops
+
+Running a persistent Claude Code / MCP / hook loop such as Continuous Claude? Keep a 5-minute receipt before the agent inherits shell access, repo instructions, and long-running state: [Preflight before Continuous Claude-style loops](docs/examples/preflight-before-continuous-claude.md).
+<!-- deadline-continuous-claude-proof:end -->
+

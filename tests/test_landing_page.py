@@ -72,6 +72,9 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("maintainer preflight receipt example", html)
         self.assertIn("AI-agent PRs", html)
         self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/maintainer-preflight-receipt-example.md", parser.links)
+        self.assertIn("Continuous Claude-style loop proof", html)
+        self.assertIn("before long-running state, shell commands, and tool access begin", html)
+        self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/examples/preflight-before-continuous-claude.md", parser.links)
 
 
 if __name__ == "__main__":
