@@ -297,3 +297,6 @@ Teams browsing high-trust skill/plugin marketplaces such as [`trailofbits/skills
 Teams using [Ruflo](https://github.com/ruvnet/ruflo) or a similar Claude Code / Codex / Hermes multi-agent swarm can now preview a concrete [swarm preflight receipt](docs/examples/preflight-before-ruflo-agent-swarms.md) before buying. It shows what to freeze before multiple workers inherit repo instructions, MCP/tool config, shell scope, memory/checkpoints, package scripts, or secret-adjacent files.
 <!-- deadline-ruflo-swarm-proof:end -->
 
+## Buyer proof for named workflows
+
+- [MCP server maintainer proof](docs/mcp-server-maintainer-proof.md) — buy/skip criteria for MCP server maintainers considering the $5 pack after a yellow/red agent preflight.
