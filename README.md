@@ -57,6 +57,10 @@ Copy-paste task prompt: [`docs/copy-paste-agent-task-prompt.md`](docs/copy-paste
 
 Upgrade decision guide: [`docs/upgrade-decision-checklist.md`](docs/upgrade-decision-checklist.md) turns the scan result into a concrete buy/skip checklist for the `$7` bundle.
 
+## Proof for Claude Code/plugin curators
+
+If you maintain a Claude Code plugin, slash-command, or AI-agent tools directory, start with the curator proof page: [`docs/claude-code-marketplace-proof.md`](docs/claude-code-marketplace-proof.md). It explains the exact user, the signals the free scanner catches, and why this is a small pre-tool-access utility rather than a broad security claim.
+
 ## Why this exists
 
 Before I let an autonomous coding agent work in a repo, I want a cheap first pass that answers:
