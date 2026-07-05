@@ -66,6 +66,9 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("30-second buy / skip decision", html)
         self.assertIn("Buy the $7 pack if the scan is Yellow/Red", html)
         self.assertIn("Skip it for now if the scan is Green", html)
+        self.assertIn("maintainer preflight receipt example", html)
+        self.assertIn("AI-agent PRs", html)
+        self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/maintainer-preflight-receipt-example.md", parser.links)
 
 
 if __name__ == "__main__":

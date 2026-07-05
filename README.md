@@ -55,6 +55,8 @@ CI preflight recipe: [`docs/ci-preflight-recipe.md`](docs/ci-preflight-recipe.md
 
 Review comment template: [`docs/preflight-review-comment-template.md`](docs/preflight-review-comment-template.md) gives maintainers a copy-paste PR/issue comment for the scan result, allowed commands, must-ask actions, and buy/skip trigger.
 
+Maintainer receipt example: [`docs/maintainer-preflight-receipt-example.md`](docs/maintainer-preflight-receipt-example.md) shows the exact proof a maintainer can ask for before an AI-agent PR gets shell access, including a Red sample from the included risky demo repo.
+
 Free handoff guide: [`docs/agent-handoff-playbook.md`](docs/agent-handoff-playbook.md) shows a 10-minute flow for turning the scan into Claude Code/Codex/Cursor run rules before an agent gets tool access.
 
 Copy-paste task prompt: [`docs/copy-paste-agent-task-prompt.md`](docs/copy-paste-agent-task-prompt.md) gives a short agent instruction block to paste after the scan and before shell access.
