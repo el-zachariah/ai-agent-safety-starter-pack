@@ -59,6 +59,8 @@ Red-flag matrix: [`docs/red-flag-to-action-matrix.md`](docs/red-flag-to-action-m
 
 Claude Code slash-command bridge: copy [`commands/agent-preflight.md`](commands/agent-preflight.md) into `.claude/commands/agent-preflight.md`, then run `/agent-preflight .` before a tool-enabled session. Setup notes: [`docs/claude-code-slash-command.md`](docs/claude-code-slash-command.md).
 
+CrewAI multi-agent workflow proof: [`docs/examples/preflight-before-crewai-multi-agent-workflows.md`](docs/examples/preflight-before-crewai-multi-agent-workflows.md) shows the 5-minute receipt to write before a CrewAI-style crew gets tool access, package scripts, `.env` values, or API-backed execution scope.
+
 Continuous-agent example: [`docs/continuous-agent-preflight-example.md`](docs/continuous-agent-preflight-example.md) shows a 7-minute receipt for persistent Claude Code / MCP / agent harnesses before they inherit repo context, command access, and long-running state.
 
 Claude Code hook/TDD proof: [`docs/claude-code-hook-preflight-proof.md`](docs/claude-code-hook-preflight-proof.md) gives hook, TDD guard, MCP routing, and continuous-agent users a 6-minute preflight receipt before automation starts running commands.
@@ -170,6 +172,7 @@ If your first buyer path is an OpenHands / Devin-style autonomous repo-agent wor
 
 ## Customer proof examples
 - [MCP server repo preflight proof](docs/examples/preflight-before-mcp-server-repos.md) — for MCP server maintainers and buyers checking launch commands, secrets, Docker/package scripts, and client configs before attaching the server to Claude Code/Cursor/Codex.
+- [CrewAI multi-agent workflow preflight proof](docs/examples/preflight-before-crewai-multi-agent-workflows.md) — for teams running multi-agent crews with local tools, package scripts, `.env` values, API calls, or write-capable workflows.
 <!-- deadline-claude-action-ci-proof:start -->
 ## Named workflow: preflight before Claude Code GitHub Action CI runs
 
