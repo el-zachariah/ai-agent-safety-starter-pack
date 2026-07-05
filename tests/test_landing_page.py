@@ -102,6 +102,19 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("MCP/tool config", proof_text)
 
 
+    def test_swe_agent_autonomous_patch_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-swe-agent-autonomous-patches.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-swe-agent-autonomous-patches.md", readme)
+        self.assertIn("SWE-agent autonomous patch preflight", index)
+        self.assertIn("SWE-agent/SWE-agent", proof_text)
+        self.assertIn("autonomous issue-to-patch", proof_text)
+        self.assertIn("agent-preflight-swe-agent", proof_text)
+
+
 if __name__ == "__main__":
     unittest.main()
 

@@ -185,3 +185,10 @@ Teams using [Cline](https://github.com/cline/cline), Roo Code, or similar VS Cod
 Teams using [Aider](https://github.com/Aider-AI/aider)-style terminal pair-programming can now preview a concrete [Aider preflight receipt](docs/examples/preflight-before-aider-terminal-pair-programming.md) before buying. It shows what to paste into the handoff before an assistant edits files, runs tests, or touches install/build scripts in a real repo.
 <!-- deadline-aider-proof:end -->
 
+<!-- deadline-swe-agent-proof:start -->
+### SWE-agent autonomous patch preflight proof
+
+Teams using [SWE-agent](https://github.com/SWE-agent/SWE-agent)-style autonomous issue-to-patch workflows can now preview a concrete [SWE-agent preflight receipt](docs/examples/preflight-before-swe-agent-autonomous-patches.md) before buying. It shows what to paste into the run ticket before the agent edits files, runs tests, or touches package/workflow scripts in a real repo.
+<!-- deadline-swe-agent-proof:end -->
+
+
