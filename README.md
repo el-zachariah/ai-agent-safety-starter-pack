@@ -152,3 +152,9 @@ Using an Agent Skills / n-skills-style workflow with Claude Code, Codex, or othe
 Using a Claude Code / Codex CLI / Cursor / OpenCode / Copilot / Gemini agent marketplace such as `wshobson/agents`? Keep a 5-minute receipt before the package inherits repo instructions, tool configs, and shell access: [Preflight before multi-harness agent marketplace installs](docs/examples/preflight-before-multi-harness-agent-marketplaces.md).
 <!-- deadline-multi-harness-proof:end -->
 
+<!-- deadline-runtime-safety-proof:start -->
+## Named workflow: preflight before runtime safety enforcement hooks
+
+Evaluating a runtime safety layer for Claude Code/Codex-style agents, such as a `gensee-crate`-style hook or monitoring wrapper? Run the free preflight first so the runtime layer inherits reviewed repo instructions, MCP/tool configs, package scripts, and shell rules: [Preflight before runtime safety enforcement hooks](docs/examples/preflight-before-runtime-safety-enforcement.md).
+<!-- deadline-runtime-safety-proof:end -->
+
