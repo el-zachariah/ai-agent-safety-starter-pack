@@ -315,3 +315,9 @@ Teams using [Ruflo](https://github.com/ruvnet/ruflo) or a similar Claude Code / 
 
 Teams using [Semantic Kernel](https://github.com/microsoft/semantic-kernel)-style agents, planners, plugins, memory connectors, or tool-calling workflows can now preview a concrete [Semantic Kernel preflight receipt](docs/examples/preflight-before-semantic-kernel-agents.md) before buying. It shows what to check before repo context, package scripts, API connectors, or secret-adjacent config enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
 <!-- deadline-semantic-kernel-proof:end -->
+
+<!-- deadline-composio-tool-agent-proof:start -->
+### Composio tool-integration agent preflight proof
+
+Teams wiring [Composio](https://github.com/ComposioHQ/composio)-style toolkits, MCP connectors, auth-backed actions, or sandboxed workbenches into AI agents can now preview a concrete [Composio tool-agent preflight receipt](docs/examples/preflight-before-composio-tool-agents.md) before buying. It shows what to freeze before repo context, API tools, package scripts, or credential-adjacent files enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-composio-tool-agent-proof:end -->

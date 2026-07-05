@@ -342,3 +342,18 @@ class SemanticKernelAgentProofTests(unittest.TestCase):
         self.assertIn("Kernel plugins/functions", proof_text)
         self.assertIn("agent-preflight-semantic-kernel", proof_text)
 
+
+class ComposioToolAgentProofTests(unittest.TestCase):
+    def test_composio_tool_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-composio-tool-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-composio-tool-agents.md", readme)
+        self.assertIn("Composio tool-integration agent preflight proof", index)
+        self.assertIn("ComposioHQ/composio", proof_text)
+        self.assertIn("agent-preflight-composio", proof_text)
+        self.assertIn("1000+ toolkits", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
