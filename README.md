@@ -3,6 +3,8 @@
 <!-- live-distribution-proof -->
 ## Live buyer proof
 
+- [Qwen Code CLI preflight proof](docs/examples/preflight-before-qwen-code-cli.md) — for `QwenLM/qwen-code` / Qwen-style terminal coding-agent users deciding whether to buy before granting repo, shell, package-script, MCP/tool, or `.env` scope.
+
 Before paying, verify the public distribution trail and buyer-specific trust evidence: [Live distribution proof](docs/live-distribution-proof.md). It links the open directory/marketplace PRs, free repo, support page, and the paid Payhip bundle so a first buyer can check that this is a real maintained offer rather than a cold checkout page.
 <!-- /live-distribution-proof -->
 
