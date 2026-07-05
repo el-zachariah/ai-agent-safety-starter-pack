@@ -236,6 +236,12 @@ Teams using [OpenCode](https://github.com/anomalyco/opencode)-style terminal cod
 
 Teams using [Cline](https://github.com/cline/cline), Roo Code, or similar VS Code agent extensions can now preview a concrete [editor-agent preflight example](docs/examples/preflight-before-vscode-agent-extensions.md) before buying. It shows how to paste a risk receipt into the agent chat, constrain terminal/MCP/editor access, and decide when the $7 paid pack is worth it.
 
+<!-- deadline-cursor-rules-proof:start -->
+### Cursor rules / background-agent preflight proof
+
+Teams using Cursor with `.cursorrules`, `.cursor/rules/*`, background agents, or repo-level rule packs can now preview a concrete [Cursor rules preflight receipt](docs/examples/preflight-before-cursor-rules-background-agents.md) before buying. It shows what to review before a Cursor assistant inherits project instructions, MCP/tool config, package scripts, or broad edit/test scope.
+<!-- deadline-cursor-rules-proof:end -->
+
 <!-- deadline-aider-proof:start -->
 ### Aider terminal pair-programming preflight proof
 

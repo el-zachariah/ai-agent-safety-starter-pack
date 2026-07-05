@@ -285,3 +285,18 @@ class MarketplacePrReviewerProofTests(unittest.TestCase):
         self.assertIn("numman-ali/n-skills", proof_text)
         self.assertIn("Marketplace PR preflight receipt", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
+
+class CursorRulesBackgroundAgentProofTests(unittest.TestCase):
+    def test_cursor_rules_background_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-cursor-rules-background-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-cursor-rules-background-agents.md", readme)
+        self.assertIn("Cursor rules / background-agent preflight proof", index)
+        self.assertIn("cursor/cursor", proof_text)
+        self.assertIn("PatrickJS/awesome-cursorrules", proof_text)
+        self.assertIn("agent-preflight-cursor-rules", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
