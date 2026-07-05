@@ -158,3 +158,6 @@ Using a Claude Code / Codex CLI / Cursor / OpenCode / Copilot / Gemini agent mar
 Evaluating a runtime safety layer for Claude Code/Codex-style agents, such as a `gensee-crate`-style hook or monitoring wrapper? Run the free preflight first so the runtime layer inherits reviewed repo instructions, MCP/tool configs, package scripts, and shell rules: [Preflight before runtime safety enforcement hooks](docs/examples/preflight-before-runtime-safety-enforcement.md).
 <!-- deadline-runtime-safety-proof:end -->
 
+### OpenHands-style autonomous repo agents proof
+
+If your first buyer path is an OpenHands / Devin-style autonomous repo-agent workflow, use the new free proof page before starting the agent: [`docs/examples/preflight-before-openhands-autonomous-agents.md`](docs/examples/preflight-before-openhands-autonomous-agents.md). It gives a 60-second receipt, Yellow/Red buy trigger, and pasteable run-ticket note for teams deciding whether the $7 pack is needed before widening agent scope.
