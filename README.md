@@ -37,7 +37,7 @@ cd ai-agent-safety-starter-pack
 python3 agent_preflight_lite.py examples/sample-risky-repo
 ```
 
-Example output is in [`examples/sample-report.md`](examples/sample-report.md).
+Example output is in [`examples/sample-report.md`](examples/sample-report.md). It now prints the same **Green / Yellow / Red** decision used by the buy/skip rule, so you can see when the `$7` workflow bundle saves setup time instead of guessing.
 
 One-minute scorecard: [`docs/one-minute-risk-scorecard.md`](docs/one-minute-risk-scorecard.md) turns scan findings into a Green / Yellow / Red go/no-go decision before an agent gets shell access.
 

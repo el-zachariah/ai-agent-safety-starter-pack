@@ -1,6 +1,9 @@
 # Lite AI-agent preflight report: `examples/sample-risky-repo`
 
 Findings: **5**
+Decision: **RED** — Stop and add a pre-agent handoff/guardrail pass before tool access.
+
+Risk buckets: `agent/workflow config`, `secret-adjacent files`, `package scripts`, `risky shell commands`
 
 - **MEDIUM** `agent-or-workflow-file` at `AGENTS.md` — Review before agent execution.
 - **HIGH** `secret-adjacent-file` at `.env.example` — Do not expose this to an agent unless intentionally sanitized.

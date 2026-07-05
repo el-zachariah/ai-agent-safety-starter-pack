@@ -20,6 +20,8 @@ class LitePreflightTests(unittest.TestCase):
         )
         self.assertEqual(result.returncode, 1, result.stderr)
         data = json.loads(result.stdout)
+        self.assertEqual(data["decision"]["level"], "RED")
+        self.assertIn("risky shell commands", data["decision"]["risk_buckets"])
         kinds = {finding["kind"] for finding in data["findings"]}
         self.assertIn("agent-or-workflow-file", kinds)
         self.assertIn("secret-adjacent-file", kinds)
@@ -37,6 +39,8 @@ class LitePreflightTests(unittest.TestCase):
         )
         self.assertEqual(result.returncode, 1, result.stderr)
         self.assertIn("Lite AI-agent preflight report", result.stdout)
+        self.assertIn("Decision: **RED**", result.stdout)
+        self.assertIn("Risk buckets:", result.stdout)
         self.assertIn("Next steps", result.stdout)
 
 

@@ -12,7 +12,7 @@ import json
 import re
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, TypedDict
 
 AGENT_FILE_NAMES = {
     "AGENTS.md",
@@ -48,6 +48,20 @@ RISK_PATTERNS = [
     ("sudo-install-or-script", re.compile(r"\bsudo\b[^\n]*(install|bash|sh|python|node|npm|pip)\b")),
 ]
 
+KIND_TO_BUCKET = {
+    "agent-or-workflow-file": "agent/workflow config",
+    "secret-adjacent-file": "secret-adjacent files",
+    "package-scripts": "package scripts",
+}
+for risk_kind, _pattern in RISK_PATTERNS:
+    KIND_TO_BUCKET[risk_kind] = "risky shell commands"
+
+DECISION_SUMMARIES = {
+    "GREEN": "No matched lite-scan risk buckets; continue with normal review discipline.",
+    "YELLOW": "Write a short run / ask / avoid handoff before giving the agent tools.",
+    "RED": "Stop and add a pre-agent handoff/guardrail pass before tool access.",
+}
+
 @dataclass
 class Finding:
     severity: str
@@ -55,6 +69,12 @@ class Finding:
     path: str
     line: int | None
     detail: str
+
+
+class Decision(TypedDict):
+    level: str
+    risk_buckets: list[str]
+    summary: str
 
 
 def iter_files(root: Path) -> Iterable[Path]:
@@ -102,13 +122,52 @@ def scan(root: Path) -> list[Finding]:
     return findings
 
 
+def classify_decision(findings: list[Finding]) -> Decision:
+    """Turn raw findings into the README's Green / Yellow / Red buy-skip signal."""
+    risk_buckets: list[str] = []
+    seen_buckets: set[str] = set()
+    high_count = 0
+    risky_shell_count = 0
+    for finding in findings:
+        bucket = KIND_TO_BUCKET.get(finding.kind, finding.kind)
+        if bucket not in seen_buckets:
+            seen_buckets.add(bucket)
+            risk_buckets.append(bucket)
+        if finding.severity == "high":
+            high_count += 1
+        if bucket == "risky shell commands":
+            risky_shell_count += 1
+
+    if not findings:
+        level = "GREEN"
+    elif len(risk_buckets) >= 4 or high_count >= 3 or risky_shell_count >= 2:
+        level = "RED"
+    elif len(risk_buckets) >= 2 or high_count >= 1:
+        level = "YELLOW"
+    else:
+        level = "GREEN"
+
+    return {
+        "level": level,
+        "risk_buckets": risk_buckets,
+        "summary": DECISION_SUMMARIES[level],
+    }
+
+
 def render_markdown(root: Path, findings: list[Finding]) -> str:
+    decision = classify_decision(findings)
     lines = [
         f"# Lite AI-agent preflight report: `{root}`",
         "",
         f"Findings: **{len(findings)}**",
+        f"Decision: **{decision['level']}** — {decision['summary']}",
         "",
     ]
+    if decision["risk_buckets"]:
+        lines.extend([
+            "Risk buckets: " + ", ".join(f"`{bucket}`" for bucket in decision["risk_buckets"]),
+            "",
+        ])
     if not findings:
         lines.append("No lite-scan findings. This does not mean the repo is safe; it only means these simple checks did not match.")
         return "\n".join(lines) + "\n"
@@ -138,7 +197,7 @@ def main() -> int:
     findings = scan(root)
     display_path = str(root)
     if args.json:
-        print(json.dumps({"path": display_path, "findings": [asdict(f) for f in findings]}, indent=2))
+        print(json.dumps({"path": display_path, "decision": classify_decision(findings), "findings": [asdict(f) for f in findings]}, indent=2))
     else:
         print(render_markdown(Path(display_path), findings))
     return 1 if any(f.severity == "high" for f in findings) else 0
