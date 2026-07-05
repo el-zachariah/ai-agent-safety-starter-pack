@@ -170,3 +170,8 @@ If your first buyer path is an OpenHands / Devin-style autonomous repo-agent wor
 Using `anthropics/claude-code-action` or similar issue/PR-triggered coding automation? Run the free local preflight before granting workflow secrets, write permissions, or shell command scope: [Preflight before Claude Code GitHub Action CI runs](docs/examples/preflight-before-claude-code-action-ci.md).
 <!-- deadline-claude-action-ci-proof:end -->
 
+
+### Codex CLI / PR-agent preflight proof
+
+Teams using [openai/codex](https://github.com/openai/codex)-style AI coding agents can now preview a concrete [Codex CLI preflight handoff example](docs/examples/preflight-before-codex-cli.md) before buying. It shows how to paste a Green/Yellow/Red receipt into a Codex task, constrain risky commands, and decide when the $7 paid pack is worth it.
+
