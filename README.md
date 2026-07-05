@@ -304,3 +304,8 @@ Teams using [Ruflo](https://github.com/ruvnet/ruflo) or a similar Claude Code / 
 ## Buyer proof for named workflows
 
 - [MCP server maintainer proof](docs/mcp-server-maintainer-proof.md) — buy/skip criteria for MCP server maintainers considering the $5 pack after a yellow/red agent preflight.
+
+
+## Buyer proof: SuperClaude command frameworks
+
+- [SuperClaude command framework preflight proof](docs/examples/preflight-before-superclaude-command-frameworks.md) — for teams installing command/persona/MCP frameworks before Claude Code gets repo, shell, package-script, or secrets-adjacent scope.
