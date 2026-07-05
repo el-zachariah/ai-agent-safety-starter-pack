@@ -17,6 +17,8 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Trust/support before buying:** [`docs/trust-and-support.md`](docs/trust-and-support.md) explains who is behind the pack, what happens after purchase, the public support channel, privacy limits, and the honest buy/skip rule.
 
+**Named buyer proof:** [`docs/proofs/wshobson-agents-multi-harness-preflight.md`](docs/proofs/wshobson-agents-multi-harness-preflight.md) shows how a team evaluating multi-harness agent catalogs such as `wshobson/agents` can use the free scan first and only buy the `$7` bundle when the repo returns Yellow/Red risk.
+
 **30-second buy/skip rule:** run the free scan first. Buy the `$7` pack only when the result is Yellow/Red: two or more risk buckets, MCP/Cursor/Claude config, package scripts, secret-adjacent files, or shell commands the agent might run. If the result is Green, keep using the free lite scanner and normal review discipline.
 
 ## What the free lite scanner catches
