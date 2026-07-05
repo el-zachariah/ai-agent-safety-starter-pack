@@ -78,6 +78,17 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("multi-harness agent marketplace preflight", html)
         self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/examples/preflight-before-multi-harness-agent-marketplaces.md", parser.links)
 
+    def test_claude_code_action_ci_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-claude-code-action-ci.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-claude-code-action-ci.md", readme)
+        self.assertIn("Claude Code GitHub Action preflight", index)
+        self.assertIn("anthropics/claude-code-action", proof_text)
+        self.assertIn("pull_request_target", proof_text)
+
 
 if __name__ == "__main__":
     unittest.main()
