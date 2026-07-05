@@ -24,7 +24,7 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 `agent_preflight_lite.py` looks for common AI-agent workspace risk signals:
 
 - agent instruction files such as `AGENTS.md`, `CLAUDE.md`, `.cursorrules`, `.cursor/rules/*`
-- MCP / Claude / Cursor / GitHub Copilot instruction config files
+- MCP / Claude / Cursor / GitHub Copilot / Dev Containers instruction config files
 - secret-adjacent files such as `.env`, `.npmrc`, `.pypirc`, `id_rsa`
 - risky shell patterns such as `rm -rf`, `curl | sh`, `chmod 777`, `docker.sock`, and `force push`
 - package scripts and GitHub Actions workflow files that an agent may touch
@@ -266,3 +266,9 @@ Teams using [OpenHands](https://github.com/OpenHands/OpenHands)-style autonomous
 
 Teams using [Mastra](https://github.com/mastra-ai/mastra)-style TypeScript agents can now preview a concrete [Mastra preflight receipt](docs/examples/preflight-before-mastra-typescript-agents.md) before buying. It shows what to check before tools, package scripts, MCP/API connectors, memory/storage config, or deployment secrets enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
 <!-- deadline-mastra-proof:end -->
+
+<!-- deadline-devcontainer-proof:start -->
+### Dev Containers / Codespaces agent preflight proof
+
+Teams using [Dev Containers](https://github.com/devcontainers/spec), GitHub Codespaces, or containerized coding-agent workspaces can preview a concrete [Dev Containers / Codespaces preflight receipt](docs/examples/preflight-before-devcontainer-codespaces-agents.md) before buying. It shows what to check before `.devcontainer/devcontainer.json`, lifecycle commands, mounts, forwarded ports, package scripts, or repo write access enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle. The free scanner now flags `.devcontainer/` and `devcontainer.json` as agent/workflow config.
+<!-- deadline-devcontainer-proof:end -->

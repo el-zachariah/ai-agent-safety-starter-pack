@@ -258,3 +258,17 @@ class MastraTypeScriptAgentProofTests(unittest.TestCase):
         self.assertIn("mastra-ai/mastra", proof_text)
         self.assertIn("agent-preflight-mastra", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
+
+class DevContainerCodespacesAgentProofTests(unittest.TestCase):
+    def test_devcontainer_codespaces_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-devcontainer-codespaces-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-devcontainer-codespaces-agents.md", readme)
+        self.assertIn("Dev Containers / Codespaces agent preflight proof", index)
+        self.assertIn("devcontainers/spec", proof_text)
+        self.assertIn("postCreateCommand", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)

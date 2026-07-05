@@ -23,6 +23,7 @@ AGENT_FILE_NAMES = {
     ".mcp.json",
     "mcp.json",
     "settings.json",
+    "devcontainer.json",
 }
 
 SECRET_ADJACENT_NAMES = {
@@ -94,6 +95,7 @@ def is_agent_related(path: Path) -> bool:
         or ".cursor" in parts
         or ".claude" in parts
         or ".continue" in parts
+        or ".devcontainer" in parts
         or (".github" in parts and path.name == "copilot-instructions.md")
         or path.match(".github/workflows/*")
     )

