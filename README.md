@@ -1,5 +1,12 @@
 # AI Agent Safety Starter Pack — free lite preflight
 
+<!-- live-distribution-proof -->
+## Live buyer proof
+
+Before paying, verify the public distribution trail and buyer-specific trust evidence: [Live distribution proof](docs/live-distribution-proof.md). It links the open directory/marketplace PRs, free repo, support page, and the paid Payhip bundle so a first buyer can check that this is a real maintained offer rather than a cold checkout page.
+<!-- /live-distribution-proof -->
+
+
 A small public preview from **Signal Loom Works** for developers who let AI coding agents work inside local repos.
 
 AI agents are useful, but a surprising number of repos contain agent instructions, MCP/Cursor/Claude settings, shell scripts, package hooks, workflow files, and secret-adjacent files that are worth checking **before** a coding agent gets tool access.

@@ -76,3 +76,17 @@ class LandingPageTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_live_distribution_proof_is_linked_and_specific():
+    from pathlib import Path
+    root = Path(__file__).resolve().parents[1]
+    readme = (root / 'README.md').read_text(encoding='utf-8')
+    index = (root / 'index.html').read_text(encoding='utf-8')
+    proof = (root / 'docs/live-distribution-proof.md').read_text(encoding='utf-8')
+
+    assert 'docs/live-distribution-proof.md' in readme
+    assert 'live-distribution-proof' in index
+    assert 'payhip.com/b/1nmxV' in proof
+    assert 'github.com/e2b-dev/awesome-ai-sdks/pull/261' in proof
+    assert 'CodeRabbit success' in proof
