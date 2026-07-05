@@ -67,6 +67,10 @@ AutoGen multi-agent workflow proof: [`docs/examples/preflight-before-autogen-age
 
 OpenAI Agents SDK workflow proof: [`docs/examples/preflight-before-openai-agents-sdk-workflows.md`](docs/examples/preflight-before-openai-agents-sdk-workflows.md) shows the 60-second handoff receipt before SDK agents get repo files, function tools, MCP/API connectors, package scripts, or credentials.
 
+<!-- deadline-llamaindex-agent-proof:start -->
+LlamaIndex agent workflow proof: [`docs/examples/preflight-before-llamaindex-agent-workflows.md`](docs/examples/preflight-before-llamaindex-agent-workflows.md) shows the 60-second receipt before LlamaIndex-style tool, retrieval, MCP/API connector, package-script, or deployment context is handed to an agent workflow.
+<!-- deadline-llamaindex-agent-proof:end -->
+
 PR-Agent review bot proof: [`docs/examples/preflight-before-pr-agent-review-bots.md`](docs/examples/preflight-before-pr-agent-review-bots.md) shows the 60-second receipt before a PR review bot inherits pull request comments, workflow permissions, package scripts, or repo context.
 
 Smolagents tool-running agent proof: [`docs/examples/preflight-before-smolagents-tool-agents.md`](docs/examples/preflight-before-smolagents-tool-agents.md) shows the 60-second receipt before a `CodeAgent` or Python tool-calling workflow gets repo files, package scripts, `.env`-adjacent values, browser/API tools, or shell scope.
