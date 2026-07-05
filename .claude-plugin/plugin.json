@@ -1,11 +1,21 @@
 {
   "name": "agent-safety-preflight",
   "version": "0.1.0",
-  "description": "Claude Code slash-command bridge for running the AI Agent Safety Starter Pack lite repo preflight before tool-enabled agent work.",
+  "description": "Claude Code slash-command bridge for generating a local repo-risk preflight receipt before AI-agent edits.",
   "author": {
-    "name": "Signal Loom Works",
-    "url": "https://github.com/el-zachariah/ai-agent-safety-starter-pack"
+    "name": "Agent Safety Starter Pack",
+    "email": "159844225+el-zachariah@users.noreply.github.com"
   },
-  "homepage": "https://github.com/el-zachariah/ai-agent-safety-starter-pack",
-  "repository": "https://github.com/el-zachariah/ai-agent-safety-starter-pack"
+  "repository": "https://github.com/el-zachariah/ai-agent-safety-starter-pack",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "agent-safety",
+    "preflight",
+    "repo-safety",
+    "ai-agents",
+    "mcp",
+    "hooks"
+  ],
+  "homepage": "https://github.com/el-zachariah/ai-agent-safety-starter-pack"
 }

@@ -31,6 +31,11 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 It is intentionally lightweight. It is **not** a sandbox, malware scanner, secret scanner, or security audit.
 
+
+## Claude Code plugin source package
+
+Marketplace reviewers and Claude Code users can inspect or install the free native plugin source at [`.claude-plugin/`](.claude-plugin/README.md). It packages the `/agent-preflight` command without direct paid-link spam, so third-party plugin directories can review the safety workflow from the public source repo first.
+
 ## Quick start
 
 ```bash
