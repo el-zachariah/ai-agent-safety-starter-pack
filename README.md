@@ -181,6 +181,12 @@ Using an Agent Skills / n-skills-style workflow with Claude Code, Codex, or othe
 Using a Claude Code / Codex CLI / Cursor / OpenCode / Copilot / Gemini agent marketplace such as `wshobson/agents`? Keep a 5-minute receipt before the package inherits repo instructions, tool configs, and shell access: [Preflight before multi-harness agent marketplace installs](docs/examples/preflight-before-multi-harness-agent-marketplaces.md).
 <!-- deadline-multi-harness-proof:end -->
 
+<!-- deadline-marketplace-pr-reviewer-proof:start -->
+## Named workflow: preflight before accepting agent/plugin marketplace PRs
+
+Maintaining or reviewing a Claude Code / Codex / Cursor / OpenCode / Gemini / Copilot marketplace PR? Keep a 5-minute listing-safety receipt before merging a submitted command, hook, skill, or plugin: [Preflight before accepting agent/plugin marketplace PRs](docs/examples/preflight-before-marketplace-pr-reviewers.md).
+<!-- deadline-marketplace-pr-reviewer-proof:end -->
+
 <!-- deadline-runtime-safety-proof:start -->
 ## Named workflow: preflight before runtime safety enforcement hooks
 

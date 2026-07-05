@@ -272,3 +272,16 @@ class DevContainerCodespacesAgentProofTests(unittest.TestCase):
         self.assertIn("devcontainers/spec", proof_text)
         self.assertIn("postCreateCommand", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+class MarketplacePrReviewerProofTests(unittest.TestCase):
+    def test_marketplace_pr_reviewer_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-marketplace-pr-reviewers.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-marketplace-pr-reviewers.md", readme)
+        self.assertIn("marketplace PR reviewer preflight proof", index)
+        self.assertIn("wshobson/agents", proof_text)
+        self.assertIn("numman-ali/n-skills", proof_text)
+        self.assertIn("Marketplace PR preflight receipt", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
