@@ -329,3 +329,16 @@ class RufloAgentSwarmProofTests(unittest.TestCase):
         self.assertIn("multi-agent meta-harness", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
 
+class SemanticKernelAgentProofTests(unittest.TestCase):
+    def test_semantic_kernel_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-semantic-kernel-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-semantic-kernel-agents.md", readme)
+        self.assertIn("Semantic Kernel agent framework preflight proof", index)
+        self.assertIn("microsoft/semantic-kernel", proof_text)
+        self.assertIn("Kernel plugins/functions", proof_text)
+        self.assertIn("agent-preflight-semantic-kernel", proof_text)
+

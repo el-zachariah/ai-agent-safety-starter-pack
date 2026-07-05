@@ -309,3 +309,9 @@ Teams using [Ruflo](https://github.com/ruvnet/ruflo) or a similar Claude Code / 
 ## Buyer proof: SuperClaude command frameworks
 
 - [SuperClaude command framework preflight proof](docs/examples/preflight-before-superclaude-command-frameworks.md) — for teams installing command/persona/MCP frameworks before Claude Code gets repo, shell, package-script, or secrets-adjacent scope.
+
+<!-- deadline-semantic-kernel-proof:start -->
+### Semantic Kernel agent framework preflight proof
+
+Teams using [Semantic Kernel](https://github.com/microsoft/semantic-kernel)-style agents, planners, plugins, memory connectors, or tool-calling workflows can now preview a concrete [Semantic Kernel preflight receipt](docs/examples/preflight-before-semantic-kernel-agents.md) before buying. It shows what to check before repo context, package scripts, API connectors, or secret-adjacent config enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-semantic-kernel-proof:end -->
