@@ -65,6 +65,8 @@ AutoGen multi-agent workflow proof: [`docs/examples/preflight-before-autogen-age
 
 OpenAI Agents SDK workflow proof: [`docs/examples/preflight-before-openai-agents-sdk-workflows.md`](docs/examples/preflight-before-openai-agents-sdk-workflows.md) shows the 60-second handoff receipt before SDK agents get repo files, function tools, MCP/API connectors, package scripts, or credentials.
 
+PR-Agent review bot proof: [`docs/examples/preflight-before-pr-agent-review-bots.md`](docs/examples/preflight-before-pr-agent-review-bots.md) shows the 60-second receipt before a PR review bot inherits pull request comments, workflow permissions, package scripts, or repo context.
+
 Smolagents tool-running agent proof: [`docs/examples/preflight-before-smolagents-tool-agents.md`](docs/examples/preflight-before-smolagents-tool-agents.md) shows the 60-second receipt before a `CodeAgent` or Python tool-calling workflow gets repo files, package scripts, `.env`-adjacent values, browser/API tools, or shell scope.
 
 Continuous-agent example: [`docs/continuous-agent-preflight-example.md`](docs/continuous-agent-preflight-example.md) shows a 7-minute receipt for persistent Claude Code / MCP / agent harnesses before they inherit repo context, command access, and long-running state.
@@ -122,6 +124,13 @@ Teams using [`continuedev/continue`](https://github.com/continuedev/continue) or
 
 Teams using GitHub Copilot coding agent or repository-level `.github/copilot-instructions.md` can preview a concrete [Copilot coding agent preflight proof](docs/examples/preflight-before-github-copilot-coding-agent.md) before exposing workflow secrets, package scripts, repo instructions, or issue/PR automation scope. The free scanner now flags `copilot-instructions.md` as an agent instruction file so buyers can verify the handoff trigger before purchasing.
 <!-- deadline-github-copilot-coding-agent-proof:end -->
+
+<!-- deadline-pr-agent-review-bot-proof:start -->
+### PR-Agent review bot preflight proof
+
+Teams using PR-Agent or similar PR review bots can preview a concrete [PR-Agent review bot preflight proof](docs/examples/preflight-before-pr-agent-review-bots.md) before exposing workflow secrets, package scripts, repo instructions, comment-triggered automation, or issue/PR permissions to the bot.
+<!-- deadline-pr-agent-review-bot-proof:end -->
+
 
 ## Full bundle
 
