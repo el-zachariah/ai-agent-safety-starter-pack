@@ -139,3 +139,9 @@ If you are installing a Claude Code enforcement hook such as TDD Guard, run the 
 Running a persistent Claude Code / MCP / hook loop such as Continuous Claude? Keep a 5-minute receipt before the agent inherits shell access, repo instructions, and long-running state: [Preflight before Continuous Claude-style loops](docs/examples/preflight-before-continuous-claude.md).
 <!-- deadline-continuous-claude-proof:end -->
 
+<!-- deadline-agent-skills-proof:start -->
+## Agent Skills-compatible package
+
+Using an Agent Skills / n-skills-style workflow with Claude Code, Codex, or other AI coding agents? This repo now includes a portable [`skills/agent-safety-preflight/SKILL.md`](skills/agent-safety-preflight/SKILL.md) package so teams can install the same local preflight habit before an agent gets command access.
+<!-- deadline-agent-skills-proof:end -->
+
