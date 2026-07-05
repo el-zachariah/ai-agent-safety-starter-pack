@@ -63,6 +63,8 @@ CrewAI multi-agent workflow proof: [`docs/examples/preflight-before-crewai-multi
 
 AutoGen multi-agent workflow proof: [`docs/examples/preflight-before-autogen-agent-workflows.md`](docs/examples/preflight-before-autogen-agent-workflows.md) shows the 5-minute receipt before AutoGen-style function-calling agents inherit repo, shell, package-script, MCP, browser, or API-backed tool access.
 
+OpenAI Agents SDK workflow proof: [`docs/examples/preflight-before-openai-agents-sdk-workflows.md`](docs/examples/preflight-before-openai-agents-sdk-workflows.md) shows the 60-second handoff receipt before SDK agents get repo files, function tools, MCP/API connectors, package scripts, or credentials.
+
 Continuous-agent example: [`docs/continuous-agent-preflight-example.md`](docs/continuous-agent-preflight-example.md) shows a 7-minute receipt for persistent Claude Code / MCP / agent harnesses before they inherit repo context, command access, and long-running state.
 
 Claude Code hook/TDD proof: [`docs/claude-code-hook-preflight-proof.md`](docs/claude-code-hook-preflight-proof.md) gives hook, TDD guard, MCP routing, and continuous-agent users a 6-minute preflight receipt before automation starts running commands.
