@@ -245,3 +245,9 @@ Teams using [LangGraph](https://github.com/langchain-ai/langgraph)-style statefu
 
 Teams using [OpenHands](https://github.com/OpenHands/OpenHands)-style autonomous software-engineering agents can now preview a concrete [OpenHands task-branch preflight receipt](docs/examples/preflight-before-openhands-task-branches.md) before buying. It shows what to check before an agent receives branch, shell, package-script, CI, or MCP/tooling scope, plus the Yellow/Red trigger for the $7 workflow bundle.
 <!-- deadline-openhands-proof:end -->
+
+<!-- deadline-mastra-proof:start -->
+### Mastra TypeScript agent preflight proof
+
+Teams using [Mastra](https://github.com/mastra-ai/mastra)-style TypeScript agents can now preview a concrete [Mastra preflight receipt](docs/examples/preflight-before-mastra-typescript-agents.md) before buying. It shows what to check before tools, package scripts, MCP/API connectors, memory/storage config, or deployment secrets enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-mastra-proof:end -->

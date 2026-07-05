@@ -244,3 +244,17 @@ class PydanticAIAgentProofTests(unittest.TestCase):
         self.assertIn("pydantic/pydantic-ai", proof_text)
         self.assertIn("agent-preflight-pydantic-ai", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
+
+class MastraTypeScriptAgentProofTests(unittest.TestCase):
+    def test_mastra_typescript_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-mastra-typescript-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-mastra-typescript-agents.md", readme)
+        self.assertIn("Mastra TypeScript agent preflight proof", index)
+        self.assertIn("mastra-ai/mastra", proof_text)
+        self.assertIn("agent-preflight-mastra", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
