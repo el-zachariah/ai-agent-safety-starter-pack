@@ -161,3 +161,6 @@ Evaluating a runtime safety layer for Claude Code/Codex-style agents, such as a 
 ### OpenHands-style autonomous repo agents proof
 
 If your first buyer path is an OpenHands / Devin-style autonomous repo-agent workflow, use the new free proof page before starting the agent: [`docs/examples/preflight-before-openhands-autonomous-agents.md`](docs/examples/preflight-before-openhands-autonomous-agents.md). It gives a 60-second receipt, Yellow/Red buy trigger, and pasteable run-ticket note for teams deciding whether the $7 pack is needed before widening agent scope.
+
+## Customer proof examples
+- [MCP server repo preflight proof](docs/examples/preflight-before-mcp-server-repos.md) — for MCP server maintainers and buyers checking launch commands, secrets, Docker/package scripts, and client configs before attaching the server to Claude Code/Cursor/Codex.
