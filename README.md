@@ -181,6 +181,12 @@ Teams using [openai/codex](https://github.com/openai/codex)-style AI coding agen
 Teams using [Google Gemini CLI](https://github.com/google-gemini/gemini-cli) or similar terminal AI coding agents can now preview a concrete [Gemini CLI preflight receipt example](docs/examples/preflight-before-gemini-cli.md) before buying. It shows what to paste before the agent edits files or runs shell commands, and when the $7 pack is worth it because the scan is Yellow/Red.
 <!-- deadline-gemini-cli-proof:end -->
 
+<!-- deadline-opencode-proof:start -->
+### OpenCode terminal-agent preflight proof
+
+Teams using [OpenCode](https://github.com/anomalyco/opencode)-style terminal coding agents can now preview a concrete [OpenCode preflight receipt example](docs/examples/preflight-before-opencode-terminal-agents.md) before buying. It shows what to paste before the agent edits files, runs tests, or touches package/workflow scripts, plus the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-opencode-proof:end -->
+
 ### VS Code agent extension preflight proof
 
 Teams using [Cline](https://github.com/cline/cline), Roo Code, or similar VS Code agent extensions can now preview a concrete [editor-agent preflight example](docs/examples/preflight-before-vscode-agent-extensions.md) before buying. It shows how to paste a risk receipt into the agent chat, constrain terminal/MCP/editor access, and decide when the $7 paid pack is worth it.

@@ -115,6 +115,19 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("agent-preflight-swe-agent", proof_text)
 
 
+def test_opencode_terminal_agent_proof_is_linked(self):
+    proof = ROOT / "docs/examples/preflight-before-opencode-terminal-agents.md"
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    index = LANDING.read_text(encoding="utf-8")
+    proof_text = proof.read_text(encoding="utf-8")
+
+    self.assertIn("preflight-before-opencode-terminal-agents.md", readme)
+    self.assertIn("OpenCode terminal-agent preflight proof", index)
+    self.assertIn("anomalyco/opencode", proof_text)
+    self.assertIn("agent-preflight-opencode", proof_text)
+    self.assertIn("The open source coding agent.", proof_text)
+
+
 if __name__ == "__main__":
     unittest.main()
 
