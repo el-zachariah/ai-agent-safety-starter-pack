@@ -214,3 +214,19 @@ class AutoGenAgentWorkflowProofTests(unittest.TestCase):
         self.assertIn("microsoft/autogen", proof_text)
         self.assertIn("function-calling agents", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", index)
+
+
+
+class SmolagentsToolAgentProofTests(unittest.TestCase):
+    def test_smolagents_tool_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-smolagents-tool-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-smolagents-tool-agents.md", readme)
+        self.assertIn("smolagents tool-running agent preflight proof", index)
+        self.assertIn("huggingface/smolagents", proof_text)
+        self.assertIn("CodeAgent", proof_text)
+        self.assertIn("agent-preflight-smolagents", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
