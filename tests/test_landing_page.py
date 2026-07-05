@@ -141,6 +141,18 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("E2B_API_KEY", proof_text)
         self.assertIn("agent-preflight", proof_text)
 
+    def test_continue_ide_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-continue-ide-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-continue-ide-agents.md", readme)
+        self.assertIn("Continue.dev IDE agent preflight proof", index)
+        self.assertIn("continuedev/continue", proof_text)
+        self.assertIn(".continue/", proof_text)
+        self.assertIn("MCP/context providers", proof_text)
+
 
 if __name__ == "__main__":
     unittest.main()

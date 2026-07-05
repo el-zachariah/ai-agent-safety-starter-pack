@@ -92,6 +92,7 @@ def is_agent_related(path: Path) -> bool:
         path.name in AGENT_FILE_NAMES
         or ".cursor" in parts
         or ".claude" in parts
+        or ".continue" in parts
         or path.match(".github/workflows/*")
     )
 

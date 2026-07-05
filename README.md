@@ -103,6 +103,12 @@ Run the free lite check first. The `$7` bundle is meant for the moment the scan 
 3. block obvious destructive commands with a local hook, and
 4. keep a reusable report template with the repo before assigning Claude Code, Codex, Cursor, or another AI coding agent.
 
+<!-- deadline-continue-ide-agent-proof:start -->
+### Continue.dev IDE agent preflight proof
+
+Teams using [`continuedev/continue`](https://github.com/continuedev/continue) or a similar IDE agent can preview a concrete [Continue.dev IDE agent preflight proof](docs/examples/preflight-before-continue-ide-agents.md) before exposing `.continue/` config, MCP/context providers, package scripts, and repo secrets to an agent run.
+<!-- deadline-continue-ide-agent-proof:end -->
+
 ## Full bundle
 
 The `$7` Payhip bundle includes:
