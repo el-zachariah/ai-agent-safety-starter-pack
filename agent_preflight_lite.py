@@ -45,6 +45,10 @@ SECRET_ADJACENT_NAMES = {
 INTERESTING_SUFFIXES = {".sh", ".bash", ".zsh", ".fish", ".ps1", ".yml", ".yaml", ".json", ".toml", ".nix"}
 MAX_FILE_BYTES = 250_000
 
+AGENT_DEPENDENCY_PATTERNS = [
+    ("fastmcp-dependency", re.compile(r"\bfastmcp\b", re.IGNORECASE)),
+]
+
 RISK_PATTERNS = [
     ("destructive-delete", re.compile(r"\brm\s+-[rfRF]*\s+[\"']?(/|\$\{|\$HOME|~|\.\.)")),
     ("force-push", re.compile(r"\bgit\s+push\b[^\n]*\s--force(?:-with-lease)?\b")),
@@ -57,6 +61,7 @@ RISK_PATTERNS = [
 
 KIND_TO_BUCKET = {
     "agent-or-workflow-file": "agent/workflow config",
+    "agent-framework-dependency": "agent framework dependency",
     "secret-adjacent-file": "secret-adjacent files",
     "package-scripts": "package scripts",
 }
@@ -121,7 +126,8 @@ def scan(root: Path) -> list[Finding]:
             findings.append(Finding("high", "secret-adjacent-file", rel, None, "Do not expose this to an agent unless intentionally sanitized."))
         if path.name == "package.json":
             findings.append(Finding("medium", "package-scripts", rel, None, "Review scripts before an agent runs install/test/build commands."))
-        if path.suffix.lower() not in INTERESTING_SUFFIXES and path.name not in AGENT_FILE_NAMES:
+        dependency_file_names = {"pyproject.toml", "requirements.txt", "uv.lock", "poetry.lock"}
+        if path.suffix.lower() not in INTERESTING_SUFFIXES and path.name not in AGENT_FILE_NAMES and path.name not in dependency_file_names:
             continue
         try:
             if path.stat().st_size > MAX_FILE_BYTES:
@@ -129,6 +135,12 @@ def scan(root: Path) -> list[Finding]:
             text = path.read_text(encoding="utf-8", errors="replace")
         except OSError:
             continue
+        if path.name in dependency_file_names:
+            for kind, pattern in AGENT_DEPENDENCY_PATTERNS:
+                if pattern.search(text):
+                    dependency_name = kind.removesuffix("-dependency")
+                    findings.append(Finding("medium", "agent-framework-dependency", rel, None, f"Review agent framework dependency before tool execution: {dependency_name}."))
+                    break
         for idx, line in enumerate(text.splitlines(), start=1):
             for kind, pattern in RISK_PATTERNS:
                 if pattern.search(line):
