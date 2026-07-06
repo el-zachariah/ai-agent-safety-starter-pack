@@ -256,6 +256,12 @@ Teams using [Cline](https://github.com/cline/cline), Roo Code, or similar VS Cod
 Teams using Cursor with `.cursorrules`, `.cursor/rules/*`, background agents, or repo-level rule packs can now preview a concrete [Cursor rules preflight receipt](docs/examples/preflight-before-cursor-rules-background-agents.md) before buying. It shows what to review before a Cursor assistant inherits project instructions, MCP/tool config, package scripts, or broad edit/test scope.
 <!-- deadline-cursor-rules-proof:end -->
 
+<!-- deadline-roo-code-proof:start -->
+### Roo Code agent-team preflight proof
+
+Teams using [Roo Code](https://github.com/RooCodeInc/Roo-Code) as an in-editor agent team can now preview a concrete [Roo Code preflight receipt](docs/examples/preflight-before-roo-code-agent-teams.md) before buying. It shows what to check before auto-approval, terminal commands, MCP/tools, package scripts, or deployment-adjacent files enter the session, plus the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-roo-code-proof:end -->
+
 <!-- deadline-aider-proof:start -->
 ### Aider terminal pair-programming preflight proof
 

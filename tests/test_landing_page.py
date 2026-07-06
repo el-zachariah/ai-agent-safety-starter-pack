@@ -357,3 +357,17 @@ class ComposioToolAgentProofTests(unittest.TestCase):
         self.assertIn("1000+ toolkits", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
 
+
+class RooCodeAgentTeamProofTests(unittest.TestCase):
+    def test_roo_code_agent_team_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-roo-code-agent-teams.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-roo-code-agent-teams.md", readme)
+        self.assertIn("Roo Code agent-team preflight proof", index)
+        self.assertIn("RooCodeInc/Roo-Code", proof_text)
+        self.assertIn("agent-preflight-roo-code", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
