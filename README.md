@@ -1,3 +1,4 @@
+- [Stagehand browser-agent workflow preflight proof](docs/examples/preflight-before-stagehand-browser-agent-workflows.md) — for teams using `browserbase/stagehand` / Stagehand-style browser agents before authenticated sessions, forms, localhost apps, admin surfaces, package scripts, MCP/API tools, or secret-adjacent config enter scope; `STAGEHAND_BROWSER_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 # AI Agent Safety Starter Pack — free lite preflight
 
 <!-- deadline-camel-ai-multi-agent-proof:start -->
