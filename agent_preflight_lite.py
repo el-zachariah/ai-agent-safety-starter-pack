@@ -24,6 +24,8 @@ AGENT_FILE_NAMES = {
     "mcp.json",
     "settings.json",
     "devcontainer.json",
+    ".replit",
+    "replit.nix",
 }
 
 SECRET_ADJACENT_NAMES = {
@@ -37,7 +39,7 @@ SECRET_ADJACENT_NAMES = {
     "id_ed25519",
 }
 
-INTERESTING_SUFFIXES = {".sh", ".bash", ".zsh", ".fish", ".ps1", ".yml", ".yaml", ".json", ".toml"}
+INTERESTING_SUFFIXES = {".sh", ".bash", ".zsh", ".fish", ".ps1", ".yml", ".yaml", ".json", ".toml", ".nix"}
 MAX_FILE_BYTES = 250_000
 
 RISK_PATTERNS = [

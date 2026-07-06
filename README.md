@@ -5,6 +5,7 @@
 
 - [Claude Code plugin marketplace install proof](docs/examples/preflight-before-claude-code-plugin-marketplace.md) — for Superpowers Marketplace, Tons of Skills, Build with Claude, and other plugin-marketplace users deciding whether to buy before installing commands/hooks/skills into a real repo.
 - [Qwen Code CLI preflight proof](docs/examples/preflight-before-qwen-code-cli.md) — for `QwenLM/qwen-code` / Qwen-style terminal coding-agent users deciding whether to buy before granting repo, shell, package-script, MCP/tool, or `.env` scope.
+- [Replit Agent workspace preflight proof](docs/examples/preflight-before-replit-agent-workspaces.md) — for hosted workspace users checking `.replit`, `replit.nix`, package scripts, secrets, and deploy/run commands before letting an agent act.
 
 Before paying, verify the public distribution trail and buyer-specific trust evidence: [Live distribution proof](docs/live-distribution-proof.md). It links the open directory/marketplace PRs, free repo, support page, and the paid Payhip bundle so a first buyer can check that this is a real maintained offer rather than a cold checkout page.
 <!-- /live-distribution-proof -->
@@ -29,7 +30,7 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 `agent_preflight_lite.py` looks for common AI-agent workspace risk signals:
 
 - agent instruction files such as `AGENTS.md`, `CLAUDE.md`, `.cursorrules`, `.cursor/rules/*`
-- MCP / Claude / Cursor / GitHub Copilot / Dev Containers instruction config files
+- MCP / Claude / Cursor / GitHub Copilot / Dev Containers / Replit workspace instruction config files
 - secret-adjacent files such as `.env`, `.npmrc`, `.pypirc`, `id_rsa`
 - risky shell patterns such as `rm -rf`, `curl | sh`, `chmod 777`, `docker.sock`, and `force push`
 - package scripts and GitHub Actions workflow files that an agent may touch
