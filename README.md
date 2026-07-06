@@ -7,6 +7,9 @@
 
 <!-- live-distribution-proof -->
 ## Live buyer proof
+<!-- deadline-mistral-vibe-proof:start -->
+- [Mistral Vibe coding-assistant preflight proof](docs/examples/preflight-before-mistral-vibe-coding-assistant.md) — for teams using `mistralai/mistral-vibe` before terminal AI coding sessions touch repo context, shell/package commands, workflows, MCP/tool connectors, or secret-adjacent config; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-mistral-vibe-proof:end -->
 
 - [Claude Code GitHub Action preflight proof](docs/examples/preflight-before-claude-code-github-action.md) — for teams using `anthropics/claude-code-action` before a GitHub workflow comments on PRs, edits files, runs package scripts, or receives secret-adjacent CI context; `CLAUDE_CODE_ACTION_GITHUB_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Google ADK Python agent preflight proof](docs/examples/preflight-before-google-adk-python-agents.md) — for teams using `google/adk-python` / Google Agent Development Kit Python workflows before agents get repo files, package scripts, tool/API connectors, deployment config, or secret-adjacent env values; `GOOGLE_ADK_PYTHON_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
