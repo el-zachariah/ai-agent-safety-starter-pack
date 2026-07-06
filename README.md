@@ -1,3 +1,7 @@
+<!-- deadline-strands-agents-sdk-workflow-proof:start -->
+- [Strands Agents SDK workflow preflight proof](docs/examples/preflight-before-strands-agents-sdk-workflows.md) — for `strands-agents/harness-sdk` teams before agent tools, MCP/API connectors, package scripts, notebooks, deployment config, or secret-adjacent AWS/provider env values enter an agent run; `STRANDS_AGENTS_SDK_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-strands-agents-sdk-workflow-proof:end -->
+
 <!-- deadline-elizaos-agentic-os-proof:start -->
 - [ElizaOS agentic OS/plugin workflow preflight proof](docs/examples/preflight-before-elizaos-agentic-os-plugin-workflows.md) — for `elizaOS/eliza` teams before agentic OS plugins, RAG/vector settings, bot credentials, package scripts, workflows, MCP/API tools, deployment config, or secret-adjacent files enter scope; `ELIZAOS_AGENTIC_OS_PLUGIN_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-elizaos-agentic-os-proof:end -->
