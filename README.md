@@ -445,3 +445,7 @@ Teams using [`langchain-ai/langgraph`](https://github.com/langchain-ai/langgraph
 ## Model Context Protocol server preflight proof
 
 Teams using [`modelcontextprotocol/servers`](https://github.com/modelcontextprotocol/servers) or MCP-style server/tool workflows can now use the named [Model Context Protocol server preflight proof](docs/examples/preflight-before-mcp-server-tool-workflows.md) before agent clients receive repository context, filesystem access, browser/API tools, package scripts, workflow edits, credentialed connectors, or secret-adjacent config. Green means skip the paid pack; Yellow/Red means the $7 bundle at https://payhip.com/b/1nmxV adds repeatable hooks, reviewer prompts, and handoff receipts.
+
+## LangChain tool-agent preflight proof
+
+Teams using [`langchain-ai/langchain`](https://github.com/langchain-ai/langchain) or LangChain-style tool/retriever/function-calling agents can now use the named [LangChain tool-agent preflight proof](docs/examples/preflight-before-langchain-tool-agents.md) before repo context, generated commands, package scripts, workflow files, callbacks, MCP/API connectors, or secret-adjacent config enter scope. Green means skip the paid pack; Yellow/Red means the $7 bundle at https://payhip.com/b/1nmxV adds repeatable hooks, reviewer prompts, and handoff receipts.
