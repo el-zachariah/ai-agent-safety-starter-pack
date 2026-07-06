@@ -7,6 +7,7 @@
 
 <!-- live-distribution-proof -->
 ## Live buyer proof
+- [Codebuff terminal coding-agent preflight proof](docs/examples/preflight-before-codebuff-terminal-agents.md) — for teams using `CodebuffAI/codebuff` or Codebuff-style terminal agents before repo edits, package scripts, workflow files, or secret-adjacent paths enter the task; `CODEBUFF_TERMINAL_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Agno agent framework preflight proof](docs/examples/preflight-before-agno-agent-frameworks.md) — for teams using `agno-agi/agno` or Agno-style agent frameworks before agents, tools, MCP/API connectors, package scripts, or secret-adjacent env values enter scope; `AGNO_AGENT_FRAMEWORK_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Kilo Code agentic engineering preflight proof](docs/examples/preflight-before-kilo-code-agentic-engineering.md) — for teams using `Kilo-Org/kilocode` or similar VS Code agentic-engineering extensions before workspace context, terminal commands, MCP/tool servers, package scripts, or secret-adjacent files enter scope; `KILO_CODE_AGENTIC_ENGINEERING_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Cloudflare Workers AI Agents preflight proof](docs/examples/preflight-before-cloudflare-workers-agents.md) — for teams using `cloudflare/agents`, Workers AI, Durable Objects, or `wrangler` deploy flows before package scripts, `.dev.vars`, API-backed tools, or shell commands enter scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
@@ -394,3 +395,9 @@ Teams using [Vercel AI SDK](https://github.com/vercel/ai)-style TypeScript/Next.
 Aider-style local pair-programming is a strong first-buyer fit because the assistant works in a real checkout before edits, tests, package scripts, or secret-adjacent files may be touched. New proof page: [`docs/examples/preflight-before-aider-local-ai-pair-programming.md`](docs/examples/preflight-before-aider-local-ai-pair-programming.md). Buy trigger: if the free scanner reports **Yellow/Red**, use the $7 pack before the next Aider run: https://payhip.com/b/1nmxV.
 
 Marker: `AIDER_LOCAL_AI_PAIR_PROGRAMMING_PROOF`
+<!-- deadline-codebuff-terminal-agent-proof:start -->
+### Codebuff terminal coding-agent preflight proof
+
+Teams using [Codebuff](https://github.com/CodebuffAI/codebuff)-style terminal coding agents can now preview a concrete [Codebuff preflight receipt](docs/examples/preflight-before-codebuff-terminal-agents.md) before buying. It shows what to paste before the agent edits files, runs tests/package scripts, touches workflow files, or operates near credentials; `CODEBUFF_TERMINAL_AGENT_PROOF` marks the proof and the Yellow/Red trigger points to the $7 pack.
+<!-- deadline-codebuff-terminal-agent-proof:end -->
+
