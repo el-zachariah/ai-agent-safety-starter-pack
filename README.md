@@ -1,3 +1,7 @@
+<!-- deadline-elizaos-agentic-os-proof:start -->
+- [ElizaOS agentic OS/plugin workflow preflight proof](docs/examples/preflight-before-elizaos-agentic-os-plugin-workflows.md) — for `elizaOS/eliza` teams before agentic OS plugins, RAG/vector settings, bot credentials, package scripts, workflows, MCP/API tools, deployment config, or secret-adjacent files enter scope; `ELIZAOS_AGENTIC_OS_PLUGIN_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-elizaos-agentic-os-proof:end -->
+
 <!-- deadline-open-swe-async-coding-agent-proof:start -->
 - [Open SWE async coding-agent preflight proof](docs/examples/preflight-before-open-swe-async-coding-agents.md) — for teams evaluating `langchain-ai/open-swe` before asynchronous coding agents read repo context, create task branches, run package scripts, edit workflows, call MCP/API tools, or touch secret-adjacent config; `OPEN_SWE_ASYNC_CODING_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-open-swe-async-coding-agent-proof:end -->
