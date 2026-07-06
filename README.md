@@ -500,3 +500,8 @@ Teams using [`Significant-Gravitas/AutoGPT`](https://github.com/Significant-Grav
 
 Marker: `AUTOGPT_AGENT_PLATFORM_PROOF`
 
+
+
+## Named customer proof examples
+
+- [PydanticAI agent-framework preflight proof](docs/examples/preflight-before-pydantic-ai-agent-frameworks.md) — Buy the $7 pack when the free scan is Yellow/Red because your PydanticAI agent can read repo context, call tools, run package scripts, or operate near secret-adjacent files.
