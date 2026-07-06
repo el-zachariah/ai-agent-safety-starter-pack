@@ -1,3 +1,7 @@
+<!-- deadline-qdrant-vector-rag-agent-workflows:start -->
+- [Qdrant vector/RAG agent workflow preflight proof](docs/examples/preflight-before-qdrant-vector-rag-agent-workflows.md) — for `qdrant/qdrant` teams before vector-memory/RAG agents, collection writes, embedding pipelines, API keys, package scripts, Docker/deploy files, webhooks, or repo context enter an agent run; `QDRANT_VECTOR_RAG_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-qdrant-vector-rag-agent-workflows:end -->
+
 <!-- deadline-strands-agents-sdk-workflow-proof:start -->
 - [Strands Agents SDK workflow preflight proof](docs/examples/preflight-before-strands-agents-sdk-workflows.md) — for `strands-agents/harness-sdk` teams before agent tools, MCP/API connectors, package scripts, notebooks, deployment config, or secret-adjacent AWS/provider env values enter an agent run; `STRANDS_AGENTS_SDK_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-strands-agents-sdk-workflow-proof:end -->
