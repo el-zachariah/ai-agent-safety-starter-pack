@@ -2,6 +2,7 @@
 
 <!-- live-distribution-proof -->
 ## Live buyer proof
+- [Open Interpreter local code-agent preflight proof](docs/examples/preflight-before-open-interpreter-local-agents.md) — for teams letting a local interpreter read repos, run shell/Python/package commands, or work near `.env`/API/browser scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [OpenAI Agents SDK tool-agent preflight proof](docs/examples/preflight-before-openai-agents-sdk.md) — for teams connecting tool calls, MCP servers, package scripts, or API-backed actions before granting repo scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 
 - [Claude Code plugin marketplace install proof](docs/examples/preflight-before-claude-code-plugin-marketplace.md) — for Superpowers Marketplace, Tons of Skills, Build with Claude, and other plugin-marketplace users deciding whether to buy before installing commands/hooks/skills into a real repo.
