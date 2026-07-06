@@ -1,3 +1,7 @@
+<!-- deadline-open-swe-async-coding-agent-proof:start -->
+- [Open SWE async coding-agent preflight proof](docs/examples/preflight-before-open-swe-async-coding-agents.md) — for teams evaluating `langchain-ai/open-swe` before asynchronous coding agents read repo context, create task branches, run package scripts, edit workflows, call MCP/API tools, or touch secret-adjacent config; `OPEN_SWE_ASYNC_CODING_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-open-swe-async-coding-agent-proof:end -->
+
 <!-- deadline-promptfoo-llm-eval-workflows-proof:start -->
 - [Promptfoo LLM eval workflow preflight proof](docs/examples/preflight-before-promptfoo-llm-eval-workflows.md) — for teams using `promptfoo/promptfoo` before eval/red-team suites, agent tests, CI workflows, package scripts, MCP/API tools, or secret-adjacent config enter scope; `PROMPTFOO_LLM_EVAL_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-promptfoo-llm-eval-workflows-proof:end -->
