@@ -559,3 +559,7 @@ Marker: `AUTOGPT_AGENT_PLATFORM_PROOF`
 
 ## Free customer proof examples
 - [Langfuse observability/eval pipeline preflight proof](docs/examples/preflight-before-langfuse-observability-eval-workflows.md) — for teams protecting traces, prompt/eval datasets, scoring scripts, and deployment hooks before repo agents mutate Langfuse workflows. Buy the $7 starter pack when you need the ready-to-send review/handoff templates: https://payhip.com/b/1nmxV
+
+### Claude Code Router agent proof: preflight before terminal-agent edits
+
+Using `musistudio/claude-code-router`-style terminal coding-agent workflows? Read the [Claude Code Router agent preflight proof](docs/examples/preflight-before-claude-code-router.md) before checkout. It shows the free Green/Yellow/Red scan, the exact handoff receipt, and the moment to buy the $7 pack only when the result is Yellow/Red.
