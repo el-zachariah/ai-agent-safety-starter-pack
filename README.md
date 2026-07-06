@@ -15,6 +15,9 @@
 
 <!-- live-distribution-proof -->
 ## Live buyer proof
+<!-- deadline-copilotkit-in-app-ai-copilots-proof:start -->
+- [CopilotKit in-app AI copilot preflight proof](docs/examples/preflight-before-copilotkit-in-app-ai-copilots.md) — for `CopilotKit/CopilotKit` / teams using CopilotKit to wire in-app AI copilots, frontend actions, API-backed tools, and agentic product workflows before frontend action handlers, API routes, auth/session scope, vector/knowledge connectors, deployment env, package scripts, and secret-adjacent config enter scope; `COPILOTKIT_IN_APP_AI_COPILOT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-copilotkit-in-app-ai-copilots-proof:end -->
 <!-- deadline-langflow-agentic-flow-builder-proof:start -->
 - [Langflow agentic-flow builder preflight proof](docs/examples/preflight-before-langflow-agentic-flow-builders.md) — for `langflow-ai/langflow` / Langflow visual agent/flow-builder teams before repo context, tool/API connectors, package scripts, deployment config, or secret-adjacent paths enter an AI-assisted flow; `LANGFLOW_AGENTIC_FLOW_BUILDER_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-langflow-agentic-flow-builder-proof:end -->
