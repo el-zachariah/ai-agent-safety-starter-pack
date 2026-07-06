@@ -14,6 +14,9 @@
 
 <!-- live-distribution-proof -->
 ## Live buyer proof
+<!-- deadline-langflow-agentic-flow-builder-proof:start -->
+- [Langflow agentic-flow builder preflight proof](docs/examples/preflight-before-langflow-agentic-flow-builders.md) — for `langflow-ai/langflow` / Langflow visual agent/flow-builder teams before repo context, tool/API connectors, package scripts, deployment config, or secret-adjacent paths enter an AI-assisted flow; `LANGFLOW_AGENTIC_FLOW_BUILDER_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-langflow-agentic-flow-builder-proof:end -->
 <!-- deadline-dspy-llm-programs-proof:start -->
 - [DSPy LLM program/eval preflight proof](docs/examples/preflight-before-dspy-llm-programs.md) — for `stanfordnlp/dspy` teams before optimizers, eval scripts, notebooks, tool wrappers, package scripts, provider keys, datasets, or deployment config enter an LLM-program run; `DSPY_LLM_PROGRAM_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-dspy-llm-programs-proof:end -->
