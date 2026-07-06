@@ -441,6 +441,8 @@ Teams using Dify, Flowise, or similar visual agent builders still expose real re
 
 
 ## Customer-specific proof examples
+
+- `ACTIVEPIECES_AI_AUTOMATION_PROOF` — [Preflight before Activepieces AI automation workflows](docs/examples/preflight-before-activepieces-ai-automation-workflows.md) for `activepieces/activepieces` / Activepieces AI automation workflow teams; buy only after Yellow/Red.
 - [Agent observability and eval pipeline preflight proof](docs/examples/preflight-before-agent-observability-eval-pipelines.md) - for Langfuse, Phoenix, and eval teams that need a before-run repo-scope receipt before traced agent runs.
 
 
