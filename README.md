@@ -1,3 +1,7 @@
+<!-- deadline-flowise-visual-agent-builder-proof:start -->
+- [Flowise visual agent-builder workflow preflight proof](docs/examples/preflight-before-flowise-visual-agent-builder-workflows.md) — for `FlowiseAI/Flowise` teams before chatflows, agentflows, custom tool/function nodes, vector-store credentials, package scripts, Docker/deploy config, webhooks, or secret-adjacent env values enter an agent run; `FLOWISE_VISUAL_AGENT_BUILDER_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-flowise-visual-agent-builder-proof:end -->
+
 <!-- deadline-mcp-agent-app-workflows-proof:start -->
 - [MCP Agent app workflow preflight proof](docs/examples/preflight-before-mcp-agent-app-workflows.md) — for `lastmile-ai/mcp-agent` teams before MCP/API tools, package scripts, workflow files, filesystem access, model/provider env values, or deployment config enter an agent run; `MCP_AGENT_APP_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-mcp-agent-app-workflows-proof:end -->
