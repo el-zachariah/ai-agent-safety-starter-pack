@@ -563,3 +563,7 @@ Marker: `AUTOGPT_AGENT_PLATFORM_PROOF`
 ### Claude Code Router agent proof: preflight before terminal-agent edits
 
 Using `musistudio/claude-code-router`-style terminal coding-agent workflows? Read the [Claude Code Router agent preflight proof](docs/examples/preflight-before-claude-code-router.md) before checkout. It shows the free Green/Yellow/Red scan, the exact handoff receipt, and the moment to buy the $7 pack only when the result is Yellow/Red.
+
+### MCP TypeScript SDK server proof: preflight before terminal-agent edits
+
+Using `modelcontextprotocol/typescript-sdk`-style terminal coding-agent workflows? Read the [MCP TypeScript SDK server preflight proof](docs/examples/preflight-before-mcp-typescript-sdk-servers.md) before checkout. It shows the free Green/Yellow/Red scan, the exact handoff receipt, and the moment to buy the $7 pack only when the result is Yellow/Red.
