@@ -451,3 +451,8 @@ Teams using [`modelcontextprotocol/servers`](https://github.com/modelcontextprot
 ## LangChain tool-agent preflight proof
 
 Teams using [`langchain-ai/langchain`](https://github.com/langchain-ai/langchain) or LangChain-style tool/retriever/function-calling agents can now use the named [LangChain tool-agent preflight proof](docs/examples/preflight-before-langchain-tool-agents.md) before repo context, generated commands, package scripts, workflow files, callbacks, MCP/API connectors, or secret-adjacent config enter scope. Green means skip the paid pack; Yellow/Red means the $7 bundle at https://payhip.com/b/1nmxV adds repeatable hooks, reviewer prompts, and handoff receipts.
+
+### Named buyer proof: Microsoft AutoGen
+
+- [Microsoft AutoGen multi-agent preflight proof](docs/examples/preflight-before-microsoft-autogen-multi-agent-workflows.md) — a copy-paste receipt for teams that are about to let Microsoft AutoGen or similar agent workflows read repo context, call tools, run package scripts, or touch secret-adjacent config. If the scan is Yellow/Red, [buy the $7 pack](https://payhip.com/b/1nmxV) before the first autonomous run.
+
