@@ -429,3 +429,7 @@ Teams using [Codebuff](https://github.com/CodebuffAI/codebuff)-style terminal co
 ### Continue AI code assistant preflight proof
 
 Continue / `continuedev/continue` teams can now use the named [Continue AI code assistant preflight proof](docs/examples/preflight-before-continue-ai-code-assistant.md) before an assistant reads repo context, suggests edits, or approaches shell/package workflow files. If the receipt is Yellow/Red, the paid $7 pack gives the repeatable hook, review-comment, and handoff templates: https://payhip.com/b/1nmxV.
+
+### Gemini CLI coding-agent preflight proof
+
+Gemini CLI / `google-gemini/gemini-cli` teams can now use the named [Gemini CLI coding-agent preflight proof](docs/examples/preflight-before-gemini-cli-coding-agents.md) before a terminal coding agent inspects repo context, edits files, or approaches shell/package/deploy workflows. If the receipt is Yellow/Red, the paid $7 pack gives the repeatable hook, review-comment, and handoff templates: https://payhip.com/b/1nmxV.
