@@ -441,3 +441,7 @@ Teams using [`deepset-ai/haystack`](https://github.com/deepset-ai/haystack) or H
 ## LangGraph graph-agent workflow preflight proof
 
 Teams using [`langchain-ai/langgraph`](https://github.com/langchain-ai/langgraph) or langgraph graph-agent workflows can now use the named [LangGraph graph-agent workflow preflight proof](docs/examples/preflight-before-langgraph-agent-workflows.md) before repository context, tool calls, memory/state, generated commands, package scripts, workflow files, API connectors, or secret-adjacent paths enter scope. Green means skip the paid pack; Yellow/Red means the $7 bundle at https://payhip.com/b/1nmxV adds repeatable hooks, reviewer prompts, and handoff receipts.
+
+## Model Context Protocol server preflight proof
+
+Teams using [`modelcontextprotocol/servers`](https://github.com/modelcontextprotocol/servers) or MCP-style server/tool workflows can now use the named [Model Context Protocol server preflight proof](docs/examples/preflight-before-mcp-server-tool-workflows.md) before agent clients receive repository context, filesystem access, browser/API tools, package scripts, workflow edits, credentialed connectors, or secret-adjacent config. Green means skip the paid pack; Yellow/Red means the $7 bundle at https://payhip.com/b/1nmxV adds repeatable hooks, reviewer prompts, and handoff receipts.
