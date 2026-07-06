@@ -579,3 +579,14 @@ Using `modelcontextprotocol/python-sdk`-style terminal coding-agent workflows? R
 
 Teams using [`langgenius/dify`](https://github.com/langgenius/dify) or Dify-style visual AI workflow builders can now use a named [Dify agent/workflow app preflight proof](docs/examples/preflight-before-dify-agent-workflow-apps.md) before workflows, tool/API connectors, datasets, webhooks, Docker/deploy files, or secret-adjacent env values enter scope. `DIFY_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 
+<!-- buyer-proof-pipecat-voice-agent-workflows-start -->
+## Buyer proof: Pipecat voice/multimodal agents
+
+Marker: `PIPECAT_VOICE_AGENT_PROOF`
+
+I added a named proof for [`pipecat-ai/pipecat`](https://github.com/pipecat-ai/pipecat) teams so voice/agent developers can see exactly when the free preflight is enough and when the paid `$7` pack saves handoff/setup time.
+
+- Proof page: [Preflight before Pipecat voice agent workflows](./docs/examples/preflight-before-pipecat-voice-agent-workflows.md)
+- Buy trigger: Yellow/Red scans involving LLM/STT/TTS keys, transport adapters, deployment scripts, .env-adjacent files, and package scripts should use the paid pack: https://payhip.com/b/1nmxV
+<!-- buyer-proof-pipecat-voice-agent-workflows-end -->
+
