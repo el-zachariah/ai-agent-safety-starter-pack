@@ -19,6 +19,8 @@ AGENT_FILE_NAMES = {
     "CLAUDE.md",
     "copilot-instructions.md",
     ".cursorrules",
+    ".clineignore",
+    ".clinerules",
     ".cursorignore",
     ".mcp.json",
     "mcp.json",
@@ -95,6 +97,7 @@ def is_agent_related(path: Path) -> bool:
     return (
         path.name in AGENT_FILE_NAMES
         or ".cursor" in parts
+        or ".cline" in parts
         or ".claude" in parts
         or ".claude-plugin" in parts
         or ".continue" in parts

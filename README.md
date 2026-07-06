@@ -7,6 +7,10 @@
 
 <!-- live-distribution-proof -->
 ## Live buyer proof
+
+- [Cline VS Code agent preflight proof](docs/examples/preflight-before-cline-vscode-autonomous-agents.md) — for `cline/cline` / Cline-style VS Code autonomous-agent users deciding whether to buy before granting repo, terminal, MCP/tool, browser, or `.env` scope.
+
+## Live buyer proof
 - [Codebuff terminal coding-agent preflight proof](docs/examples/preflight-before-codebuff-terminal-agents.md) — for teams using `CodebuffAI/codebuff` or Codebuff-style terminal agents before repo edits, package scripts, workflow files, or secret-adjacent paths enter the task; `CODEBUFF_TERMINAL_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Agno agent framework preflight proof](docs/examples/preflight-before-agno-agent-frameworks.md) — for teams using `agno-agi/agno` or Agno-style agent frameworks before agents, tools, MCP/API connectors, package scripts, or secret-adjacent env values enter scope; `AGNO_AGENT_FRAMEWORK_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Kilo Code agentic engineering preflight proof](docs/examples/preflight-before-kilo-code-agentic-engineering.md) — for teams using `Kilo-Org/kilocode` or similar VS Code agentic-engineering extensions before workspace context, terminal commands, MCP/tool servers, package scripts, or secret-adjacent files enter scope; `KILO_CODE_AGENTIC_ENGINEERING_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
@@ -80,6 +84,8 @@ One-minute scorecard: [`docs/one-minute-risk-scorecard.md`](docs/one-minute-risk
 Red-flag matrix: [`docs/red-flag-to-action-matrix.md`](docs/red-flag-to-action-matrix.md) maps scan findings to run / ask / avoid decisions before an agent gets shell access.
 
 Claude Code slash-command bridge: copy [`commands/agent-preflight.md`](commands/agent-preflight.md) into `.claude/commands/agent-preflight.md`, then run `/agent-preflight .` before a tool-enabled session. Setup notes: [`docs/claude-code-slash-command.md`](docs/claude-code-slash-command.md).
+
+Cline VS Code autonomous-agent proof: [`docs/examples/preflight-before-cline-vscode-autonomous-agents.md`](docs/examples/preflight-before-cline-vscode-autonomous-agents.md) shows the 60-second receipt before Cline gets workspace context, terminal commands, MCP/browser tools, package scripts, or secret-adjacent files.
 
 CrewAI multi-agent workflow proof: [`docs/examples/preflight-before-crewai-multi-agent-workflows.md`](docs/examples/preflight-before-crewai-multi-agent-workflows.md) shows the 5-minute receipt to write before a CrewAI-style crew gets tool access, package scripts, `.env` values, or API-backed execution scope.
 
