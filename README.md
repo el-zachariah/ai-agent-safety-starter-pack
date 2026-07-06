@@ -353,3 +353,10 @@ Teams using Dify, Flowise, or similar visual agent builders still expose real re
 
 ## Customer-specific proof examples
 - [Agent observability and eval pipeline preflight proof](docs/examples/preflight-before-agent-observability-eval-pipelines.md) - for Langfuse, Phoenix, and eval teams that need a before-run repo-scope receipt before traced agent runs.
+
+
+<!-- deadline-humanlayer-agent-approval-proof:start -->
+### HumanLayer-style agent approval preflight proof
+
+Teams using [HumanLayer](https://github.com/humanlayer/humanlayer)-style human-in-the-loop approvals for Claude Code, Codex, OpenCode, or other coding agents can now preview a concrete [HumanLayer approval preflight receipt](docs/examples/preflight-before-humanlayer-agent-approval-workflows.md) before approving shell commands, package scripts, MCP/API actions, or repo edits. It gives the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-humanlayer-agent-approval-proof:end -->

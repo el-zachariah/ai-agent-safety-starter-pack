@@ -371,3 +371,17 @@ class RooCodeAgentTeamProofTests(unittest.TestCase):
         self.assertIn("agent-preflight-roo-code", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
 
+class HumanLayerAgentApprovalProofTests(unittest.TestCase):
+    def test_humanlayer_agent_approval_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-humanlayer-agent-approval-workflows.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-humanlayer-agent-approval-workflows.md", readme)
+        self.assertIn("HumanLayer-style agent approval preflight proof", index)
+        self.assertIn("humanlayer/humanlayer", proof_text)
+        self.assertIn("human-in-the-loop", proof_text)
+        self.assertIn("agent-preflight-humanlayer", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
