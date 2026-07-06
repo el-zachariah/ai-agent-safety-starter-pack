@@ -415,3 +415,8 @@ Marker: `AIDER_LOCAL_AI_PAIR_PROGRAMMING_PROOF`
 Teams using [Codebuff](https://github.com/CodebuffAI/codebuff)-style terminal coding agents can now preview a concrete [Codebuff preflight receipt](docs/examples/preflight-before-codebuff-terminal-agents.md) before buying. It shows what to paste before the agent edits files, runs tests/package scripts, touches workflow files, or operates near credentials; `CODEBUFF_TERMINAL_AGENT_PROOF` marks the proof and the Yellow/Red trigger points to the $7 pack.
 <!-- deadline-codebuff-terminal-agent-proof:end -->
 
+## Plandex AI coding-agent proof
+
+- [Plandex AI coding-agent preflight proof](docs/examples/preflight-before-plandex-ai-coding-agents.md) shows a concrete Green / Yellow / Red gate for teams using `plandex-ai/plandex`-style planning/editing agents before repo writes, shell commands, package scripts, MCP/tool config, or secret-adjacent files enter scope.
+- Buy trigger stays honest: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when you need reusable hooks, reviewer prompts, and receipts before letting the agent run.
+
