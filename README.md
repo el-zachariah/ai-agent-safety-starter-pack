@@ -14,6 +14,9 @@
 
 <!-- live-distribution-proof -->
 ## Live buyer proof
+<!-- deadline-dspy-llm-programs-proof:start -->
+- [DSPy LLM program/eval preflight proof](docs/examples/preflight-before-dspy-llm-programs.md) — for `stanfordnlp/dspy` teams before optimizers, eval scripts, notebooks, tool wrappers, package scripts, provider keys, datasets, or deployment config enter an LLM-program run; `DSPY_LLM_PROGRAM_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-dspy-llm-programs-proof:end -->
 <!-- deadline-playwright-mcp-browser-agent-proof:start -->
 - [Playwright MCP browser-agent preflight proof](docs/examples/preflight-before-playwright-mcp-browser-agents.md) — for Playwright MCP browser-agent teams using `microsoft/playwright-mcp` before real browser sessions, logged-in apps, localhost services, forms, admin surfaces, package scripts, or secret-adjacent config enter scope; `PLAYWRIGHT_MCP_BROWSER_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-playwright-mcp-browser-agent-proof:end -->
