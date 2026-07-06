@@ -18,7 +18,7 @@ AGENT_FILE_NAMES = {
     "AGENTS.md",
     "CLAUDE.md",
     "copilot-instructions.md",
-    ".cursorrules",
+    ".cursorrules", ".openhands/",
     ".amazonq",
     ".clineignore",
     ".clinerules",

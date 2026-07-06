@@ -456,3 +456,7 @@ Teams using [`langchain-ai/langchain`](https://github.com/langchain-ai/langchain
 
 - [Microsoft AutoGen multi-agent preflight proof](docs/examples/preflight-before-microsoft-autogen-multi-agent-workflows.md) — a copy-paste receipt for teams that are about to let Microsoft AutoGen or similar agent workflows read repo context, call tools, run package scripts, or touch secret-adjacent config. If the scan is Yellow/Red, [buy the $7 pack](https://payhip.com/b/1nmxV) before the first autonomous run.
 
+
+### OpenHands autonomous-agent proof
+
+Teams using `OpenHands/OpenHands` can use the new proof page before an agent run gets repository context, shell commands, workflow/package files, or secret-adjacent config: [`Preflight before OpenHands autonomous software-agent runs`](docs/examples/preflight-before-openhands-autonomous-software-agents.md). If the lite scan is Yellow/Red, the paid $7 checklist bundle is the upgrade trigger: https://payhip.com/b/1nmxV
