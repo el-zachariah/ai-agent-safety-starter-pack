@@ -386,3 +386,9 @@ Teams using [Vercel AI SDK](https://github.com/vercel/ai)-style TypeScript/Next.
 ### Named buyer proof: OpenHands autonomous SWE agents
 
 - [OpenHands autonomous SWE agents](docs/examples/preflight-before-openhands-autonomous-swe-agents.md) — a public proof for teams letting OpenHands clone, edit, run shell/package scripts, browse, or use API-backed tools inside real repos, with a Green / Yellow / Red receipt and explicit `$7` buy trigger only when the free scan shows real risk.
+
+### Preflight before Aider local AI pair-programming (Aider local AI pair-programming teams)
+
+Aider-style local pair-programming is a strong first-buyer fit because the assistant works in a real checkout before edits, tests, package scripts, or secret-adjacent files may be touched. New proof page: [`docs/examples/preflight-before-aider-local-ai-pair-programming.md`](docs/examples/preflight-before-aider-local-ai-pair-programming.md). Buy trigger: if the free scanner reports **Yellow/Red**, use the $7 pack before the next Aider run: https://payhip.com/b/1nmxV.
+
+Marker: `AIDER_LOCAL_AI_PAIR_PROGRAMMING_PROOF`
