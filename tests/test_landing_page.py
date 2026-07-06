@@ -400,3 +400,16 @@ class VercelAiSdkAgentProofTests(unittest.TestCase):
         self.assertIn("preview/deploy settings", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
 
+
+class AgentClientProtocolAgentProofTests(unittest.TestCase):
+    def test_agent_client_protocol_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-agent-client-protocol-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-agent-client-protocol-agents.md", readme)
+        self.assertIn("Agent Client Protocol agent preflight proof", index)
+        self.assertIn("agentclientprotocol/agent-client-protocol", proof_text)
+        self.assertIn("ACP agent preflight receipt", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)

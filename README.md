@@ -149,6 +149,12 @@ Teams using PR-Agent or similar PR review bots can preview a concrete [PR-Agent 
 <!-- deadline-pr-agent-review-bot-proof:end -->
 
 
+<!-- deadline-acp-agent-proof:start -->
+### Agent Client Protocol (ACP) agent preflight proof
+
+Teams testing `agentclientprotocol/agent-client-protocol` or ACP-compatible editor agents can preview a concrete [ACP agent preflight receipt](docs/examples/preflight-before-agent-client-protocol-agents.md) before a client hands repo context, package scripts, MCP/editor config, or shell access to a coding agent.
+<!-- deadline-acp-agent-proof:end -->
+
 ## Full bundle
 
 The `$7` Payhip bundle includes:
