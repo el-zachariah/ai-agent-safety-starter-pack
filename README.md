@@ -70,6 +70,12 @@ It is intentionally lightweight. It is **not** a sandbox, malware scanner, secre
 
 Marketplace reviewers and Claude Code users can inspect or install the free native plugin source at [`.claude-plugin/`](.claude-plugin/README.md). It packages the `/agent-preflight` command without direct paid-link spam, so third-party plugin directories can review the safety workflow from the public source repo first.
 
+<!-- deadline-voltagent-typescript-agent-workflows-proof:start -->
+### VoltAgent agent workflow preflight proof
+
+Teams using [VoltAgent](https://github.com/VoltAgent/voltagent)-style agent workflows can now preview a concrete [VoltAgent preflight receipt](docs/examples/preflight-before-voltagent-typescript-agent-workflows.md) before buying. It shows what to paste into the task, issue, or PR before the agent receives write, shell, MCP/tool, browser, or credential-adjacent scope; only Yellow/Red receipts point to the `$7` Payhip bundle.
+<!-- deadline-voltagent-typescript-agent-workflows-proof:end -->
+
 ## Quick start
 
 ```bash
