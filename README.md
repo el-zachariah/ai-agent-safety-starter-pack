@@ -4,6 +4,7 @@
 ## Live buyer proof
 - [Open Interpreter local code-agent preflight proof](docs/examples/preflight-before-open-interpreter-local-agents.md) — for teams letting a local interpreter read repos, run shell/Python/package commands, or work near `.env`/API/browser scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [OpenAI Agents SDK tool-agent preflight proof](docs/examples/preflight-before-openai-agents-sdk.md) — for teams connecting tool calls, MCP servers, package scripts, or API-backed actions before granting repo scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+- [Vercel AI SDK agent preflight proof](docs/examples/preflight-before-vercel-ai-sdk-agents.md) — for Next.js / AI SDK teams before tool calls, route handlers, server actions, package scripts, `.env`, or preview/deploy settings enter agent scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Bolt-style browser app builder preflight proof](docs/examples/preflight-before-bolt-browser-app-builders.md) — for teams using `stackblitz-labs/bolt.diy`, Bolt.new-style builders, or hosted browser agents before package scripts, `.env`, preview/deploy config, or generated shell commands run; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 
 - [Claude Code plugin marketplace install proof](docs/examples/preflight-before-claude-code-plugin-marketplace.md) — for Superpowers Marketplace, Tons of Skills, Build with Claude, and other plugin-marketplace users deciding whether to buy before installing commands/hooks/skills into a real repo.
@@ -360,3 +361,9 @@ Teams using Dify, Flowise, or similar visual agent builders still expose real re
 
 Teams using [HumanLayer](https://github.com/humanlayer/humanlayer)-style human-in-the-loop approvals for Claude Code, Codex, OpenCode, or other coding agents can now preview a concrete [HumanLayer approval preflight receipt](docs/examples/preflight-before-humanlayer-agent-approval-workflows.md) before approving shell commands, package scripts, MCP/API actions, or repo edits. It gives the Yellow/Red trigger for the $7 workflow bundle.
 <!-- deadline-humanlayer-agent-approval-proof:end -->
+
+<!-- deadline-vercel-ai-sdk-proof:start -->
+### Vercel AI SDK tool-calling agent preflight proof
+
+Teams using [Vercel AI SDK](https://github.com/vercel/ai)-style TypeScript/Next.js agents can now preview a concrete [Vercel AI SDK preflight receipt](docs/examples/preflight-before-vercel-ai-sdk-agents.md) before buying. It shows what to check before tool calls, route handlers, server actions, package scripts, `.env`, MCP/API connectors, or preview/deploy settings enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-vercel-ai-sdk-proof:end -->

@@ -385,3 +385,18 @@ class HumanLayerAgentApprovalProofTests(unittest.TestCase):
         self.assertIn("agent-preflight-humanlayer", proof_text)
         self.assertIn("https://payhip.com/b/1nmxV", proof_text)
 
+
+class VercelAiSdkAgentProofTests(unittest.TestCase):
+    def test_vercel_ai_sdk_agent_proof_is_linked(self):
+        proof = ROOT / "docs/examples/preflight-before-vercel-ai-sdk-agents.md"
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = LANDING.read_text(encoding="utf-8")
+        proof_text = proof.read_text(encoding="utf-8")
+
+        self.assertIn("preflight-before-vercel-ai-sdk-agents.md", readme)
+        self.assertIn("Vercel AI SDK tool-calling agent preflight proof", index)
+        self.assertIn("vercel/ai", proof_text)
+        self.assertIn("agent-preflight-vercel-ai-sdk", proof_text)
+        self.assertIn("preview/deploy settings", proof_text)
+        self.assertIn("https://payhip.com/b/1nmxV", proof_text)
+
