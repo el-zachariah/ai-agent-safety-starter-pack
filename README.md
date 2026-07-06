@@ -12,6 +12,10 @@
 
 - [Stagehand browser-agent workflow preflight proof](docs/examples/preflight-before-stagehand-browser-agent-workflows.md) — for teams using `browserbase/stagehand` / Stagehand-style browser agents before authenticated sessions, forms, localhost apps, admin surfaces, package scripts, MCP/API tools, or secret-adjacent config enter scope; `STAGEHAND_BROWSER_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 # AI Agent Safety Starter Pack — free lite preflight
+<!-- deadline-anythingllm-agent-workspaces-proof:start -->
+- [AnythingLLM agent workspace preflight proof](docs/examples/preflight-before-anythingllm-agent-workspaces.md) — for teams using `Mintplex-Labs/anything-llm` before agent workflows, connectors, vector-store docs, custom code/function nodes, webhooks, package scripts, deploy config, or secret-adjacent values enter scope; `ANYTHINGLLM_AGENT_WORKSPACE_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-anythingllm-agent-workspaces-proof:end -->
+
 
 <!-- deadline-camel-ai-multi-agent-proof:start -->
 - [CAMEL-AI multi-agent workflow preflight proof](docs/examples/preflight-before-camel-ai-multi-agent-workflows.md) — for teams using CAMEL-AI/CAMEL-style multi-agent workflows before agents, tools, package scripts, repo files, or secret-adjacent env values enter scope; `CAMEL_AI_MULTI_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
