@@ -1,3 +1,7 @@
+<!-- deadline-mcp-agent-app-workflows-proof:start -->
+- [MCP Agent app workflow preflight proof](docs/examples/preflight-before-mcp-agent-app-workflows.md) — for `lastmile-ai/mcp-agent` teams before MCP/API tools, package scripts, workflow files, filesystem access, model/provider env values, or deployment config enter an agent run; `MCP_AGENT_APP_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-mcp-agent-app-workflows-proof:end -->
+
 <!-- deadline-qdrant-vector-rag-agent-workflows:start -->
 - [Qdrant vector/RAG agent workflow preflight proof](docs/examples/preflight-before-qdrant-vector-rag-agent-workflows.md) — for `qdrant/qdrant` teams before vector-memory/RAG agents, collection writes, embedding pipelines, API keys, package scripts, Docker/deploy files, webhooks, or repo context enter an agent run; `QDRANT_VECTOR_RAG_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-qdrant-vector-rag-agent-workflows:end -->
