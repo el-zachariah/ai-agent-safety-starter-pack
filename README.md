@@ -484,3 +484,6 @@ Teams using `OpenHands/OpenHands` can use the new proof page before an agent run
 
 - [smolagents tool-calling preflight proof](docs/examples/preflight-before-smolagents-tool-calling-agents.md) ties the free scanner and the paid $7 preflight bundle to `huggingface/smolagents` users before `tools.py`, `managed agents`, `API/tool credentials` enter an agent run. Buy trigger stays honest: use the paid pack only when the free scan is Yellow/Red and a copy-paste hook + review receipt is needed today.
 
+
+### Segment-specific proof examples
+- LiveKit realtime agent teams: [preflight room/session credentials, worker code, and tool-call prompts before agent changes](docs/examples/preflight-before-livekit-realtime-agents.md).
