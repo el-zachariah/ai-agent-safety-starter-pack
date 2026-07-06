@@ -278,6 +278,8 @@ If your first buyer path is an OpenHands / Devin-style autonomous repo-agent wor
 - [MCP server repo preflight proof](docs/examples/preflight-before-mcp-server-repos.md) — for MCP server maintainers and buyers checking launch commands, secrets, Docker/package scripts, and client configs before attaching the server to Claude Code/Cursor/Codex.
 - [CrewAI multi-agent workflow preflight proof](docs/examples/preflight-before-crewai-multi-agent-workflows.md) — for teams running multi-agent crews with local tools, package scripts, `.env` values, API calls, or write-capable workflows.
 <!-- deadline-claude-action-ci-proof:start -->
+- **Semantic Kernel multi-agent proof:** [Preflight before Semantic Kernel multi-agent runs](docs/examples/preflight-before-semantic-kernel-multi-agent-runs.md) shows the exact free preflight receipt and the Yellow/Red paid-upgrade trigger for teams composing Semantic Kernel planners, tools, memories, and agent handoffs before the first autonomous repository run.
+
 ## Named workflow: preflight before Claude Code GitHub Action CI runs
 
 Using `anthropics/claude-code-action` or similar issue/PR-triggered coding automation? Run the free local preflight before granting workflow secrets, write permissions, or shell command scope: [Preflight before Claude Code GitHub Action CI runs](docs/examples/preflight-before-claude-code-action-ci.md).
