@@ -487,3 +487,10 @@ Teams using `OpenHands/OpenHands` can use the new proof page before an agent run
 
 ### Segment-specific proof examples
 - LiveKit realtime agent teams: [preflight room/session credentials, worker code, and tool-call prompts before agent changes](docs/examples/preflight-before-livekit-realtime-agents.md).
+
+## AutoGPT agent platform preflight proof
+
+Teams using [`Significant-Gravitas/AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) or AutoGPT-style autonomous workflows can now use the named [AutoGPT agent platform preflight proof](docs/examples/preflight-before-autogpt-agent-platform.md) before repository context, tool/API connectors, package scripts, browser/API actions, workflow files, or secret-adjacent configuration enter scope. Green means skip the paid pack; Yellow/Red means the $7 bundle at https://payhip.com/b/1nmxV adds repeatable hooks, reviewer prompts, rollback checklists, and handoff receipts.
+
+Marker: `AUTOGPT_AGENT_PLATFORM_PROOF`
+
