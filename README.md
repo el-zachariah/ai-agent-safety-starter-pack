@@ -460,3 +460,8 @@ Teams using [`langchain-ai/langchain`](https://github.com/langchain-ai/langchain
 ### OpenHands autonomous-agent proof
 
 Teams using `OpenHands/OpenHands` can use the new proof page before an agent run gets repository context, shell commands, workflow/package files, or secret-adjacent config: [`Preflight before OpenHands autonomous software-agent runs`](docs/examples/preflight-before-openhands-autonomous-software-agents.md). If the lite scan is Yellow/Red, the paid $7 checklist bundle is the upgrade trigger: https://payhip.com/b/1nmxV
+
+### Named buyer proof: smolagents tool-calling agent workflows
+
+- [smolagents tool-calling preflight proof](docs/examples/preflight-before-smolagents-tool-calling-agents.md) ties the free scanner and the paid $7 preflight bundle to `huggingface/smolagents` users before `tools.py`, `managed agents`, `API/tool credentials` enter an agent run. Buy trigger stays honest: use the paid pack only when the free scan is Yellow/Red and a copy-paste hook + review receipt is needed today.
+
