@@ -380,3 +380,8 @@ Teams using [HumanLayer](https://github.com/humanlayer/humanlayer)-style human-i
 
 Teams using [Vercel AI SDK](https://github.com/vercel/ai)-style TypeScript/Next.js agents can now preview a concrete [Vercel AI SDK preflight receipt](docs/examples/preflight-before-vercel-ai-sdk-agents.md) before buying. It shows what to check before tool calls, route handlers, server actions, package scripts, `.env`, MCP/API connectors, or preview/deploy settings enter an agent run, plus the Yellow/Red trigger for the $7 workflow bundle.
 <!-- deadline-vercel-ai-sdk-proof:end -->
+
+
+### Named buyer proof: OpenHands autonomous SWE agents
+
+- [OpenHands autonomous SWE agents](docs/examples/preflight-before-openhands-autonomous-swe-agents.md) — a public proof for teams letting OpenHands clone, edit, run shell/package scripts, browse, or use API-backed tools inside real repos, with a Green / Yellow / Red receipt and explicit `$7` buy trigger only when the free scan shows real risk.
