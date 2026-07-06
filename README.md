@@ -18,6 +18,9 @@
 - [Mastra TypeScript agent framework preflight proof](docs/examples/preflight-before-mastra-typescript-agent-frameworks.md) — for `mastra-ai/mastra` / teams building TypeScript agents, workflows, RAG, tool calls, evals, and deployable agent services with Mastra before workflow files, tool/API connectors, RAG/vector settings, package scripts, deployment env, and secret-adjacent config enter scope; `MASTRA_TYPESCRIPT_AGENT_FRAMEWORK_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-mastra-typescript-agent-proof:end -->
 ## Live buyer proof
+<!-- deadline-google-adk-agents-proof:start -->
+- [Google ADK agent workflow preflight proof](docs/examples/preflight-before-google-adk-agents.md) — for teams using Google Agent Development Kit / `google/adk-python` before handing repo files, tool calls, package scripts, deployment config, or `.env` scope to an agent run; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-google-adk-agents-proof:end -->
 <!-- deadline-copilotkit-in-app-ai-copilots-proof:start -->
 - [CopilotKit in-app AI copilot preflight proof](docs/examples/preflight-before-copilotkit-in-app-ai-copilots.md) — for `CopilotKit/CopilotKit` / teams using CopilotKit to wire in-app AI copilots, frontend actions, API-backed tools, and agentic product workflows before frontend action handlers, API routes, auth/session scope, vector/knowledge connectors, deployment env, package scripts, and secret-adjacent config enter scope; `COPILOTKIT_IN_APP_AI_COPILOT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-copilotkit-in-app-ai-copilots-proof:end -->
