@@ -2,6 +2,7 @@
 
 <!-- live-distribution-proof -->
 ## Live buyer proof
+- [Zed Agent Panel preflight proof](docs/examples/preflight-before-zed-agent-panel-workflows.md) — for teams using `zed-industries/zed`, Zed Agent Panel, or editor-native AI workflows before repo edits, package scripts, MCP connectors, shell commands, or secret-adjacent files enter scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [BMAD agent workflow preflight proof](docs/examples/preflight-before-bmad-agent-workflows.md) — for teams using `bmad-code-org/BMAD-METHOD` or BMAD-style analyst/PM/architect/dev/QA agents before generated stories, package scripts, or repo edits enter an agent run; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Open Interpreter local code-agent preflight proof](docs/examples/preflight-before-open-interpreter-local-agents.md) — for teams letting a local interpreter read repos, run shell/Python/package commands, or work near `.env`/API/browser scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [OpenAI Agents SDK tool-agent preflight proof](docs/examples/preflight-before-openai-agents-sdk.md) — for teams connecting tool calls, MCP servers, package scripts, or API-backed actions before granting repo scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
