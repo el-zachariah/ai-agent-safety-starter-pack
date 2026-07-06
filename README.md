@@ -594,3 +594,4 @@ I added a named proof for [`pipecat-ai/pipecat`](https://github.com/pipecat-ai/p
 
 Named buyer proofs that make the live $5 Payhip upgrade decision concrete for specific agent teams.
 - [Letta stateful-agent memory teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-letta-stateful-agent-memory.md) — named proof for `letta-ai/letta`-style workflows; buy the $5 pack when the receipt turns Yellow/Red.
+- [Mem0 agent-memory workflow teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-mem0-agent-memory-workflows.md) — named proof for `mem0ai/mem0`-style workflows; buy the $7 pack when the receipt turns Yellow/Red.
