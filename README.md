@@ -279,6 +279,7 @@ If your first buyer path is an OpenHands / Devin-style autonomous repo-agent wor
 - [CrewAI multi-agent workflow preflight proof](docs/examples/preflight-before-crewai-multi-agent-workflows.md) — for teams running multi-agent crews with local tools, package scripts, `.env` values, API calls, or write-capable workflows.
 <!-- deadline-claude-action-ci-proof:start -->
 - **Semantic Kernel multi-agent proof:** [Preflight before Semantic Kernel multi-agent runs](docs/examples/preflight-before-semantic-kernel-multi-agent-runs.md) shows the exact free preflight receipt and the Yellow/Red paid-upgrade trigger for teams composing Semantic Kernel planners, tools, memories, and agent handoffs before the first autonomous repository run.
+- **Magentic-UI multi-agent web assistant proof:** [Preflight before Magentic-UI multi-agent web assistant runs](docs/examples/preflight-before-magentic-ui-multi-agent-web-assistants.md) gives this named segment a concrete local preflight receipt and Yellow/Red paid-upgrade trigger for teams running Magentic-UI browser/file/code agents before web tasks, generated code, tool calls, or repo context touch a real project.
 
 ## Named workflow: preflight before Claude Code GitHub Action CI runs
 
