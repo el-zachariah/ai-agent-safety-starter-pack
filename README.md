@@ -8,6 +8,7 @@
 <!-- live-distribution-proof -->
 ## Live buyer proof
 
+- [Crush terminal coding-agent preflight proof](docs/examples/preflight-before-crush-terminal-agents.md) — for `charmbracelet/crush` / Crush-style terminal agent users before repo edits, package scripts, shell commands, workflow files, or secret-adjacent paths enter the task; `CRUSH_TERMINAL_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Cline VS Code agent preflight proof](docs/examples/preflight-before-cline-vscode-autonomous-agents.md) — for `cline/cline` / Cline-style VS Code autonomous-agent users deciding whether to buy before granting repo, terminal, MCP/tool, browser, or `.env` scope.
 
 ## Live buyer proof
