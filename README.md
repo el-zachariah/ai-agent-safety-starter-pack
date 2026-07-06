@@ -567,3 +567,7 @@ Using `musistudio/claude-code-router`-style terminal coding-agent workflows? Rea
 ### MCP TypeScript SDK server proof: preflight before terminal-agent edits
 
 Using `modelcontextprotocol/typescript-sdk`-style terminal coding-agent workflows? Read the [MCP TypeScript SDK server preflight proof](docs/examples/preflight-before-mcp-typescript-sdk-servers.md) before checkout. It shows the free Green/Yellow/Red scan, the exact handoff receipt, and the moment to buy the $7 pack only when the result is Yellow/Red.
+
+### MCP Python SDK server proof: preflight before terminal-agent edits
+
+Using `modelcontextprotocol/python-sdk`-style terminal coding-agent workflows? Read the [MCP Python SDK server preflight proof](docs/examples/preflight-before-mcp-python-sdk-servers.md) before checkout. It shows the free Green/Yellow/Red scan, the exact handoff receipt, and the moment to buy the $7 pack only when the result is Yellow/Red.
