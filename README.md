@@ -604,3 +604,8 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 - [Letta stateful-agent memory teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-letta-stateful-agent-memory.md) — named proof for `letta-ai/letta`-style workflows; buy the $5 pack when the receipt turns Yellow/Red.
 - [Mem0 agent-memory workflow teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-mem0-agent-memory-workflows.md) — named proof for `mem0ai/mem0`-style workflows; buy the $7 pack when the receipt turns Yellow/Red.
 - [Julep long-running agent workflow teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-julep-long-running-agent-workflows.md) — named proof for `julep-ai/julep`-style workflows; buy the $7 pack when the receipt turns Yellow/Red.
+
+## Named proof: Guardrails LLM validation workflows
+
+- [Preflight before Guardrails LLM validation workflows](docs/examples/preflight-before-guardrails-llm-validation-workflows.md) (`guardrails-llm-validation-workflows-proof`) shows guardrails-ai/guardrails teams when to run the free scan and when the $7 Payhip pack is worth buying for a Yellow/Red agent-workflow preflight.
+
