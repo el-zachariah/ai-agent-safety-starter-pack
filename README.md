@@ -523,3 +523,5 @@ Marker: `AUTOGPT_AGENT_PLATFORM_PROOF`
 ### LiteLLM agent gateway proof
 
 - [Preflight before LiteLLM agent gateway runs](docs/examples/preflight-before-litellm-agent-gateway.md) — a named proof for teams using `BerriAI/litellm` as a proxy/gateway before agent tasks touch provider routing, budgets, Docker/workflow files, package scripts, or secret-adjacent config. Yellow/Red receipt = use the paid `${7}` checklist bundle: https://payhip.com/b/1nmxV
+
+- [Firebase Genkit AI flows preflight](docs/examples/preflight-before-firebase-genkit-ai-flows.md) — for `genkit-ai/genkit` teams changing flows, tools, schemas, provider config, or eval gates; buy only when the scan is Yellow/Red.
