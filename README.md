@@ -552,3 +552,6 @@ Marker: `AUTOGPT_AGENT_PLATFORM_PROOF`
 - [AgentOps observability/eval preflight proof](docs/examples/preflight-before-agentops-observability-eval-workflows.md) gives `AgentOps-AI/agentops`-style teams a concrete preflight receipt before agent observability/eval runs, visual flows, RAG tools, package scripts, workflow files, MCP/API connectors, or secret-adjacent config enter scope.
 - Buy trigger stays honest: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when reusable hooks, reviewer prompts, and handoff receipts are needed before the agent runs.
 
+
+## Free customer proof examples
+- [Langfuse observability/eval pipeline preflight proof](docs/examples/preflight-before-langfuse-observability-eval-workflows.md) — for teams protecting traces, prompt/eval datasets, scoring scripts, and deployment hooks before repo agents mutate Langfuse workflows. Buy the $7 starter pack when you need the ready-to-send review/handoff templates: https://payhip.com/b/1nmxV
