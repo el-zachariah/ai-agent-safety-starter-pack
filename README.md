@@ -528,3 +528,9 @@ Marker: `AUTOGPT_AGENT_PLATFORM_PROOF`
 - [Preflight before LiteLLM agent gateway runs](docs/examples/preflight-before-litellm-agent-gateway.md) — a named proof for teams using `BerriAI/litellm` as a proxy/gateway before agent tasks touch provider routing, budgets, Docker/workflow files, package scripts, or secret-adjacent config. Yellow/Red receipt = use the paid `${7}` checklist bundle: https://payhip.com/b/1nmxV
 
 - [Firebase Genkit AI flows preflight](docs/examples/preflight-before-firebase-genkit-ai-flows.md) — for `genkit-ai/genkit` teams changing flows, tools, schemas, provider config, or eval gates; buy only when the scan is Yellow/Red.
+
+## AgentOps observability/eval workflow teams proof
+
+- [AgentOps observability/eval preflight proof](docs/examples/preflight-before-agentops-observability-eval-workflows.md) gives `AgentOps-AI/agentops`-style teams a concrete preflight receipt before agent observability/eval runs, visual flows, RAG tools, package scripts, workflow files, MCP/API connectors, or secret-adjacent config enter scope.
+- Buy trigger stays honest: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when reusable hooks, reviewer prompts, and handoff receipts are needed before the agent runs.
+
