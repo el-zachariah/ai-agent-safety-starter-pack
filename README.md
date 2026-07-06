@@ -5,6 +5,10 @@
 - [Agentic Radar security-scan preflight proof](docs/examples/preflight-before-agentic-radar-security-scans.md) — for teams evaluating `splx-ai/agentic-radar` or similar agentic-workflow security scanners before repo/package/MCP/API scope enters an agent run; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-agentic-radar-security-proof:end -->
 
+<!-- deadline-jetbrains-koog-jvm-agent-proof:start -->
+- [JetBrains Koog JVM/Kotlin agent preflight proof](docs/examples/preflight-before-jetbrains-koog-jvm-agents.md) — for teams using `JetBrains/koog`-style Koog JVM/Kotlin agents before Gradle/Maven scripts, CI workflows, API/tool connectors, deployment config, generated edits, or secret-adjacent env values enter an agent run; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-jetbrains-koog-jvm-agent-proof:end -->
+
 <!-- live-distribution-proof -->
 ## Live buyer proof
 <!-- deadline-mistral-vibe-proof:start -->
