@@ -609,3 +609,7 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 
 - [Preflight before Guardrails LLM validation workflows](docs/examples/preflight-before-guardrails-llm-validation-workflows.md) (`guardrails-llm-validation-workflows-proof`) shows guardrails-ai/guardrails teams when to run the free scan and when the $7 Payhip pack is worth buying for a Yellow/Red agent-workflow preflight.
 
+
+
+## Named buyer proof examples
+- [LangGraph stateful agent preflight](docs/examples/preflight-before-langgraph-stateful-agent-workflows.md) — a named Green/Yellow/Red receipt example for `langchain-ai/langgraph` users deciding whether the $7 pack is needed before agent tools touch real repos.
