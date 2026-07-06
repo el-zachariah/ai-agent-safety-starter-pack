@@ -590,3 +590,7 @@ I added a named proof for [`pipecat-ai/pipecat`](https://github.com/pipecat-ai/p
 - Buy trigger: Yellow/Red scans involving LLM/STT/TTS keys, transport adapters, deployment scripts, .env-adjacent files, and package scripts should use the paid pack: https://payhip.com/b/1nmxV
 <!-- buyer-proof-pipecat-voice-agent-workflows-end -->
 
+## Segment proof library
+
+Named buyer proofs that make the live $5 Payhip upgrade decision concrete for specific agent teams.
+- [Letta stateful-agent memory teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-letta-stateful-agent-memory.md) — named proof for `letta-ai/letta`-style workflows; buy the $5 pack when the receipt turns Yellow/Red.
