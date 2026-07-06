@@ -1,5 +1,8 @@
 # AI Agent Safety Starter Pack — free lite preflight
 
+<!-- deadline-camel-ai-multi-agent-proof:start -->
+- [CAMEL-AI multi-agent workflow preflight proof](docs/examples/preflight-before-camel-ai-multi-agent-workflows.md) — for teams using CAMEL-AI/CAMEL-style multi-agent workflows before agents, tools, package scripts, repo files, or secret-adjacent env values enter scope; `CAMEL_AI_MULTI_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-camel-ai-multi-agent-proof:end -->
 - [Tabby self-hosted coding assistant preflight proof](docs/examples/preflight-before-tabby-self-hosted-coding-assistant.md) — for teams using `TabbyML/tabby` or similar self-hosted coding assistants before indexing private repos, exposing package scripts, CI workflows, or secret-adjacent files; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-agentic-radar-security-proof:start -->
 - [Agentic Radar security-scan preflight proof](docs/examples/preflight-before-agentic-radar-security-scans.md) — for teams evaluating `splx-ai/agentic-radar` or similar agentic-workflow security scanners before repo/package/MCP/API scope enters an agent run; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
