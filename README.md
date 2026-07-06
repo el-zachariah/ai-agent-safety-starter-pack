@@ -7,6 +7,7 @@
 
 <!-- live-distribution-proof -->
 ## Live buyer proof
+- [Agno agent framework preflight proof](docs/examples/preflight-before-agno-agent-frameworks.md) — for teams using `agno-agi/agno` or Agno-style agent frameworks before agents, tools, MCP/API connectors, package scripts, or secret-adjacent env values enter scope; `AGNO_AGENT_FRAMEWORK_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Kilo Code agentic engineering preflight proof](docs/examples/preflight-before-kilo-code-agentic-engineering.md) — for teams using `Kilo-Org/kilocode` or similar VS Code agentic-engineering extensions before workspace context, terminal commands, MCP/tool servers, package scripts, or secret-adjacent files enter scope; `KILO_CODE_AGENTIC_ENGINEERING_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Cloudflare Workers AI Agents preflight proof](docs/examples/preflight-before-cloudflare-workers-agents.md) — for teams using `cloudflare/agents`, Workers AI, Durable Objects, or `wrangler` deploy flows before package scripts, `.dev.vars`, API-backed tools, or shell commands enter scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Zed Agent Panel preflight proof](docs/examples/preflight-before-zed-agent-panel-workflows.md) — for teams using `zed-industries/zed`, Zed Agent Panel, or editor-native AI workflows before repo edits, package scripts, MCP connectors, shell commands, or secret-adjacent files enter scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
