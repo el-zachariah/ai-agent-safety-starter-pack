@@ -1,39 +1,33 @@
-# Preflight before CrewAI-style multi-agent workflows
+# CrewAI multi-agent workflow preflight proof
 
-Use this when a repo is about to run a CrewAI-style workflow where multiple agents can call tools, read local files, invoke package scripts, or use API-backed `.env` values.
+**Named segment:** teams using CrewAI / `crewAIInc/crewAI` or CrewAI-style multi-agent workflows before they connect repo files, tools, API credentials, task runners, package scripts, or deployment workflows to autonomous crews.
 
-The goal is not to slow the team down. It is to write a short receipt before the first crew run so a human knows what the agents may read, what commands they may run, and which files stay out of scope.
+**Public target evidence captured this pulse:** `crewAIInc/crewAI` at https://github.com/crewAIInc/crewAI has 54,995 GitHub stars and was last updated `2026-07-06T09:18:41Z`. Description observed: "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.".
 
-## 5-minute receipt
+## Why this buyer should care before checkout
 
-```bash
-python3 agent_preflight_lite.py /path/to/crewai-project --json > agent-preflight-crewai.json
-python3 agent_preflight_lite.py /path/to/crewai-project > agent-preflight-crewai.md
-```
+CrewAI projects often mix agents, tools, LLM providers, and task automation in the same repository. The free scanner gives a local, shareable preflight receipt before a crew touches package scripts, `.env`-adjacent paths, workflow files, tool/MCP definitions, or deployment commands.
 
-Then review the CrewAI-specific surface the lite scanner cannot fully understand by itself:
+## 60-second local proof
 
-- `agents.yaml`, `tasks.yaml`, or equivalent crew definitions
-- custom tools under `tools/`, `src/*/tools/`, or similar folders
-- `.env`, `.env.example`, `.crewai/`, `knowledge/`, vector-store, or cache folders
-- package scripts that start crews, load secrets, scrape the web, call paid APIs, or write files
-- CI/deploy jobs that can run the same crew with broader permissions than a local test
+1. Run the free lite scanner before expanding a CrewAI task from demo data into a real repo.
+2. Attach the generated Markdown receipt to the task, issue, PR, or runbook where crew access is being authorized.
+3. Use the Green / Yellow / Red output to decide whether the free receipt is enough or whether to buy the paid starter pack for repeatable command hooks, review comments, and handoff templates.
 
-## Pasteable run note
+## Buy / skip trigger for CrewAI teams
+
+- **Green:** keep using the free scanner and paste the receipt into the CrewAI task/runbook.
+- **Yellow or Red:** buy the $7 starter pack at https://payhip.com/b/1nmxV when the repo includes checked-in agent config, package scripts, deploy workflows, tool/API connector definitions, or secret-adjacent environment paths that need a repeatable preflight command and review comment.
+
+## Copy/paste receipt example
 
 ```text
-CrewAI preflight receipt
-- Scan result: Green / Yellow / Red: <fill in>
-- Risk buckets found: <agent config, package scripts, workflows, secret-adjacent files, risky shell>
-- Crew entrypoint: <command or script>
-- Allowed before approval: read repo files, run unit tests, run the crew only against fixture/demo data
-- Must ask first: live API calls, scraping real sites, writing outside the repo, using production tokens, installing new packages, deployment
-- Must not touch: .env, credentials, payment/admin dashboards, customer data, production databases
-- Upgrade trigger: if the scan is Yellow/Red or the crew needs real tokens/tool access, use the full $7 bundle to keep the report template, destructive-command hook, and verifier with the repo.
+CrewAI workflow preflight: ran ai_agent_safety_lite.py before granting a crew repo/tool scope.
+Result: Yellow — package scripts plus workflow/API connector config detected.
+Action: require repo preflight hook + review comment before autonomous crew tasks touch the real repository.
+Paid trigger: buy the $7 pack only if this Yellow/Red receipt needs repeatable commands/templates.
 ```
 
-## Why the paid bundle helps here
+## Privacy and trust posture
 
-Multi-agent repos tend to sprawl: one YAML task can call a tool, the tool can call a package script, and the package script can touch secrets or external services. The free scanner gives the first pass. The paid bundle is useful when the scan finds enough risk that you want the reusable report template, command hook, and verification scripts instead of recreating them for every crew run.
-
-Buy the full bundle only when this receipt turns Yellow/Red: <https://payhip.com/b/1nmxV>
+The free proof stays local: no private code, secrets, API keys, or repository contents need to be sent to the seller. Buyers can verify the public source first at the GitHub repo, then use the paid pack only when they want the packaged hook/template workflow.
