@@ -574,3 +574,8 @@ Using `modelcontextprotocol/typescript-sdk`-style terminal coding-agent workflow
 ### MCP Python SDK server proof: preflight before terminal-agent edits
 
 Using `modelcontextprotocol/python-sdk`-style terminal coding-agent workflows? Read the [MCP Python SDK server preflight proof](docs/examples/preflight-before-mcp-python-sdk-servers.md) before checkout. It shows the free Green/Yellow/Red scan, the exact handoff receipt, and the moment to buy the $7 pack only when the result is Yellow/Red.
+
+## Dify agent/workflow app preflight proof
+
+Teams using [`langgenius/dify`](https://github.com/langgenius/dify) or Dify-style visual AI workflow builders can now use a named [Dify agent/workflow app preflight proof](docs/examples/preflight-before-dify-agent-workflow-apps.md) before workflows, tool/API connectors, datasets, webhooks, Docker/deploy files, or secret-adjacent env values enter scope. `DIFY_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+
