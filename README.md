@@ -513,3 +513,7 @@ Marker: `AUTOGPT_AGENT_PLATFORM_PROOF`
 ## Named customer proof examples
 
 - [PydanticAI agent-framework preflight proof](docs/examples/preflight-before-pydantic-ai-agent-frameworks.md) — Buy the $7 pack when the free scan is Yellow/Red because your PydanticAI agent can read repo context, call tools, run package scripts, or operate near secret-adjacent files.
+
+### LiteLLM agent gateway proof
+
+- [Preflight before LiteLLM agent gateway runs](docs/examples/preflight-before-litellm-agent-gateway.md) — a named proof for teams using `BerriAI/litellm` as a proxy/gateway before agent tasks touch provider routing, budgets, Docker/workflow files, package scripts, or secret-adjacent config. Yellow/Red receipt = use the paid `${7}` checklist bundle: https://payhip.com/b/1nmxV
