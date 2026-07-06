@@ -421,3 +421,8 @@ Teams using [Codebuff](https://github.com/CodebuffAI/codebuff)-style terminal co
 - [Plandex AI coding-agent preflight proof](docs/examples/preflight-before-plandex-ai-coding-agents.md) shows a concrete Green / Yellow / Red gate for teams using `plandex-ai/plandex`-style planning/editing agents before repo writes, shell commands, package scripts, MCP/tool config, or secret-adjacent files enter scope.
 - Buy trigger stays honest: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when you need reusable hooks, reviewer prompts, and receipts before letting the agent run.
 
+## OpenAI Codex CLI proof
+
+- [OpenAI Codex CLI preflight proof](docs/examples/preflight-before-openai-codex-cli.md) shows a concrete Green / Yellow / Red gate for teams using `openai/codex`-style coding agents before repo writes, shell commands, package scripts, MCP/tool config, or secret-adjacent files enter scope.
+- Buy trigger stays honest: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when you need reusable hooks, reviewer prompts, and receipts before letting the agent run.
+
