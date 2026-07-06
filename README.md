@@ -426,3 +426,6 @@ Teams using [Codebuff](https://github.com/CodebuffAI/codebuff)-style terminal co
 - [OpenAI Codex CLI preflight proof](docs/examples/preflight-before-openai-codex-cli.md) shows a concrete Green / Yellow / Red gate for teams using `openai/codex`-style coding agents before repo writes, shell commands, package scripts, MCP/tool config, or secret-adjacent files enter scope.
 - Buy trigger stays honest: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when you need reusable hooks, reviewer prompts, and receipts before letting the agent run.
 
+### Continue AI code assistant preflight proof
+
+Continue / `continuedev/continue` teams can now use the named [Continue AI code assistant preflight proof](docs/examples/preflight-before-continue-ai-code-assistant.md) before an assistant reads repo context, suggests edits, or approaches shell/package workflow files. If the receipt is Yellow/Red, the paid $7 pack gives the repeatable hook, review-comment, and handoff templates: https://payhip.com/b/1nmxV.
