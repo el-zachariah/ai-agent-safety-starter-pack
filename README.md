@@ -343,3 +343,6 @@ Teams using Dify, Flowise, or similar visual agent builders still expose real re
 
 - [n8n AI workflow preflight proof](docs/examples/preflight-before-n8n-ai-workflows.md) — for teams using self-hosted workflow automation, webhooks, credentials, custom code nodes, or low-code AI workflows before granting agent/repo/API scope. Buy the [$7 starter pack](https://payhip.com/b/1nmxV) when the scan is Yellow/Red; skip it when the workflow has no real credentials or repo access.
 
+
+## Customer-specific proof examples
+- [Agent observability and eval pipeline preflight proof](docs/examples/preflight-before-agent-observability-eval-pipelines.md) - for Langfuse, Phoenix, and eval teams that need a before-run repo-scope receipt before traced agent runs.
