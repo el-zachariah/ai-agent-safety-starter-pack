@@ -1,3 +1,7 @@
+<!-- deadline-promptfoo-llm-eval-workflows-proof:start -->
+- [Promptfoo LLM eval workflow preflight proof](docs/examples/preflight-before-promptfoo-llm-eval-workflows.md) — for teams using `promptfoo/promptfoo` before eval/red-team suites, agent tests, CI workflows, package scripts, MCP/API tools, or secret-adjacent config enter scope; `PROMPTFOO_LLM_EVAL_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-promptfoo-llm-eval-workflows-proof:end -->
+
 - [Stagehand browser-agent workflow preflight proof](docs/examples/preflight-before-stagehand-browser-agent-workflows.md) — for teams using `browserbase/stagehand` / Stagehand-style browser agents before authenticated sessions, forms, localhost apps, admin surfaces, package scripts, MCP/API tools, or secret-adjacent config enter scope; `STAGEHAND_BROWSER_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 # AI Agent Safety Starter Pack — free lite preflight
 
