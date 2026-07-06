@@ -1,5 +1,9 @@
 # AI Agent Safety Starter Pack — free lite preflight
 
+<!-- deadline-agentic-radar-security-proof:start -->
+- [Agentic Radar security-scan preflight proof](docs/examples/preflight-before-agentic-radar-security-scans.md) — for teams evaluating `splx-ai/agentic-radar` or similar agentic-workflow security scanners before repo/package/MCP/API scope enters an agent run; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-agentic-radar-security-proof:end -->
+
 <!-- live-distribution-proof -->
 ## Live buyer proof
 - [Cloudflare Workers AI Agents preflight proof](docs/examples/preflight-before-cloudflare-workers-agents.md) — for teams using `cloudflare/agents`, Workers AI, Durable Objects, or `wrangler` deploy flows before package scripts, `.dev.vars`, API-backed tools, or shell commands enter scope; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
