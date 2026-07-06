@@ -1,5 +1,7 @@
 # Microsoft AutoGen multi-agent workflow preflight proof
 
+**Proof marker:** Microsoft AutoGen multi-agent preflight proof
+
 **Named target verified:** `microsoft/autogen` is public and not archived at https://github.com/microsoft/autogen.
 
 - Stars observed: `59524`
