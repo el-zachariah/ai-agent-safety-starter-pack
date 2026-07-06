@@ -38,6 +38,9 @@
 - [Mastra TypeScript agent framework preflight proof](docs/examples/preflight-before-mastra-typescript-agent-frameworks.md) — for `mastra-ai/mastra` / teams building TypeScript agents, workflows, RAG, tool calls, evals, and deployable agent services with Mastra before workflow files, tool/API connectors, RAG/vector settings, package scripts, deployment env, and secret-adjacent config enter scope; `MASTRA_TYPESCRIPT_AGENT_FRAMEWORK_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-mastra-typescript-agent-proof:end -->
 ## Live buyer proof
+<!-- deadline-task-master-ai-project-agent-proof:start -->
+- [Task Master AI project-agent preflight proof](docs/examples/preflight-before-task-master-ai-project-agents.md) — for teams using `eyaltoledano/claude-task-master` / Task Master AI before generated PRD/task files, `.taskmaster/` state, package scripts, agent instructions, MCP/tool config, or secret-adjacent files enter a Claude Code/Cursor/Codex task run; `TASK_MASTER_AI_PROJECT_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-task-master-ai-project-agent-proof:end -->
 <!-- deadline-google-adk-agents-proof:start -->
 - [Google ADK agent workflow preflight proof](docs/examples/preflight-before-google-adk-agents.md) — for teams using Google Agent Development Kit / `google/adk-python` before handing repo files, tool calls, package scripts, deployment config, or `.env` scope to an agent run; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-google-adk-agents-proof:end -->
