@@ -10,6 +10,7 @@
 - [Replit Agent workspace preflight proof](docs/examples/preflight-before-replit-agent-workspaces.md) — for hosted workspace users checking `.replit`, `replit.nix`, package scripts, secrets, and deploy/run commands before letting an agent act.
 
 Before paying, verify the public distribution trail and buyer-specific trust evidence: [Live distribution proof](docs/live-distribution-proof.md). It links the open directory/marketplace PRs, free repo, support page, and the paid Payhip bundle so a first buyer can check that this is a real maintained offer rather than a cold checkout page.
+- [Skills-curated marketplace reviewer preflight proof](docs/examples/preflight-before-skills-curated-marketplace-review.md) — for high-trust Claude Code plugin/skill marketplace reviewers checking `.claude-plugin/`, commands, hooks, package scripts, MCP settings, or secret-adjacent files before users install; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- /live-distribution-proof -->
 
 

@@ -96,6 +96,7 @@ def is_agent_related(path: Path) -> bool:
         path.name in AGENT_FILE_NAMES
         or ".cursor" in parts
         or ".claude" in parts
+        or ".claude-plugin" in parts
         or ".continue" in parts
         or ".devcontainer" in parts
         or (".github" in parts and path.name == "copilot-instructions.md")
