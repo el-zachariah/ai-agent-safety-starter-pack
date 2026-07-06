@@ -19,6 +19,7 @@ AGENT_FILE_NAMES = {
     "CLAUDE.md",
     "copilot-instructions.md",
     ".cursorrules",
+    ".amazonq",
     ".clineignore",
     ".clinerules",
     ".cursorignore",
@@ -102,6 +103,7 @@ def is_agent_related(path: Path) -> bool:
         or ".claude-plugin" in parts
         or ".continue" in parts
         or ".kilocode" in parts
+        or ".amazonq" in parts
         or ".devcontainer" in parts
         or (".github" in parts and path.name == "copilot-instructions.md")
         or path.match(".github/workflows/*")

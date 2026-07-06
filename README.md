@@ -8,6 +8,7 @@
 <!-- live-distribution-proof -->
 ## Live buyer proof
 
+- [Amazon Q Developer CLI preflight proof](docs/examples/preflight-before-amazon-q-developer-cli.md) — for `aws/amazon-q-developer-cli` / Amazon Q terminal-agent users before repo edits, shell commands, package/deploy scripts, or AWS credential-adjacent files enter scope; `AMAZON_Q_DEVELOPER_CLI_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Crush terminal coding-agent preflight proof](docs/examples/preflight-before-crush-terminal-agents.md) — for `charmbracelet/crush` / Crush-style terminal agent users before repo edits, package scripts, shell commands, workflow files, or secret-adjacent paths enter the task; `CRUSH_TERMINAL_AGENT_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 - [Cline VS Code agent preflight proof](docs/examples/preflight-before-cline-vscode-autonomous-agents.md) — for `cline/cline` / Cline-style VS Code autonomous-agent users deciding whether to buy before granting repo, terminal, MCP/tool, browser, or `.env` scope.
 
@@ -170,6 +171,12 @@ Teams using PR-Agent or similar PR review bots can preview a concrete [PR-Agent 
 
 Teams testing `agentclientprotocol/agent-client-protocol` or ACP-compatible editor agents can preview a concrete [ACP agent preflight receipt](docs/examples/preflight-before-agent-client-protocol-agents.md) before a client hands repo context, package scripts, MCP/editor config, or shell access to a coding agent.
 <!-- deadline-acp-agent-proof:end -->
+
+<!-- deadline-amazon-q-developer-cli-proof:start -->
+### Amazon Q Developer CLI preflight proof
+
+Teams using [`aws/amazon-q-developer-cli`](https://github.com/aws/amazon-q-developer-cli) or Amazon Q Developer CLI-style terminal agents can preview a concrete [Amazon Q preflight receipt](docs/examples/preflight-before-amazon-q-developer-cli.md) before buying. It shows what to paste before the agent edits files, runs shell commands, touches package/deploy scripts, or works near AWS credential-adjacent paths, plus the Yellow/Red trigger for the $7 workflow bundle.
+<!-- deadline-amazon-q-developer-cli-proof:end -->
 
 ## Full bundle
 
