@@ -433,3 +433,7 @@ Continue / `continuedev/continue` teams can now use the named [Continue AI code 
 ### Gemini CLI coding-agent preflight proof
 
 Gemini CLI / `google-gemini/gemini-cli` teams can now use the named [Gemini CLI coding-agent preflight proof](docs/examples/preflight-before-gemini-cli-coding-agents.md) before a terminal coding agent inspects repo context, edits files, or approaches shell/package/deploy workflows. If the receipt is Yellow/Red, the paid $7 pack gives the repeatable hook, review-comment, and handoff templates: https://payhip.com/b/1nmxV.
+
+## Haystack agent workflow preflight proof
+
+Teams using [`deepset-ai/haystack`](https://github.com/deepset-ai/haystack) or Haystack-style agent/RAG workflows can now use the named [Haystack agent workflow preflight proof](docs/examples/preflight-before-haystack-agent-workflows.md) before repo context, tool functions, package scripts, workflow files, API connectors, or secret-adjacent paths enter scope. Green means skip the paid pack; Yellow/Red means the $7 bundle at https://payhip.com/b/1nmxV adds repeatable hooks, reviewer prompts, and handoff receipts.
