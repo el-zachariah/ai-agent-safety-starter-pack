@@ -1,3 +1,8 @@
+<!-- deadline-phoenix-llm-observability-eval-workflows:start -->
+- [Phoenix LLM observability/eval workflow preflight proof](docs/examples/preflight-before-phoenix-llm-observability-eval-workflows.md) — for `Arize-ai/phoenix` teams before traces, datasets, eval jobs, prompt versions, provider keys, notebooks, package scripts, Docker files, or deployment config enter an agent/eval automation run; `PHOENIX_LLM_OBSERVABILITY_EVAL_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+
+<!-- deadline-phoenix-llm-observability-eval-workflows:end -->
+
 <!-- deadline-braintrust-eval-observability-workflows:start -->
 - [Braintrust eval/observability workflow preflight proof](docs/examples/preflight-before-braintrust-eval-observability-workflows.md) — for `braintrustdata/braintrust-sdk-javascript` teams before eval prompts, experiment logs, datasets, scorer code, trace exports, provider keys, CI workflows, package scripts, or deployment config enter an agent/eval automation run; `BRAINTRUST_EVAL_OBSERVABILITY_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-braintrust-eval-observability-workflows:end -->
