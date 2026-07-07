@@ -1,3 +1,31 @@
+# AI Agent Safety Starter Pack — free lite preflight
+
+A small public preview from **Signal Loom Works** for developers who let AI coding agents work inside local repos.
+
+AI agents are useful, but a surprising number of repos contain agent instructions, MCP/Cursor/Claude settings, shell scripts, package hooks, workflow files, and secret-adjacent files that are worth checking **before** a coding agent gets tool access.
+
+This repository includes a free lite scanner/checklist. The paid `$7` starter pack adds the full repo preflight mini, a destructive-command hook, buyer quickstart, demo risky repo, report templates, and verification scripts.
+
+**Buy the full bundle:** https://payhip.com/b/1nmxV
+
+**Trust/support before buying:** [`docs/trust-and-support.md`](docs/trust-and-support.md) explains who is behind the pack, what happens after purchase, privacy limits, the honest buy/skip rule, and the direct public-safe [buyer question / checkout help form](https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml).
+
+**Privacy before checkout:** [`docs/privacy-before-checkout.md`](docs/privacy-before-checkout.md) spells out the local-only path: run the free scan without uploading private code, keep paid ZIP verification local, and use only public-safe support details. `LOCAL_ONLY_PRIVACY_RECEIPT_2026_07_07`
+
+**After purchase:** [`docs/post-purchase-verification.md`](docs/post-purchase-verification.md) gives a 90-second post-purchase ZIP verification path before relying on the bundle in a real repo. `POST_PURCHASE_ZIP_VERIFICATION_2026_07_07`
+
+**Named buyer proof:** [`docs/proofs/wshobson-agents-multi-harness-preflight.md`](docs/proofs/wshobson-agents-multi-harness-preflight.md) shows how a team evaluating multi-harness agent catalogs such as `wshobson/agents` can use the free scan first and only buy the `$7` bundle when the repo returns Yellow/Red risk.
+
+**30-second buy/skip rule:** run the free scan first. Buy the `$7` pack only when the result is Yellow/Red: two or more risk buckets, MCP/Cursor/Claude config, package scripts, secret-adjacent files, or shell commands the agent might run. If the result is Green, keep using the free lite scanner and normal review discipline.
+
+<!-- README_PURCHASE_PATH_FIRST_2026_07_07 -->
+Buyer path is intentionally above the proof wall: run the free scan, compare the Green/Yellow/Red result, then buy the `$7` starter pack only when the scan creates handoff or guardrail work.
+<!-- /README_PURCHASE_PATH_FIRST_2026_07_07 -->
+
+## Recent buyer-specific proof links
+
+The links below keep segment-specific examples visible after the purchase decision, without forcing first-time visitors to scroll through the proof wall before seeing what the pack is and when to buy.
+
 <!-- deadline-github-mcp-server-workflows-proof:start -->
 - [GitHub MCP Server workflow preflight proof](docs/examples/preflight-before-github-mcp-server-workflows.md) — for `github/github-mcp-server` teams before repo/issue/PR/branch/workflow tools, package scripts, release automation, app tokens, webhooks, or secret-adjacent settings enter an agent run; `GITHUB_MCP_SERVER_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-github-mcp-server-workflows-proof:end -->
@@ -97,14 +125,12 @@ First-buyer trust check: this free funnel now has a public distribution receipt 
 <!-- deadline-promptfoo-llm-eval-workflows-proof:end -->
 
 - [Stagehand browser-agent workflow preflight proof](docs/examples/preflight-before-stagehand-browser-agent-workflows.md) — for teams using `browserbase/stagehand` / Stagehand-style browser agents before authenticated sessions, forms, localhost apps, admin surfaces, package scripts, MCP/API tools, or secret-adjacent config enter scope; `STAGEHAND_BROWSER_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
-# AI Agent Safety Starter Pack
 
 <!-- deadline-claude-squad-terminal-agent-fleet-proof:start -->
 ### Claude Squad terminal-agent fleet preflight proof
 
 Teams using [`smtg-ai/claude-squad`](https://github.com/smtg-ai/claude-squad) to manage Claude Code, Codex, OpenCode, Amp, or similar terminal agents can preview a concrete [Claude Squad fleet preflight receipt](docs/examples/preflight-before-claude-squad-terminal-agent-fleets.md) before parallel workers inherit repo instructions, package scripts, workflow files, MCP/tool config, command scope, or secret-adjacent paths. `CLAUDE_SQUAD_TERMINAL_AGENT_FLEET_PROOF`; buy the $7 pack when the free scan is Yellow/Red: https://payhip.com/b/1nmxV.
 <!-- deadline-claude-squad-terminal-agent-fleet-proof:end -->
- — free lite preflight
 <!-- deadline-anythingllm-agent-workspaces-proof:start -->
 - [AnythingLLM agent workspace preflight proof](docs/examples/preflight-before-anythingllm-agent-workspaces.md) — for teams using `Mintplex-Labs/anything-llm` before agent workflows, connectors, vector-store docs, custom code/function nodes, webhooks, package scripts, deploy config, or secret-adjacent values enter scope; `ANYTHINGLLM_AGENT_WORKSPACE_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-anythingllm-agent-workspaces-proof:end -->
@@ -178,25 +204,6 @@ Teams using [`smtg-ai/claude-squad`](https://github.com/smtg-ai/claude-squad) to
 Before paying, verify the public distribution trail and buyer-specific trust evidence: [Live distribution proof](docs/live-distribution-proof.md). It links the open directory/marketplace PRs, free repo, support page, and the paid Payhip bundle so a first buyer can check that this is a real maintained offer rather than a cold checkout page.
 - [Skills-curated marketplace reviewer preflight proof](docs/examples/preflight-before-skills-curated-marketplace-review.md) — for high-trust Claude Code plugin/skill marketplace reviewers checking `.claude-plugin/`, commands, hooks, package scripts, MCP settings, or secret-adjacent files before users install; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- /live-distribution-proof -->
-
-
-A small public preview from **Signal Loom Works** for developers who let AI coding agents work inside local repos.
-
-AI agents are useful, but a surprising number of repos contain agent instructions, MCP/Cursor/Claude settings, shell scripts, package hooks, workflow files, and secret-adjacent files that are worth checking **before** a coding agent gets tool access.
-
-This repository includes a free lite scanner/checklist. The paid `$7` starter pack adds the full repo preflight mini, a destructive-command hook, buyer quickstart, demo risky repo, report templates, and verification scripts.
-
-**Buy the full bundle:** https://payhip.com/b/1nmxV
-
-**Trust/support before buying:** [`docs/trust-and-support.md`](docs/trust-and-support.md) explains who is behind the pack, what happens after purchase, privacy limits, the honest buy/skip rule, and the direct public-safe [buyer question / checkout help form](https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml).
-
-**Privacy before checkout:** [`docs/privacy-before-checkout.md`](docs/privacy-before-checkout.md) spells out the local-only path: run the free scan without uploading private code, keep paid ZIP verification local, and use only public-safe support details. `LOCAL_ONLY_PRIVACY_RECEIPT_2026_07_07`
-
-**After purchase:** [`docs/post-purchase-verification.md`](docs/post-purchase-verification.md) gives a 90-second post-purchase ZIP verification path before relying on the bundle in a real repo. `POST_PURCHASE_ZIP_VERIFICATION_2026_07_07`
-
-**Named buyer proof:** [`docs/proofs/wshobson-agents-multi-harness-preflight.md`](docs/proofs/wshobson-agents-multi-harness-preflight.md) shows how a team evaluating multi-harness agent catalogs such as `wshobson/agents` can use the free scan first and only buy the `$7` bundle when the repo returns Yellow/Red risk.
-
-**30-second buy/skip rule:** run the free scan first. Buy the `$7` pack only when the result is Yellow/Red: two or more risk buckets, MCP/Cursor/Claude config, package scripts, secret-adjacent files, or shell commands the agent might run. If the result is Green, keep using the free lite scanner and normal review discipline.
 
 ## What the free lite scanner catches
 
