@@ -736,3 +736,8 @@ Teams evaluating [`ogx-ai/ogx`](https://github.com/ogx-ai/ogx) / Open GenAI Stac
 
 - [Graphiti agent-memory workflow preflight proof](docs/examples/preflight-before-graphiti-agent-memory-workflows.md) (`GRAPHITI_AGENT_MEMORY_WORKFLOW_PROOF`) gives `getzep/graphiti`-style teams a concrete Green / Yellow / Red preflight before memory graph writes, tool calls, repo writes, shell commands, workflow files, database config, and secret-adjacent paths enter an agent run.
 - Honest paid trigger: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when you need reusable hooks, reviewer prompts, and receipts before allowing the workflow to edit or execute.
+
+### Continue IDE coding-agent workflow proof
+
+- [Preflight before Continue IDE coding-agent workflows](docs/examples/preflight-before-continue-ide-coding-agents.md) — `CONTINUE_IDE_CODING_AGENT_PROOF` for [continuedev/continue](https://github.com/continuedev/continue) users. Run the free scan first; buy the `$7` Payhip pack only when the receipt is Yellow/Red for agent edits, command execution, workflow changes, or secrets-adjacent files.
+
