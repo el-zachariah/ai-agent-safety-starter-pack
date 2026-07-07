@@ -233,7 +233,7 @@ class LiveDistributionProofTests(unittest.TestCase):
 
         self.assertIn("docs/live-distribution-proof.md", readme)
         self.assertIn("live-distribution-proof", index)
-        marker = "LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1643"
+        marker = "LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1759"
         self.assertIn(marker, readme)
         self.assertIn(marker, index)
         self.assertIn(marker, proof)
@@ -247,8 +247,10 @@ class LiveDistributionProofTests(unittest.TestCase):
         self.assertIn("CLA-green security-org skill marketplace route", proof)
         self.assertIn("One route is merged after maintainer review", proof)
         self.assertIn("fifteen tracked routes are open and mergeable", proof)
-        self.assertIn("PUBLIC_ROUTE_READBACK_2026_07_07_1643", proof)
-        self.assertIn("2026-07-07T16:43:14-05:00", proof)
+        self.assertIn("PUBLIC_ROUTE_READBACK_2026_07_07_1801", proof)
+        self.assertIn("2026-07-07T18:01:02-05:00", proof)
+        self.assertIn("sentinel-changed `ai-boost/awesome-harness-engineering` route now reads `OPEN` + `MERGEABLE`", proof)
+        self.assertIn("after the sentinel-reported change from unknown mergeability", proof)
         self.assertIn("sentinel-changed jqueryscript route remains `OPEN` + `MERGEABLE`", proof)
         self.assertIn("The stricter plugin marketplace route reads `OPEN` + `MERGEABLE` + `REVIEW_REQUIRED`", proof)
         self.assertIn("public checks include `prescreen` and `Greptile Review`", proof)

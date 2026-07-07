@@ -1,19 +1,19 @@
 # Live distribution proof for AI Agent Safety Starter Pack
 
-Last refreshed: 2026-07-07 16:43:14 -0500 from the public distribution sentinel plus focused GitHub PR readback.
-Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1643`
-Fresh route readback marker: `PUBLIC_ROUTE_READBACK_2026_07_07_1643`
+Last refreshed: 2026-07-07 18:01:02 -0500 from the public distribution sentinel plus focused GitHub PR readback.
+Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1759`
+Fresh route readback marker: `PUBLIC_ROUTE_READBACK_2026_07_07_1801`
 
 If you arrived from a Claude Code, agent-tooling, MCP, SDK, or marketplace directory, this page answers the checkout trust question: **is this seller/product real enough to evaluate before paying?**
 
-The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle. The snapshot is based on public sentinel state collected at `2026-07-07T16:41:39-05:00` plus focused `gh pr view` readback at `2026-07-07T16:43:14-05:00` for the merged, closed, CLA-green, changed-directory, and strict-review routes; it is public activity proof, not a claim of third-party endorsement. One previously approved marketplace route remains closed as a policy/fit mismatch and is explicitly parked rather than used as checkout proof. The README keeps this verification path above the long proof wall so cautious buyers can check the public route before scrolling segment examples.
+The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle. The snapshot is based on public sentinel state collected at `2026-07-07T17:59:46-05:00` plus focused `gh pr view` readback at `2026-07-07T18:01:02-05:00` for the merged, closed, CLA-green, changed-directory, newly mergeable harness-engineering, and strict-review routes; it is public activity proof, not a claim of third-party endorsement. One previously approved marketplace route remains closed as a policy/fit mismatch and is explicitly parked rather than used as checkout proof. The README keeps this verification path above the long proof wall so cautious buyers can check the public route before scrolling segment examples.
 
-Current notable readback: `PUBLIC_ROUTE_READBACK_2026_07_07_1643` confirmed the Build with Claude route remains `MERGED`, the `wshobson/agents` route remains `CLOSED` after maintainer review, the CLA-green `trailofbits/skills-curated` and `e2b-dev/awesome-ai-sdks` routes remain `OPEN` + `MERGEABLE`, and the sentinel-changed jqueryscript route remains `OPEN` + `MERGEABLE`. The stricter plugin marketplace route reads `OPEN` + `MERGEABLE` + `REVIEW_REQUIRED`, and its public checks include `prescreen` and `Greptile Review`; this remains review-progress evidence rather than endorsement.
+Current notable readback: `PUBLIC_ROUTE_READBACK_2026_07_07_1801` confirmed the Build with Claude route remains `MERGED`, the `wshobson/agents` route remains `CLOSED` after maintainer review, the CLA-green `trailofbits/skills-curated` and `e2b-dev/awesome-ai-sdks` routes remain `OPEN` + `MERGEABLE`, the sentinel-changed `ai-boost/awesome-harness-engineering` route now reads `OPEN` + `MERGEABLE` after moving from unknown mergeability, and the earlier sentinel-changed jqueryscript route remains `OPEN` + `MERGEABLE`. The stricter plugin marketplace route reads `OPEN` + `MERGEABLE` + `REVIEW_REQUIRED`, and its public checks include `prescreen` and `Greptile Review`; this remains review-progress evidence rather than endorsement.
 
 ## Three checks before checkout
 
 1. **Source exists before purchase.** The free scanner, Claude Code command bridge, native plugin package, examples, support page, and landing page are all public under `el-zachariah/ai-agent-safety-starter-pack`.
-2. **The distribution trail is externally visible.** One route is merged after maintainer review, fifteen tracked routes are open and mergeable, two CLA/license routes are green, the sentinel-changed jqueryscript route is still mergeable, and the stricter plugin route is mergeable with prescreen plus Greptile Review success. The closed non-fit route is parked below instead of counted as active proof.
+2. **The distribution trail is externally visible.** One route is merged after maintainer review, fifteen tracked routes are open and mergeable, two CLA/license routes are green, the sentinel-changed harness-engineering and jqueryscript routes are still mergeable, and the stricter plugin route is mergeable with prescreen plus Greptile Review success. The closed non-fit route is parked below instead of counted as active proof.
 3. **The paid trigger is conditional.** Run the free scan first. Buy only when the result is Yellow/Red and you need reusable templates, destructive-command hooks, demo repo fixtures, and handoff receipts for a real agent-enabled repo.
 
 ## 60-second public verification path
@@ -42,7 +42,7 @@ These routes are tracked by the public distribution tracker. Open means the free
 | <https://github.com/obra/superpowers-marketplace/pull/62> | OPEN, mergeable | Claude Code marketplace visitors can inspect a source-first plugin listing route. |
 | <https://github.com/numman-ali/n-skills/pull/33> | OPEN, mergeable | Skill/plugin marketplace visitors can inspect the external-source listing route. |
 | <https://github.com/softaworks/agent-toolkit/pull/41> | OPEN, mergeable | Agent-toolkit marketplace users can verify the free source package before checkout. |
-| <https://github.com/ai-boost/awesome-harness-engineering/pull/106> | OPEN, mergeable | Harness-engineering readers can verify the safety-preflight angle in a relevant directory. |
+| <https://github.com/ai-boost/awesome-harness-engineering/pull/106> | OPEN, mergeable after the sentinel-reported change from unknown mergeability; head `c24639c`; no failed public checks returned in focused readback | Harness-engineering readers can verify the safety-preflight angle in a relevant directory before deciding whether the paid templates are useful. |
 | <https://github.com/bradAGI/awesome-cli-coding-agents/pull/184> | OPEN, mergeable | CLI coding-agent buyers can see the free scanner before deciding whether they need the paid templates. |
 | <https://github.com/jqueryscript/awesome-claude-code/pull/471> | OPEN, mergeable after the sentinel-reported route change; no failed public checks returned in readback | Claude Code directory visitors can inspect the free `/agent-preflight` route before paying. |
 | <https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/404> | OPEN, mergeable | Agent-directory traffic can verify the project is public and maintained. |
