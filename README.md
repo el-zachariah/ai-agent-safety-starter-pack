@@ -26,6 +26,8 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Team purchase note:** [`docs/team-purchase-note.md`](docs/team-purchase-note.md) gives a copy-paste maintainer/team-lead note for approving the $7 pack after a Yellow/Red free scan, without sharing private repo, billing, or account details. `TEAM_PURCHASE_NOTE_2026_07_07`
 
+**Expense/reimbursement note:** [`docs/expense-reimbursement-note.md`](docs/expense-reimbursement-note.md) gives a copy-paste manager/expense note for a $7 Payhip purchase after a Yellow/Red free scan, without exposing private repo, order, billing, or account details. `EXPENSE_REIMBURSEMENT_NOTE_2026_07_07`
+
 **Live public distribution proof:** [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) gives a 60-second verification path through the free source repo, the merged Build with Claude route, CLA-green marketplace routes, the sentinel-changed harness-engineering and jqueryscript routes, the parked non-fit route, and the Yellow/Red buy trigger before checkout. Fresh readback marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1759`
 
 **Closed-route hygiene:** [`docs/public-distribution-receipt.md`](docs/public-distribution-receipt.md) and [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) now park the closed `wshobson/agents` route as non-fit and point cautious buyers at the merged Build with Claude route plus the CLA-green security-org route instead. `ROUTE_CLOSURE_HYGIENE_2026_07_07_1551`
