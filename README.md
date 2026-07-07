@@ -62,7 +62,14 @@
 <!-- deadline-promptfoo-llm-eval-workflows-proof:end -->
 
 - [Stagehand browser-agent workflow preflight proof](docs/examples/preflight-before-stagehand-browser-agent-workflows.md) — for teams using `browserbase/stagehand` / Stagehand-style browser agents before authenticated sessions, forms, localhost apps, admin surfaces, package scripts, MCP/API tools, or secret-adjacent config enter scope; `STAGEHAND_BROWSER_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
-# AI Agent Safety Starter Pack — free lite preflight
+# AI Agent Safety Starter Pack
+
+<!-- deadline-claude-squad-terminal-agent-fleet-proof:start -->
+### Claude Squad terminal-agent fleet preflight proof
+
+Teams using [`smtg-ai/claude-squad`](https://github.com/smtg-ai/claude-squad) to manage Claude Code, Codex, OpenCode, Amp, or similar terminal agents can preview a concrete [Claude Squad fleet preflight receipt](docs/examples/preflight-before-claude-squad-terminal-agent-fleets.md) before parallel workers inherit repo instructions, package scripts, workflow files, MCP/tool config, command scope, or secret-adjacent paths. `CLAUDE_SQUAD_TERMINAL_AGENT_FLEET_PROOF`; buy the $7 pack when the free scan is Yellow/Red: https://payhip.com/b/1nmxV.
+<!-- deadline-claude-squad-terminal-agent-fleet-proof:end -->
+ — free lite preflight
 <!-- deadline-anythingllm-agent-workspaces-proof:start -->
 - [AnythingLLM agent workspace preflight proof](docs/examples/preflight-before-anythingllm-agent-workspaces.md) — for teams using `Mintplex-Labs/anything-llm` before agent workflows, connectors, vector-store docs, custom code/function nodes, webhooks, package scripts, deploy config, or secret-adjacent values enter scope; `ANYTHINGLLM_AGENT_WORKSPACE_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-anythingllm-agent-workspaces-proof:end -->
