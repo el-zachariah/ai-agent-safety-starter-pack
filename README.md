@@ -758,3 +758,9 @@ Teams using [`coze-dev/coze-studio`](https://github.com/coze-dev/coze-studio) or
 - Buy trigger: if the free scanner turns Yellow/Red for package scripts, MCP/API tools, deployment config, vector/database settings, or secret-adjacent files, use the $7 paid pack before granting write or shell scope.
 - Marker: `NEMO_AGENT_TOOLKIT_MULTI_AGENT_WORKFLOW_PROOF`
 
+### Vercel AI SDK tool-calling app proof
+
+Marker: `VERCEL_AI_SDK_TOOL_CALLING_APP_PROOF`
+
+`vercel/ai` buyers can run the free scanner before an AI SDK tool-calling app can touch repo files, workflow YAML, shell commands, server-action code, env/config files, or secret-adjacent paths. See [`docs/examples/preflight-before-vercel-ai-sdk-tool-calling-apps.md`](docs/examples/preflight-before-vercel-ai-sdk-tool-calling-apps.md) for the Green/Yellow/Red receipt and the exact Yellow/Red moment when the $7 Payhip pack is worth buying.
+
