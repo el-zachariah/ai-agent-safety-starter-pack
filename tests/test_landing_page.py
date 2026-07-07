@@ -218,7 +218,7 @@ class LiveDistributionProofTests(unittest.TestCase):
 
         self.assertIn("docs/live-distribution-proof.md", readme)
         self.assertIn("live-distribution-proof", index)
-        marker = "LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1428"
+        marker = "LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1516"
         self.assertIn(marker, readme)
         self.assertIn(marker, index)
         self.assertIn(marker, proof)
@@ -232,12 +232,16 @@ class LiveDistributionProofTests(unittest.TestCase):
         self.assertIn("CLA-green security-org skill marketplace route", proof)
         self.assertIn("One route is merged after maintainer review", proof)
         self.assertIn("fifteen tracked routes are open and mergeable", proof)
+        self.assertIn("PUBLIC_ROUTE_READBACK_2026_07_07_1516", proof)
+        self.assertIn("sentinel-changed jqueryscript route is still mergeable", proof)
         self.assertIn("prescreen-grade success", proof)
         self.assertIn("Greptile Review success", proof)
         self.assertIn("maintainer comment that command content, catalog updates, and the prompt-injection/security surface were reviewed", proof)
         self.assertIn("npm test` passed before merge", proof)
         self.assertIn("head `526ccb4`", proof)
-        self.assertIn("CLOSED after review on 2026-07-07", proof)
+        self.assertIn("head `07a8f07`", proof)
+        self.assertIn("latest Greptile bot comment at `2026-07-07T17:55:10Z`", proof)
+        self.assertIn("CLOSED after review comment at `2026-07-07T15:39:45Z`", proof)
         self.assertIn("no longer counted as active buyer proof", proof)
 
         self.assertIn("prescreen-grade success", proof)

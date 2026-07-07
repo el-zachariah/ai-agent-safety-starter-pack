@@ -20,7 +20,7 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Pre-checkout decision receipt:** [`docs/pre-checkout-decision-receipt.md`](docs/pre-checkout-decision-receipt.md) gives a copy-paste Green/Yellow/Red task note so a cautious buyer can decide in two minutes without sharing private repo details. `PRECHECKOUT_DECISION_RECEIPT_2026_07_07`
 
-**Live public distribution proof:** [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) gives a 60-second verification path through the free source repo, the merged Build with Claude route, a CLA-green security-org marketplace route, and the Yellow/Red buy trigger before checkout. `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1428`
+**Live public distribution proof:** [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) gives a 60-second verification path through the free source repo, the merged Build with Claude route, a CLA-green security-org marketplace route, the sentinel-changed jqueryscript route, and the Yellow/Red buy trigger before checkout. `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1516`
 
 **Named buyer proof:** [`docs/proofs/wshobson-agents-multi-harness-preflight.md`](docs/proofs/wshobson-agents-multi-harness-preflight.md) shows how a team evaluating multi-harness agent catalogs such as `wshobson/agents` can use the free scan first and only buy the `$7` bundle when the repo returns Yellow/Red risk.
 
