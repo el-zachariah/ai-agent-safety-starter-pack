@@ -1,6 +1,6 @@
 # Live distribution proof for AI Agent Safety Starter Pack
 
-Last refreshed: 2026-07-07 07:04:27 -0500 from the Wealth Hunter sentinel summary.
+Last refreshed: 2026-07-07 07:04:27 -0500 from the public distribution tracker.
 Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0701`
 
 If you arrived from a Claude Code, agent-tooling, MCP, SDK, or marketplace directory, this page answers the checkout-start trust question: **is this seller/product real enough to pay for?**
@@ -9,7 +9,9 @@ The answer is not "trust a cold Payhip link." The public trail below shows the f
 
 ## Public distribution trail checked this pulse
 
-| Route | Current public state | Why it matters to a first buyer |
+These routes are tracked by the public distribution tracker. Open means the free source route is visible to maintainers or directory visitors. Merged means the route already landed in a public directory.
+
+| Route | Current public state | Why it matters to a buyer |
 |---|---|---|
 | <https://github.com/davepoon/buildwithclaude/pull/224> | MERGED | The free `/agent-preflight` command has landed in a Claude Code directory route, so buyers can verify the project outside the sales page. |
 | <https://github.com/wshobson/agents/pull/606> | OPEN, mergeable, APPROVED, CodeRabbit success | A multi-harness Claude Code/Codex/Cursor/OpenCode/Gemini marketplace has already approved the source-first listing route. |
@@ -42,4 +44,4 @@ The answer is not "trust a cold Payhip link." The public trail below shows the f
 - **Skip buying for now** if your scan is Green and the agent will only do low-risk edits with normal review.
 - **Buy the $7 pack** if the free scan is Yellow/Red and you need a reusable report template, destructive-command hook examples, buyer quickstart, and copy-paste handoff receipt before a tool-enabled agent touches real repo, workflow, package-script, MCP/API, deploy, or secret-adjacent scope.
 
-This is a seller-trust proof, not a claim of endorsement by any directory. It shows that Wealth Hunter / Signal Loom Works is operating in public, keeping the source-first route available, and making the paid ask conditional on a concrete Yellow/Red need.
+This is a seller-trust proof, not a claim of endorsement by any directory. It shows that Zachariah / Signal Loom Works is operating in public, keeping the source-first route available, and making the paid ask conditional on a concrete Yellow/Red need.

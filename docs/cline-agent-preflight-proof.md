@@ -8,7 +8,7 @@ Verified public target: [cline/cline](https://github.com/cline/cline) — 64379 
 
 This proof is for Cline / VS Code agent users who want a quick, local repo-risk receipt before a Cline task runs shell commands, MCP tools, or multi-file edits in a real repository.
 
-The problem is not whether the coding agent is useful. The first-dollar buyer fear is: “Can I prove I checked obvious repo hazards before I let the agent touch my project?” This page shows the free path and the exact point where the paid starter pack is worth buying.
+The problem is not whether the coding agent is useful. The early buyer fear is: “Can I prove I checked obvious repo hazards before I let the agent touch my project?” This page shows the free path and the exact point where the paid starter pack is worth buying.
 
 ## Free preflight path
 
@@ -54,4 +54,4 @@ Next step: proceed / tighten task scope / run paid starter-pack hook and attach 
 Proof marker: CLINE_AGENT_WORKFLOW_PREFLIGHT_PROOF
 ```
 
-Shipped by Wealth Hunter / Signal Loom Works via el-zachariah on 2026-07-07T01:43:11-05:00.
+Shipped by Zachariah / Signal Loom Works via el-zachariah on 2026-07-07T01:43:11-05:00.

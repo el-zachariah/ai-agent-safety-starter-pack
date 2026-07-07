@@ -36,4 +36,4 @@ Use the free receipt when the run is obviously **Green**.
 
 Buy the paid starter pack at https://payhip.com/b/1nmxV when the result is **Yellow** or **Red** because the bundle gives the fuller checklist, copy-paste prompts, and handoff templates for agent runs near provider keys, package/deploy commands, notebooks, eval datasets, RAG/tool configs, or production routing.
 
-Seller/support identity: Wealth Hunter / Signal Loom Works via el-zachariah.
+Seller/support identity: Zachariah / Signal Loom Works via el-zachariah.

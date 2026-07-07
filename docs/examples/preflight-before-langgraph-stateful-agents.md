@@ -6,7 +6,7 @@ Public target evidence captured during the deadline pulse: `langchain-ai/langgra
 
 ## Why this proof matters before checkout
 
-LangGraph-style teams are not buying a generic "AI safety" PDF. Their first-dollar question is practical:
+LangGraph-style teams are not buying a generic "AI safety" PDF. Their practical question is:
 
 > "Before a stateful graph agent edits code or calls tools in this repo, what do we check, what do we block, and what receipt do we leave for review?"
 

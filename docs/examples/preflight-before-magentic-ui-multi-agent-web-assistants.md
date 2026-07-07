@@ -6,7 +6,7 @@ Public target verified before this proof: [`microsoft/magentic-ui`](https://gith
 
 ## Why this proof exists
 
-Magentic-UI multi-agent web assistant buyers are close to the first-dollar pain this product solves: teams running Magentic-UI browser/file/code agents before web tasks, generated code, tool calls, or repo context touch a real project. This page makes the seller/product feel real for that exact segment by showing the free receipt they can run before trusting an agent with repo-changing scope.
+Magentic-UI multi-agent web assistant buyers are close to the practical pain this product solves: teams running Magentic-UI browser/file/code agents before web tasks, generated code, tool calls, or repo context touch a real project. This page makes the seller/product feel real for that exact segment by showing the free receipt they can run before trusting an agent with repo-changing scope.
 
 ## Copy/paste preflight receipt for microsoft/magentic-ui users
 

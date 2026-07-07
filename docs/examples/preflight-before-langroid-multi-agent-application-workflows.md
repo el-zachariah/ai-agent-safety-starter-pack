@@ -8,7 +8,7 @@ Target evidence captured 2026-07-07T04:25:49.361550-05:00: `langroid/langroid` i
 
 ## Why this matters before the first Langroid multi-agent application run
 
-Langroid multi-agent application teams are close to the first-dollar buyer because they already let an agent operate near real repositories. Checkout friction drops when the page proves exactly how the public scanner fits their workflow: run the free preflight first, then buy only if the scan is Yellow or Red.
+Langroid multi-agent application teams are close to early buyers because they already let an agent operate near real repositories. Checkout friction drops when the page proves exactly how the public scanner fits their workflow: run the free preflight first, then buy only if the scan is Yellow or Red.
 
 ## One-command public preflight
 

@@ -6,7 +6,7 @@
 
 ## Why this buyer cares before checkout
 
-LlamaIndex-style agent workflows often sit close to retrieval indexes, API connectors, tool functions, notebooks, `.env`-adjacent configuration, and deployment scripts. The first-dollar buyer does not need a broad security audit; they need a fast receipt that says whether the repo is safe enough for an agent handoff or whether it deserves a repeatable preflight bundle.
+LlamaIndex-style agent workflows often sit close to retrieval indexes, API connectors, tool functions, notebooks, `.env`-adjacent configuration, and deployment scripts. The early buyer does not need a broad security audit; they need a fast receipt that says whether the repo is safe enough for an agent handoff or whether it deserves a repeatable preflight bundle.
 
 ## 60-second handoff receipt
 

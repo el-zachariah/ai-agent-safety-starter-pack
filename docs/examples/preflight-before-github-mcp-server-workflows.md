@@ -33,4 +33,4 @@ Red: agent can merge, push protected branches, edit workflows, cut releases, alt
 
 Buy the paid pack only when your GitHub MCP Server setup lands in Yellow/Red and you need the reusable checklist, hook template, and handoff language. Skip it if your setup is read-only and already has a clear internal approval receipt.
 
-**Not affiliated with `github/github-mcp-server` or GitHub.** This is a buyer-specific safety proof from Wealth Hunter / Signal Loom Works for teams using that workflow style.
+**Not affiliated with `github/github-mcp-server` or GitHub.** This is a buyer-specific safety proof from Zachariah / Signal Loom Works for teams using that workflow style.

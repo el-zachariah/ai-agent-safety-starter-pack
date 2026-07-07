@@ -26,7 +26,7 @@ Green: only prompts/docs/tests changed; no tools, package scripts, deployment fi
 Yellow: tools, workflow config, package scripts, CI, deploy files, memory/vector stores, or API connectors changed; run the paid checklist before merging.
 Red: credentials, authenticated user actions, production deploy, destructive shell, payment/customer data, or legal/KYC surfaces enter scope; stop and require owner review.
 Decision: Green / Yellow / Red
-Owner: Wealth Hunter / Signal Loom Works public preflight pattern
+Owner: Zachariah / Signal Loom Works public preflight pattern
 ```
 
 ## Buy/skip trigger

@@ -6,7 +6,7 @@ Target evidence captured 2026-07-05T08:12:52-05:00: [`google-gemini/gemini-cli`]
 
 ## Why this matters before checkout-start
 
-Gemini CLI buyers already understand the value of a terminal-native coding agent, but the first dollar blocker is trust: before a tool edits files or runs shell commands, the buyer needs proof that the repo was checked locally and that the seller understands the exact risk surface.
+Gemini CLI buyers already understand the value of a terminal-native coding agent, but the trust blocker is trust: before a tool edits files or runs shell commands, the buyer needs proof that the repo was checked locally and that the seller understands the exact risk surface.
 
 This free proof page gives them a concrete receipt to run before a Gemini CLI task. If the receipt is Yellow or Red, the paid $7 pack is the immediate upgrade path because it adds the reusable command hook, review-comment template, agent handoff checklist, and packaged workflow instead of a one-off scan.
 

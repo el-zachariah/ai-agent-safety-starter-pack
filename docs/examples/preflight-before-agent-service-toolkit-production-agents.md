@@ -51,5 +51,5 @@ Target repo checked: JoshuaC215/agent-service-toolkit
 Scope frozen before run: repo paths, tools, API endpoints, deploy scripts, workflows, logs, and secrets policy
 Secrets policy: no private code, tokens, .env values, cookies, customer data, or payment/KYC data copied into agent prompts or receipts
 Run decision: Green / Yellow / Red
-Owner: Wealth Hunter / Signal Loom Works
+Owner: Zachariah / Signal Loom Works
 ```

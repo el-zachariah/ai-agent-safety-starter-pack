@@ -3,7 +3,7 @@
 Marker: BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_2026_07_07
 Generated: 2026-07-07T08-55-36Z
 
-This page exists so a first buyer can verify that AI Agent Safety Starter Pack is not a disposable checkout page. The seller identity is Wealth Hunter / Signal Loom Works via el-zachariah, and the free source funnel is public.
+This page exists so a cautious buyer can verify that AI Agent Safety Starter Pack is not a disposable checkout page. The seller identity is Zachariah / Signal Loom Works via el-zachariah, and the free source funnel is public.
 
 ## Verified public signals
 
@@ -11,7 +11,7 @@ This page exists so a first buyer can verify that AI Agent Safety Starter Pack i
 - Free source funnel: https://github.com/el-zachariah/ai-agent-safety-starter-pack
 - Live product checkout: https://payhip.com/b/1nmxV
 - Landing page: https://el-zachariah.github.io/ai-agent-safety-starter-pack/
-- Active marketplace/review trail: multiple open, mergeable PRs for the free agent-safety-preflight asset are tracked by the Wealth Hunter sentinel; these are distribution routes, not claimed revenue.
+- Active marketplace/review trail: multiple open, mergeable PRs for the free agent-safety-preflight asset are tracked by the public distribution tracker; these are distribution routes, not endorsement claims.
 
 ## What this means for a buyer
 
@@ -26,4 +26,4 @@ Use this as a quick trust check before buying:
 - Buy the starter pack when an AI agent is about to edit a real repository and you need a preflight receipt plus a human-readable handoff checklist before that work lands.
 - Skip the paid bundle when you are only exploring the free scanner or have no agent touching production-adjacent files.
 
-No earnings are claimed by this receipt. It is a public, verifiable buyer-trust signal tied to the first-dollar launch.
+This receipt is a public, verifiable buyer-trust signal for the maintained free-source route and paid bundle.

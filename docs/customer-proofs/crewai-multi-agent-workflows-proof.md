@@ -6,7 +6,7 @@ Target verified before publishing: [crewAIInc/crewAI](https://github.com/crewAII
 
 ## Why this proof exists
 
-CrewAI multi-agent teams are a first-dollar fit because they already operate agentic code paths where a small missed preflight step can create expensive review churn. The AI Agent Safety Starter Pack is positioned as the low-friction checkout when a team wants a ready-to-run receipt instead of inventing a one-off checklist.
+CrewAI multi-agent teams are an early buyer fit because they already operate agentic code paths where a small missed preflight step can create expensive review churn. The AI Agent Safety Starter Pack is positioned as the low-friction checkout when a team wants a ready-to-run receipt instead of inventing a one-off checklist.
 
 ## Crew/run kickoff checkpoint
 

@@ -4,7 +4,7 @@ Target verified: [letta-ai/letta](https://github.com/letta-ai/letta) is an activ
 
 ## Why this proof exists
 
-A generic safety pitch is not enough for a Letta stateful-agent memory teams buyer. The first-dollar checkout trigger is: "I am about to let an AI-agent workflow touch a real repo or service, and I need a fast proof that the seller understands my exact failure modes."
+A generic safety pitch is not enough for a Letta stateful-agent memory teams buyer. The practical checkout trigger is: "I am about to let an AI-agent workflow touch a real repo or service, and I need a fast proof that the seller understands my exact failure modes."
 
 For Letta stateful-agent memory teams, the risky surface is stateful agents where memory blocks, tool calls, archival context, and long-running agent state can persist unsafe instructions or leak sensitive context. This proof maps the free scanner and the paid Agent Safety Starter Pack to that exact workflow.
 

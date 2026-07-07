@@ -2,7 +2,7 @@
 
 Audience proof target: developers browsing `trailofbits/skills-curated`, `numman-ali/n-skills`, or similar curated Claude Code skill/plugin marketplaces before installing a skill into a real repository.
 
-This is not an endorsement claim from those projects. It is a buyer-fit proof for the same first-dollar segment: a team trusts a curated marketplace enough to try a skill, but still needs a fast local receipt before that skill or agent harness inherits repo files, package scripts, MCP/tool config, and credentials-adjacent context.
+This is not an endorsement claim from those projects. It is a buyer-fit proof for the same practical buyer segment: a team trusts a curated marketplace enough to try a skill, but still needs a fast local receipt before that skill or agent harness inherits repo files, package scripts, MCP/tool config, and credentials-adjacent context.
 
 ## Why curated does not mean ready-to-run
 

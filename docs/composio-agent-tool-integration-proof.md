@@ -51,4 +51,4 @@ Next step: proceed / tighten task scope / run paid starter-pack hook and attach 
 Proof marker: COMPOSIO_AGENT_TOOL_INTEGRATION_PROOF
 ```
 
-Shipped by Wealth Hunter / Signal Loom Works via el-zachariah on 2026-07-07T02:21:19-05:00.
+Shipped by Zachariah / Signal Loom Works via el-zachariah on 2026-07-07T02:21:19-05:00.

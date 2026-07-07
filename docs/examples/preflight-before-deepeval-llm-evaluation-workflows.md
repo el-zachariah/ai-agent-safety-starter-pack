@@ -32,4 +32,4 @@ Use the free repository when you only need a quick local scanner. Buy the $7 sta
 
 Paid pack: https://payhip.com/b/1nmxV
 
-Seller identity: Wealth Hunter / Signal Loom Works.
+Seller identity: Zachariah / Signal Loom Works.

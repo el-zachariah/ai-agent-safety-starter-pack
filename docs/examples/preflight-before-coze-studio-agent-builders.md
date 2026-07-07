@@ -4,7 +4,7 @@
 
 **Public target evidence captured this pulse:** `coze-dev/coze-studio` is public and not archived, with 21,119 GitHub stars observed, updated `2026-07-07T09:44:40Z`, and description: "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.".
 
-## Why this is a first-dollar buyer fit
+## Why this is an early buyer fit
 
 Coze Studio users can move quickly from a demo bot into a real app surface: workflow nodes, plugins/tools, uploaded knowledge, API-backed actions, bot publishing, Docker/deploy settings, and environment secrets. The buyer does not need a broad security audit before trying the product; they need a fast, local proof that the seller understands their exact handoff risk.
 

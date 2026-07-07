@@ -6,7 +6,7 @@
 
 ## Why this reduces checkout-start friction
 
-MCP adoption moves quickly because it lets assistants call real tools. That also makes the first-dollar buyer nervous: before they buy anything, they need proof the seller understands the trust boundary between a harmless local scan and a tool-enabled agent session. The free scanner creates a local receipt before MCP servers, package scripts, workflow files, API connectors, or `.env`-adjacent paths are authorized. The paid $7 starter pack is only positioned for Yellow/Red teams that need repeatable hooks, reviewer prompts, and handoff receipts.
+MCP adoption moves quickly because it lets assistants call real tools. That also makes the early buyer nervous: before they buy anything, they need proof the seller understands the trust boundary between a harmless local scan and a tool-enabled agent session. The free scanner creates a local receipt before MCP servers, package scripts, workflow files, API connectors, or `.env`-adjacent paths are authorized. The paid $7 starter pack is only positioned for Yellow/Red teams that need repeatable hooks, reviewer prompts, and handoff receipts.
 
 ## 60-second proof path
 

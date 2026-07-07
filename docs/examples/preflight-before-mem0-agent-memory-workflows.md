@@ -4,7 +4,7 @@ Target verified: [mem0ai/mem0](https://github.com/mem0ai/mem0) is an active publ
 
 ## Why this proof exists
 
-A generic safety pitch is not enough for a Mem0 agent-memory workflow teams buyer. The first-dollar checkout trigger is: "I am about to let an AI-agent workflow touch a real repo or service, and I need a fast proof that the seller understands my exact failure modes."
+A generic safety pitch is not enough for a Mem0 agent-memory workflow teams buyer. The practical checkout trigger is: "I am about to let an AI-agent workflow touch a real repo or service, and I need a fast proof that the seller understands my exact failure modes."
 
 For Mem0 agent-memory workflow teams, the risky surface is agent-memory workflows where personal, customer, or project context is stored and reused across autonomous tool calls. This proof maps the free scanner and the paid Agent Safety Starter Pack to that exact workflow.
 

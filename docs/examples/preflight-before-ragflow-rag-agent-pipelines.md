@@ -4,7 +4,7 @@ Target verified: [infiniflow/ragflow](https://github.com/infiniflow/ragflow) is 
 
 ## Why this proof exists
 
-A generic safety pitch is not enough for a RAGFlow RAG-agent pipeline teams buyer. The first-dollar checkout trigger is: "I am about to let an AI-agent workflow touch a real repo or service, and I need a fast proof that the seller understands my exact failure modes."
+A generic safety pitch is not enough for a RAGFlow RAG-agent pipeline teams buyer. The practical checkout trigger is: "I am about to let an AI-agent workflow touch a real repo or service, and I need a fast proof that the seller understands my exact failure modes."
 
 For RAGFlow RAG-agent pipeline teams, the risky surface is RAG agent pipelines where ingestion, retrieval, prompt routing, tool calls, and deployment endpoints can expose confidential source data. This proof maps the free scanner and the paid Agent Safety Starter Pack to that exact workflow.
 

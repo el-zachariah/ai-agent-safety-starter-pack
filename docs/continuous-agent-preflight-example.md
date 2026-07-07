@@ -2,7 +2,7 @@
 
 This example is for developers running a **persistent Claude Code / MCP / agent harness** where the agent keeps state across sessions, uses hooks, and may execute repo commands after a handoff.
 
-It is intentionally concrete because the first-dollar buyer is not a generic developer. The likely buyer is someone about to let an always-on or multi-session agent work inside a real repo and wanting a visible receipt before tool access.
+It is intentionally concrete because the early buyer is not a generic developer. The likely buyer is someone about to let an always-on or multi-session agent work inside a real repo and wanting a visible receipt before tool access.
 
 ## Named segment
 

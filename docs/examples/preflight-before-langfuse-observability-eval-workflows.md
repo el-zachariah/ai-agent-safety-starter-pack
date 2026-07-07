@@ -2,7 +2,7 @@
 
 Target verified: https://github.com/langfuse/langfuse
 
-This is for teams using Langfuse traces, prompts, datasets, evals, or score dashboards while letting Claude Code, Codex, Cursor, or other repo agents change instrumentation and evaluation code. The first-dollar trust problem is simple: if the agent edits observability or eval wiring without a preflight receipt, reviewers cannot quickly tell whether the change touched secrets, CI, deployment hooks, or prompt/eval fixtures.
+This is for teams using Langfuse traces, prompts, datasets, evals, or score dashboards while letting Claude Code, Codex, Cursor, or other repo agents change instrumentation and evaluation code. The buyer trust problem is simple: if the agent edits observability or eval wiring without a preflight receipt, reviewers cannot quickly tell whether the change touched secrets, CI, deployment hooks, or prompt/eval fixtures.
 
 ## One-minute buyer receipt
 
