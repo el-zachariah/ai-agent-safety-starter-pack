@@ -4,6 +4,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 ISSUE_TEMPLATE = ROOT / ".github" / "ISSUE_TEMPLATE" / "buyer-question.yml"
 SUPPORT_LINK = "https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml"
+STANDING_HELP_THREAD = "https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/1"
 
 
 class BuyerSupportIntakeTests(unittest.TestCase):
@@ -15,6 +16,10 @@ class BuyerSupportIntakeTests(unittest.TestCase):
         self.assertIn(SUPPORT_LINK, readme)
         self.assertIn(SUPPORT_LINK, landing)
         self.assertIn(SUPPORT_LINK, trust)
+        self.assertIn(STANDING_HELP_THREAD, readme)
+        self.assertIn(STANDING_HELP_THREAD, landing)
+        self.assertIn(STANDING_HELP_THREAD, trust)
+        self.assertIn("Public-safe help thread", landing)
         self.assertIn("Buyer question / checkout help", landing)
         self.assertIn("checkout-page friction", trust)
         self.assertIn("do not paste private code", trust.lower())

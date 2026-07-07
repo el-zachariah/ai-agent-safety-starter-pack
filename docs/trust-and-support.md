@@ -38,6 +38,10 @@ For pre-sale questions, install friction, checkout-page friction, or a mismatch 
 
 <https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml>
 
+There is also a standing public-safe buyer help thread for quick fit, checkout, and download questions that do not require private payment or repo details:
+
+<https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/1>
+
 You can also open a plain GitHub issue here:
 
 <https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues>
