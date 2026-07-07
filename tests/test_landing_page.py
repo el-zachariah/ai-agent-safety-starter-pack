@@ -40,10 +40,14 @@ class LandingPageTests(unittest.TestCase):
 
         self.assertLess(body_pos, header_pos)
         self.assertLess(header_pos, decision_pos)
+        public_verification_pos = html.index("TOP_OF_FUNNEL_PUBLIC_VERIFICATION_2026_07_07")
+
         self.assertLess(decision_pos, first_proof_pos)
+        self.assertLess(public_verification_pos, first_proof_pos)
         self.assertLess(html.index("Buy the $7 starter pack"), first_proof_pos)
         self.assertEqual(html.count("<header>"), 1)
         self.assertEqual(html.count('aria-label="30-second buy or skip decision"'), 1)
+        self.assertEqual(html.count("TOP_OF_FUNNEL_PUBLIC_VERIFICATION_2026_07_07"), 1)
 
     def test_landing_page_has_purchase_and_free_preview_paths(self):
         html = LANDING.read_text(encoding="utf-8")
@@ -81,6 +85,9 @@ class LandingPageTests(unittest.TestCase):
         self.assertIn("30-second buy / skip decision", html)
         self.assertIn("Buy the $7 pack if the scan is Yellow/Red", html)
         self.assertIn("Skip it for now if the scan is Green", html)
+        self.assertIn("Verify the public trail before paying", html)
+        self.assertIn("60-second public verification path", html)
+        self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/live-distribution-proof.md", parser.links)
         self.assertIn("MCP config preflight receipt example", html)
         self.assertIn("before the agent can read tokens", html)
         self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/mcp-config-preflight-receipt-example.md", parser.links)
