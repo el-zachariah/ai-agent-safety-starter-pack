@@ -592,6 +592,7 @@ Teams using `OpenHands/OpenHands` can use the new proof page before an agent run
 
 
 ### Segment-specific proof examples
+- [OpenAI Agents SDK builders preflight proof](docs/examples/preflight-before-openai-agents-sdk-builders.md) — `OPENAI_AGENTS_SDK_BUILDERS_PROOF` for openai/openai-agents-python; buy trigger: buy the paid bundle when OpenAI Agents SDK work moves from toy examples into CI hooks, repository writes, or customer data handling.
 - LiveKit realtime agent teams: [preflight room/session credentials, worker code, and tool-call prompts before agent changes](docs/examples/preflight-before-livekit-realtime-agents.md).
 
 ## AutoGPT agent platform preflight proof
