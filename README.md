@@ -1,3 +1,7 @@
+<!-- deadline-vibe-kanban-coding-agent-task-boards:start -->
+- [Vibe Kanban coding-agent task-board preflight proof](docs/examples/preflight-before-vibe-kanban-coding-agent-task-boards.md) — for `BloopAI/vibe-kanban` teams before task-board prompts, parallel coding-agent runs, repo checkouts, run logs, package scripts, MCP/API tools, and secret-adjacent workspace config enter a real AI-agent run; `VIBE_KANBAN_CODING_AGENT_TASK_BOARD_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-vibe-kanban-coding-agent-task-boards:end -->
+
 <!-- deadline-agentscope-multi-agent-workflows:start -->
 - [AgentScope multi-agent workflow preflight proof](docs/examples/preflight-before-agentscope-multi-agent-workflows.md) — for `agentscope-ai/agentscope` teams before multi-agent orchestration, tool calls, service/model config, repo files, package scripts, notebooks, deployment helpers, and secret-adjacent provider settings enter an agent run; `AGENTSCOPE_MULTI_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-agentscope-multi-agent-workflows:end -->
