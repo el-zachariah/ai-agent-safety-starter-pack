@@ -30,6 +30,21 @@ class LinkParser(HTMLParser):
 
 
 class LandingPageTests(unittest.TestCase):
+    def test_purchase_decision_is_above_proof_wall(self):
+        html = LANDING.read_text(encoding="utf-8")
+
+        body_pos = html.index("<body>")
+        header_pos = html.index("<header>")
+        decision_pos = html.index('aria-label="30-second buy or skip decision"')
+        first_proof_pos = html.index("deadline-github-mcp-server-workflows-proof:start")
+
+        self.assertLess(body_pos, header_pos)
+        self.assertLess(header_pos, decision_pos)
+        self.assertLess(decision_pos, first_proof_pos)
+        self.assertLess(html.index("Buy the $7 starter pack"), first_proof_pos)
+        self.assertEqual(html.count("<header>"), 1)
+        self.assertEqual(html.count('aria-label="30-second buy or skip decision"'), 1)
+
     def test_landing_page_has_purchase_and_free_preview_paths(self):
         html = LANDING.read_text(encoding="utf-8")
         parser = LinkParser()
