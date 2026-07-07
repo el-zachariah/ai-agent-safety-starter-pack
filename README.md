@@ -776,3 +776,8 @@ Marker: `VERCEL_AI_SDK_TOOL_CALLING_APP_PROOF`
 
 `vercel/ai` buyers can run the free scanner before an AI SDK tool-calling app can touch repo files, workflow YAML, shell commands, server-action code, env/config files, or secret-adjacent paths. See [`docs/examples/preflight-before-vercel-ai-sdk-tool-calling-apps.md`](docs/examples/preflight-before-vercel-ai-sdk-tool-calling-apps.md) for the Green/Yellow/Red receipt and the exact Yellow/Red moment when the $7 Payhip pack is worth buying.
 
+
+### Buyer proof: Agent Service Toolkit production LangGraph/FastAPI agents
+
+Teams evaluating [`JoshuaC215/agent-service-toolkit`](https://github.com/JoshuaC215/agent-service-toolkit) can now inspect a concrete [Agent Service Toolkit production LangGraph/FastAPI agents preflight receipt](docs/examples/preflight-before-agent-service-toolkit-production-agents.md) before checkout. It shows how the free scanner and paid bundle map to hosted/API-facing agent services, tool authority, deploy scripts, workflows, logs, and secret boundaries. Buy the paid bundle when an agent service is moving from demo to hosted/API-facing code and the team needs a copy-paste preflight receipt before agent edits, deploy scripts, or provider keys enter scope.
+
