@@ -645,3 +645,8 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 - Proof: [`docs/examples/preflight-before-mcp-use-tool-calling-agents.md`](docs/examples/preflight-before-mcp-use-tool-calling-agents.md)
 - Buy trigger: if the free scan is Yellow/Red before tool-calling agent scope is granted, use the $7 pack for the checklist, command hook, and handoff receipt.
 - Marker: `mcp-use-tool-calling-agents-proof`
+
+## Weights & Biases Weave eval/trace workflows proof
+
+- [Weave eval/trace workflow preflight proof](docs/examples/preflight-before-weave-eval-trace-workflows.md) — for teams using `wandb/weave` or similar eval/observability workflows before traces, prompt/eval datasets, scoring scripts, webhooks, package scripts, API-token config, or repo context enter an agent/eval run; `WEAVE_EVAL_TRACE_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+
