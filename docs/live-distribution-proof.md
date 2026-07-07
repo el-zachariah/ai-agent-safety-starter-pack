@@ -1,17 +1,26 @@
 # Live distribution proof for AI Agent Safety Starter Pack
 
-Last refreshed: 2026-07-07 08:04:26 -0500 from the public distribution tracker.
-Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0804`
+Last refreshed: 2026-07-07 08:21:14 -0500 from the public distribution tracker.
+Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0821`
 
 If you arrived from a Claude Code, agent-tooling, MCP, SDK, or marketplace directory, this page answers the checkout trust question: **is this seller/product real enough to evaluate before paying?**
 
-The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle. The snapshot is based on public GitHub PR state collected at `2026-07-07T08:04:26-05:00`; it is public activity proof, not a claim of third-party endorsement.
+The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle. The snapshot is based on public GitHub PR state collected at `2026-07-07T08:21:14-05:00`; it is public activity proof, not a claim of third-party endorsement.
 
 ## Three checks before checkout
 
 1. **Source exists before purchase.** The free scanner, Claude Code command bridge, native plugin package, examples, support page, and landing page are all public under `el-zachariah/ai-agent-safety-starter-pack`.
 2. **The distribution trail is externally visible.** One route is merged, sixteen tracked routes are open and mergeable, one marketplace route is approved, two CLA/license routes are green, and the stricter plugin route has prescreen success plus a public review-fix readback.
 3. **The paid trigger is conditional.** Run the free scan first. Buy only when the result is Yellow/Red and you need reusable templates, destructive-command hooks, demo repo fixtures, and handoff receipts for a real agent-enabled repo.
+
+## 60-second public verification path
+
+Use these links before checkout if you want to confirm the offer is active without trusting the sales page alone:
+
+1. Open the free source repo and confirm the lite scanner, command package, examples, and support page are visible: <https://github.com/el-zachariah/ai-agent-safety-starter-pack>.
+2. Open the merged Claude Code directory route: <https://github.com/davepoon/buildwithclaude/pull/224>.
+3. Open one high-signal open route, such as the approved multi-harness agent listing: <https://github.com/wshobson/agents/pull/606>.
+4. Read the buy/skip trigger below, then use the Payhip link only if your repo scan is Yellow/Red and you need the reusable workflow pack.
 
 ## Public distribution trail checked this pulse
 
