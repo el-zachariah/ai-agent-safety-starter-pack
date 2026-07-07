@@ -629,3 +629,11 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 
 
 - [BAML structured LLM workflow proof](docs/examples/preflight-before-baml-structured-llm-workflows.md) — named proof for `BoundaryML/baml` with a Green/Yellow/Red paid-upgrade trigger. Paid pack: https://payhip.com/b/1nmxV
+
+
+### MCP-use tool-calling agent teams proof
+
+- Public target: [`mcp-use/mcp-use`](https://github.com/mcp-use/mcp-use) (10263 stars observed).
+- Proof: [`docs/examples/preflight-before-mcp-use-tool-calling-agents.md`](docs/examples/preflight-before-mcp-use-tool-calling-agents.md)
+- Buy trigger: if the free scan is Yellow/Red before tool-calling agent scope is granted, use the $7 pack for the checklist, command hook, and handoff receipt.
+- Marker: `mcp-use-tool-calling-agents-proof`
