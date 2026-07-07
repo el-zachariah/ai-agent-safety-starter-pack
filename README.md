@@ -1,3 +1,7 @@
+<!-- deadline-github-mcp-server-workflows-proof:start -->
+- [GitHub MCP Server workflow preflight proof](docs/examples/preflight-before-github-mcp-server-workflows.md) — for `github/github-mcp-server` teams before repo/issue/PR/branch/workflow tools, package scripts, release automation, app tokens, webhooks, or secret-adjacent settings enter an agent run; `GITHUB_MCP_SERVER_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-github-mcp-server-workflows-proof:end -->
+
 <!-- deadline-goose-local-agent-workflows:start -->
 - [Goose local agent workflow preflight proof](docs/examples/preflight-before-goose-local-agent-workflows.md) — for `aaif-goose/goose` teams before local agents, extensions, shell/file tools, MCP config, package scripts, and secret-adjacent runtime settings enter scope; `GOOSE_LOCAL_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-goose-local-agent-workflows:end -->
