@@ -20,9 +20,9 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Pre-checkout decision receipt:** [`docs/pre-checkout-decision-receipt.md`](docs/pre-checkout-decision-receipt.md) gives a copy-paste Green/Yellow/Red task note so a cautious buyer can decide in two minutes without sharing private repo details. `PRECHECKOUT_DECISION_RECEIPT_2026_07_07`
 
-**Live public distribution proof:** [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) gives a 60-second verification path through the free source repo, the merged Build with Claude route, a CLA-green security-org marketplace route, the sentinel-changed jqueryscript route, and the Yellow/Red buy trigger before checkout. `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1516`
+**Live public distribution proof:** [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) gives a 60-second verification path through the free source repo, the merged Build with Claude route, a CLA-green security-org marketplace route, the sentinel-changed jqueryscript route, the parked non-fit route, and the Yellow/Red buy trigger before checkout. `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1516`
 
-**Named buyer proof:** [`docs/proofs/wshobson-agents-multi-harness-preflight.md`](docs/proofs/wshobson-agents-multi-harness-preflight.md) shows how a team evaluating multi-harness agent catalogs such as `wshobson/agents` can use the free scan first and only buy the `$7` bundle when the repo returns Yellow/Red risk.
+**Closed-route hygiene:** [`docs/public-distribution-receipt.md`](docs/public-distribution-receipt.md) and [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) now park the closed `wshobson/agents` route as non-fit and point cautious buyers at the merged Build with Claude route plus the CLA-green security-org route instead. `ROUTE_CLOSURE_HYGIENE_2026_07_07_1551`
 
 **30-second buy/skip rule:** run the free scan first. Buy the `$7` pack only when the result is Yellow/Red: two or more risk buckets, MCP/Cursor/Claude config, package scripts, secret-adjacent files, or shell commands the agent might run. If the result is Green, keep using the free lite scanner and normal review discipline.
 
@@ -396,7 +396,7 @@ Using an Agent Skills / n-skills-style workflow with Claude Code, Codex, or othe
 <!-- deadline-multi-harness-proof:start -->
 ## Named workflow: preflight before multi-harness agent marketplace installs
 
-Using a Claude Code / Codex CLI / Cursor / OpenCode / Copilot / Gemini agent marketplace such as `wshobson/agents`? Keep a 5-minute receipt before the package inherits repo instructions, tool configs, and shell access: [Preflight before multi-harness agent marketplace installs](docs/examples/preflight-before-multi-harness-agent-marketplaces.md).
+Using a Claude Code / Codex CLI / Cursor / OpenCode / Copilot / Gemini agent marketplace or multi-harness catalog? Keep a 5-minute receipt before the package inherits repo instructions, tool configs, and shell access: [Preflight before multi-harness agent marketplace installs](docs/examples/preflight-before-multi-harness-agent-marketplaces.md). The earlier `wshobson/agents` listing route is parked as a marketplace-fit mismatch, so use this as a generic workflow example rather than active distribution proof.
 <!-- deadline-multi-harness-proof:end -->
 
 <!-- deadline-marketplace-pr-reviewer-proof:start -->

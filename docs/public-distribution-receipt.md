@@ -2,8 +2,9 @@
 
 Marker: BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_2026_07_07
 Fresh-readback marker: BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_READBACK_2026_07_07_1501
+Route-closure hygiene marker: ROUTE_CLOSURE_HYGIENE_2026_07_07_1551
 Generated: 2026-07-07T08-55-36Z
-Fresh readback: 2026-07-07 15:01:15 -0500 from public GitHub PR state.
+Fresh readback: 2026-07-07 15:51:04 -0500 from public GitHub PR state plus route-closure hygiene.
 
 This page exists so a cautious buyer can verify that AI Agent Safety Starter Pack is not a disposable checkout page. The seller identity is Zachariah / Signal Loom Works via el-zachariah, and the free source funnel is public.
 
@@ -17,6 +18,7 @@ This page exists so a cautious buyer can verify that AI Agent Safety Starter Pac
 - Active marketplace/review trail: fifteen tracked routes are open and mergeable for the free agent-safety-preflight asset; these are distribution routes, not endorsement claims.
 - High-signal open route: https://github.com/trailofbits/skills-curated/pull/37 is open, mergeable, and has `license/cla` success with CLAassistant stating all committers have signed the CLA.
 - Stricter plugin review route: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/pull/964 is open and mergeable at head `526ccb4` with `prescreen`, `prescreen-grade`, and `Greptile Review` success. It still shows `REVIEW_REQUIRED`, so it is review-progress evidence rather than an endorsement claim.
+- Parked non-fit route: https://github.com/wshobson/agents/pull/606 is closed after maintainer review because the plugin content funnels to an external monetized product and overlaps existing governance plugins. It is no longer counted as active proof; this receipt points buyers to the merged Build with Claude route and CLA-green security-org route instead.
 
 ## What this means for a buyer
 
@@ -26,6 +28,7 @@ Use this as a quick trust check before buying:
 2. The paid bundle is a convenience upgrade for teams that want the checklist, operator playbook, and implementation prompts in one download.
 3. If you only need the free command, use the repo. Buy only when the Yellow/Red preflight receipt means you need the packaged handoff and review checklist today.
 4. If you want more proof before checkout, follow the 60-second public verification path in [`live-distribution-proof.md`](live-distribution-proof.md): source repo, merged Build with Claude route, one CLA-green marketplace route, then the conditional buy/skip trigger.
+5. A closed non-fit route is parked explicitly, so the checkout trust path relies on the merged route and still-open public routes instead of stale marketplace-fit claims.
 
 ## Buy / skip trigger
 

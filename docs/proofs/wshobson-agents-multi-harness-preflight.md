@@ -2,6 +2,8 @@
 
 Named public segment: teams evaluating agents from multi-harness catalogs such as `wshobson/agents`.
 
+Route status note: the related `wshobson/agents` marketplace PR is parked as non-fit after maintainer review. This page remains a generic multi-harness workflow example, not active distribution proof.
+
 This is not an endorsement by that repository. It is a practical proof for buyers who already install or test reusable Claude Code, Codex, Cursor, OpenCode, Gemini, or Copilot agent workflows and want a fast preflight before letting an agent touch a real repo.
 
 ## Why this segment should care before checkout
