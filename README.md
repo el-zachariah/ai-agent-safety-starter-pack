@@ -1,3 +1,9 @@
+<!-- BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_2026_07_07:readme -->
+## Public distribution receipt
+
+First-buyer trust check: this free funnel now has a public distribution receipt with the merged Build with Claude listing, live checkout link, and buy/skip trigger before purchase: [docs/public-distribution-receipt.md](docs/public-distribution-receipt.md).
+<!-- /BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_2026_07_07:readme -->
+
 
 <!-- deadline-preflight-before-github-spec-kit-agent-spec-workflows-proof:start -->
 - [GitHub Spec Kit agent spec workflow preflight proof](docs/examples/preflight-before-github-spec-kit-agent-spec-workflows.md) — for `github/spec-kit` teams before specs/plans, package scripts, CI, deployment config, tools, or secret-adjacent files enter an AI-agent implementation run; `GITHUB_SPEC_KIT_AGENT_SPEC_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
@@ -730,4 +736,3 @@ Teams evaluating [`ogx-ai/ogx`](https://github.com/ogx-ai/ogx) / Open GenAI Stac
 
 - [Graphiti agent-memory workflow preflight proof](docs/examples/preflight-before-graphiti-agent-memory-workflows.md) (`GRAPHITI_AGENT_MEMORY_WORKFLOW_PROOF`) gives `getzep/graphiti`-style teams a concrete Green / Yellow / Red preflight before memory graph writes, tool calls, repo writes, shell commands, workflow files, database config, and secret-adjacent paths enter an agent run.
 - Honest paid trigger: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when you need reusable hooks, reviewer prompts, and receipts before allowing the workflow to edit or execute.
-
