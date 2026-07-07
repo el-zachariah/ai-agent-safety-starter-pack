@@ -714,3 +714,8 @@ CLINE_AGENT_WORKFLOW_PREFLIGHT_PROOF: a named proof for [cline/cline](https://gi
 ## Composio agent tool-integration proof
 
 COMPOSIO_AGENT_TOOL_INTEGRATION_PROOF: a named proof for [ComposioHQ/composio](https://github.com/ComposioHQ/composio) users who need a fast Green / Yellow / Red repo-risk receipt before tool-calling agent work. Read it here: [docs/composio-agent-tool-integration-proof.md](docs/composio-agent-tool-integration-proof.md). Buy the $7 pack only when the free scan is Yellow/Red or you need the reusable hook + review-comment workflow: https://payhip.com/b/1nmxV.
+
+<!-- deadline-ogx-open-genai-stack-proof:start -->
+### OGX / Llama Stack-style Open GenAI Stack preflight proof
+Teams evaluating [`ogx-ai/ogx`](https://github.com/ogx-ai/ogx) / Open GenAI Stack-style agent apps can preview a concrete [OGX preflight receipt](docs/examples/preflight-before-ogx-open-genai-stack-agents.md) before agents touch provider routing, RAG/tool configs, notebooks, eval scripts, package scripts, or deployment files. Marker: `OGX_OPEN_GENAI_STACK_AGENT_PROOF`. If the free receipt is Yellow or Red, use the paid starter pack: https://payhip.com/b/1nmxV
+<!-- deadline-ogx-open-genai-stack-proof:end -->
