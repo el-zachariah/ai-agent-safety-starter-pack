@@ -741,3 +741,9 @@ Teams evaluating [`ogx-ai/ogx`](https://github.com/ogx-ai/ogx) / Open GenAI Stac
 
 - [Preflight before Continue IDE coding-agent workflows](docs/examples/preflight-before-continue-ide-coding-agents.md) — `CONTINUE_IDE_CODING_AGENT_PROOF` for [continuedev/continue](https://github.com/continuedev/continue) users. Run the free scan first; buy the `$7` Payhip pack only when the receipt is Yellow/Red for agent edits, command execution, workflow changes, or secrets-adjacent files.
 
+
+
+## Langroid multi-agent application teams proof
+
+- [Langroid multi-agent application workflow preflight proof](docs/examples/preflight-before-langroid-multi-agent-application-workflows.md) (`LANGROID_MULTI_AGENT_APPLICATION_WORKFLOW_PROOF`) gives `langroid/langroid`-style teams a concrete Green / Yellow / Red preflight before multi-agent task loops, tool calls, repo edits, shell commands, workflow files, vector/db config, and secret-adjacent paths enter an agent run.
+- Honest paid trigger: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when you need reusable hooks, reviewer prompts, and receipts before allowing the workflow to edit or execute.
