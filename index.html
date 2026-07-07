@@ -345,6 +345,7 @@
         <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack">Run the free scanner</a>
         <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml">Buyer question / checkout help</a>
         <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/trust-and-support.md">Trust + support</a>
+        <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/privacy-before-checkout.md">Privacy before checkout</a>
         <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/post-purchase-verification.md">Check the ZIP after purchase</a>
       </div>
     </div>
@@ -354,13 +355,28 @@
         <li><span>Agent instructions</span><b>review</b></li>
         <li><span>Secret-adjacent files</span><b>exclude</b></li>
         <li><span>Destructive shell</span><b>block</b></li>
-      <li><a href="docs/examples/preflight-before-livekit-realtime-agents.md">LiveKit realtime agent preflight receipt</a> — room/session credentials, worker code, and tool-call prompts before AI-agent changes.</li>
-
-        <li><a href="docs/examples/preflight-before-firebase-genkit-ai-flows.md">Firebase Genkit AI flows preflight</a> — concrete Yellow/Red buy trigger for `genkit-ai/genkit` teams changing flows, tools, schemas, provider config, or eval gates.</li>
+        <li><span>Private repo contents</span><b>stay local</b></li>
       </ul>
       <p class="note">If the free scan lights up 2+ buckets, write the handoff before the agent gets shell access.</p>
     </aside>
   </header>
+
+  <section class="receipt" id="local-only-privacy-receipt" aria-label="Local-only privacy receipt before checkout">
+    <h2>Local-only privacy receipt before checkout</h2>
+    <p>Run the free scan locally and keep the paid ZIP verification local. Signal Loom Works does not need private repos, secrets, credentials, card details, billing data, order identifiers, or screenshots to help with the basic buy/skip decision. <code>LOCAL_ONLY_PRIVACY_RECEIPT_2026_07_07</code></p>
+    <p class="cta-row">
+      <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/privacy-before-checkout.md">Read the privacy receipt</a>
+      <a class="cta" href="https://payhip.com/b/1nmxV">Buy the $7 starter pack</a>
+    </p>
+  </section>
+
+  <section class="receipt" id="latest-agent-workflow-proofs" aria-label="Recent agent workflow proofs">
+    <h2>Recent workflow proof examples</h2>
+    <ul>
+      <li><a href="docs/examples/preflight-before-livekit-realtime-agents.md">LiveKit realtime agent preflight receipt</a> — room/session credentials, worker code, and tool-call prompts before AI-agent changes.</li>
+      <li><a href="docs/examples/preflight-before-firebase-genkit-ai-flows.md">Firebase Genkit AI flows preflight</a> — concrete Yellow/Red buy trigger for <code>genkit-ai/genkit</code> teams changing flows, tools, schemas, provider config, or eval gates.</li>
+    </ul>
+  </section>
 
 <!-- deadline-copilotkit-in-app-ai-copilots-proof:start -->
 <section class="receipt" aria-label="CopilotKit in-app AI copilot preflight proof">
@@ -407,9 +423,14 @@
         <strong>Skip it for now if the scan is Green</strong>
         <p>Zero or one low-risk signal, no agent config, no risky install/deploy scripts, and no secret-adjacent files. Use the free lite scanner and normal code review discipline.</p>
       </div>
+      <div class="decision-card">
+        <strong>Keep private repo details local</strong>
+        <p>Use the privacy receipt before checkout if you need the boundary in writing: free scan locally, verify the ZIP locally, and share only public-safe symptoms if support is needed.</p>
+      </div>
     </div>
     <p class="cta-row">
       <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/upgrade-decision-checklist.md">Check the buy/skip rule</a>
+      <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/privacy-before-checkout.md">Local-only privacy receipt</a>
       <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/blob/main/docs/post-purchase-verification.md">90-second ZIP verification</a>
       <a class="secondary" href="https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml">Ask before buying or report checkout friction</a>
       <a class="cta" href="https://payhip.com/b/1nmxV">Buy the $7 starter pack</a>

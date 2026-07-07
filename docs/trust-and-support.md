@@ -24,6 +24,8 @@ The paid bundle is a downloadable ZIP. It is designed to stay local:
 
 The bundle does **not** require sending your repository, secrets, or code to Signal Loom Works.
 
+For buyers who want that boundary before checkout, use the [local-only privacy receipt](privacy-before-checkout.md). It states what stays local, what Signal Loom Works does not need, and what can safely go into a public support issue. `LOCAL_ONLY_PRIVACY_RECEIPT_2026_07_07`
+
 For a quick confidence check after checkout, use the [90-second post-purchase ZIP verification](post-purchase-verification.md) before relying on the files in a real repo. `POST_PURCHASE_ZIP_VERIFICATION_2026_07_07`
 
 ## Support channel

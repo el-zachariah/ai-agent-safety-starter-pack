@@ -190,6 +190,8 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Trust/support before buying:** [`docs/trust-and-support.md`](docs/trust-and-support.md) explains who is behind the pack, what happens after purchase, privacy limits, the honest buy/skip rule, and the direct public-safe [buyer question / checkout help form](https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml).
 
+**Privacy before checkout:** [`docs/privacy-before-checkout.md`](docs/privacy-before-checkout.md) spells out the local-only path: run the free scan without uploading private code, keep paid ZIP verification local, and use only public-safe support details. `LOCAL_ONLY_PRIVACY_RECEIPT_2026_07_07`
+
 **After purchase:** [`docs/post-purchase-verification.md`](docs/post-purchase-verification.md) gives a 90-second post-purchase ZIP verification path before relying on the bundle in a real repo. `POST_PURCHASE_ZIP_VERIFICATION_2026_07_07`
 
 **Named buyer proof:** [`docs/proofs/wshobson-agents-multi-harness-preflight.md`](docs/proofs/wshobson-agents-multi-harness-preflight.md) shows how a team evaluating multi-harness agent catalogs such as `wshobson/agents` can use the free scan first and only buy the `$7` bundle when the repo returns Yellow/Red risk.
