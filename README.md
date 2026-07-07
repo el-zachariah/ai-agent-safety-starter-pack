@@ -672,4 +672,7 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 ## Weights & Biases Weave eval/trace workflows proof
 
 - [Weave eval/trace workflow preflight proof](docs/examples/preflight-before-weave-eval-trace-workflows.md) — for teams using `wandb/weave` or similar eval/observability workflows before traces, prompt/eval datasets, scoring scripts, webhooks, package scripts, API-token config, or repo context enter an agent/eval run; `WEAVE_EVAL_TRACE_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+### DeepEval LLM evaluation workflow proof
+
+- [DeepEval LLM evaluation workflow preflight](docs/examples/preflight-before-deepeval-llm-evaluation-workflows.md) — public proof for teams running DeepEval metrics, golden datasets, CI eval commands, and agent-generated scorer changes; Yellow/Red cases point to the paid starter pack.
 
