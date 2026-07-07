@@ -1,3 +1,8 @@
+
+<!-- deadline-preflight-before-github-spec-kit-agent-spec-workflows-proof:start -->
+- [GitHub Spec Kit agent spec workflow preflight proof](docs/examples/preflight-before-github-spec-kit-agent-spec-workflows.md) — for `github/spec-kit` teams before specs/plans, package scripts, CI, deployment config, tools, or secret-adjacent files enter an AI-agent implementation run; `GITHUB_SPEC_KIT_AGENT_SPEC_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-preflight-before-github-spec-kit-agent-spec-workflows-proof:end -->
+
 <!-- deadline-inngest-agentkit-multi-agent-network-proof:start -->
 - [Inngest AgentKit multi-agent network preflight proof](docs/examples/preflight-before-inngest-agentkit-multi-agent-networks.md) — for `inngest/agent-kit` teams before deterministic routing, MCP tools, Inngest functions, package scripts, deploy config, workflow state, and secret-adjacent env values enter an agent network; `INNGEST_AGENTKIT_MULTI_AGENT_NETWORK_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-inngest-agentkit-multi-agent-network-proof:end -->
