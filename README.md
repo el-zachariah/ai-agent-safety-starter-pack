@@ -1,3 +1,7 @@
+<!-- deadline-mirascope-tool-calling-agent-workflows:start -->
+- [Mirascope tool-calling agent workflow preflight proof](docs/examples/preflight-before-mirascope-tool-calling-agent-workflows.md) — for `Mirascope/mirascope` teams before prompt modules, tool calls, response models, eval scripts, package scripts, workflow files, API connectors, and secret-adjacent provider configuration enter an agent/tool run; `MIRASCOPE_TOOL_CALLING_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-mirascope-tool-calling-agent-workflows:end -->
+
 <!-- deadline-flowise-visual-agent-builder-proof:start -->
 - [Flowise visual agent-builder workflow preflight proof](docs/examples/preflight-before-flowise-visual-agent-builder-workflows.md) — for `FlowiseAI/Flowise` teams before chatflows, agentflows, custom tool/function nodes, vector-store credentials, package scripts, Docker/deploy config, webhooks, or secret-adjacent env values enter an agent run; `FLOWISE_VISUAL_AGENT_BUILDER_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-flowise-visual-agent-builder-proof:end -->
