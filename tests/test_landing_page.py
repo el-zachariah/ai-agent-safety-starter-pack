@@ -196,13 +196,17 @@ class LiveDistributionProofTests(unittest.TestCase):
 
         self.assertIn("docs/live-distribution-proof.md", readme)
         self.assertIn("live-distribution-proof", index)
-        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0735", index)
-        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0735", proof)
+        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0804", index)
+        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0804", proof)
         self.assertIn("Three checks before checkout", proof)
-        self.assertIn("Build with Claude route is merged", proof)
-        self.assertIn("multi-harness agent route is approved", proof)
+        self.assertIn("One route is merged", proof)
+        self.assertIn("sixteen tracked routes are open and mergeable", proof)
+        self.assertIn("APPROVED, CodeRabbit success", proof)
+        self.assertIn("verification/cla-signed success", proof)
+        self.assertIn("prescreen-grade success", proof)
         self.assertIn("payhip.com/b/1nmxV", proof)
         self.assertIn("github.com/e2b-dev/awesome-ai-sdks/pull/261", proof)
+        self.assertIn("github.com/davepoon/buildwithclaude/pull/224", proof)
         self.assertIn("CodeRabbit success", proof)
 
 
