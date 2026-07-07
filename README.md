@@ -706,3 +706,7 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 ## Cline agent preflight proof
 
 CLINE_AGENT_WORKFLOW_PREFLIGHT_PROOF: a named proof for [cline/cline](https://github.com/cline/cline) users who want a fast Green / Yellow / Red repo-risk receipt before agent edits. Read it here: [docs/cline-agent-preflight-proof.md](docs/cline-agent-preflight-proof.md). Buy the $7 pack only when the free scan is Yellow/Red or you need the reusable hook + review-comment workflow: https://payhip.com/b/1nmxV.
+
+## Composio agent tool-integration proof
+
+COMPOSIO_AGENT_TOOL_INTEGRATION_PROOF: a named proof for [ComposioHQ/composio](https://github.com/ComposioHQ/composio) users who need a fast Green / Yellow / Red repo-risk receipt before tool-calling agent work. Read it here: [docs/composio-agent-tool-integration-proof.md](docs/composio-agent-tool-integration-proof.md). Buy the $7 pack only when the free scan is Yellow/Red or you need the reusable hook + review-comment workflow: https://payhip.com/b/1nmxV.
