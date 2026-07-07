@@ -696,3 +696,8 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 
 - [DeepEval LLM evaluation workflow preflight](docs/examples/preflight-before-deepeval-llm-evaluation-workflows.md) — public proof for teams running DeepEval metrics, golden datasets, CI eval commands, and agent-generated scorer changes; Yellow/Red cases point to the paid starter pack.
 
+
+
+## Cline agent preflight proof
+
+CLINE_AGENT_WORKFLOW_PREFLIGHT_PROOF: a named proof for [cline/cline](https://github.com/cline/cline) users who want a fast Green / Yellow / Red repo-risk receipt before agent edits. Read it here: [docs/cline-agent-preflight-proof.md](docs/cline-agent-preflight-proof.md). Buy the $7 pack only when the free scan is Yellow/Red or you need the reusable hook + review-comment workflow: https://payhip.com/b/1nmxV.
