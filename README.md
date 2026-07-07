@@ -18,6 +18,8 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Bundle contents before checkout:** [`docs/paid-bundle-contents-preview.md`](docs/paid-bundle-contents-preview.md) lists the expected v0.4 ZIP contents, SHA-256, file count, local verifier, and what is not included before a buyer uses Payhip. `PAID_BUNDLE_CONTENTS_PREVIEW_2026_07_07`
 
+**Paid report sample preview:** [`docs/paid-report-sample-preview.md`](docs/paid-report-sample-preview.md) shows the reusable go / limited-go / no-go handoff shape, sample risky-repo findings, and blocked-command note before checkout. `PAID_REPORT_SAMPLE_PREVIEW_2026_07_07`
+
 **Pre-checkout decision receipt:** [`docs/pre-checkout-decision-receipt.md`](docs/pre-checkout-decision-receipt.md) gives a copy-paste Green/Yellow/Red task note so a cautious buyer can decide in two minutes without sharing private repo details. `PRECHECKOUT_DECISION_RECEIPT_2026_07_07`
 
 **Team purchase note:** [`docs/team-purchase-note.md`](docs/team-purchase-note.md) gives a copy-paste maintainer/team-lead note for approving the $7 pack after a Yellow/Red free scan, without sharing private repo, billing, or account details. `TEAM_PURCHASE_NOTE_2026_07_07`
