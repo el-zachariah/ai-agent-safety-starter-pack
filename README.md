@@ -725,3 +725,9 @@ COMPOSIO_AGENT_TOOL_INTEGRATION_PROOF: a named proof for [ComposioHQ/composio](h
 Teams evaluating [`ogx-ai/ogx`](https://github.com/ogx-ai/ogx) / Open GenAI Stack-style agent apps can preview a concrete [OGX preflight receipt](docs/examples/preflight-before-ogx-open-genai-stack-agents.md) before agents touch provider routing, RAG/tool configs, notebooks, eval scripts, package scripts, or deployment files. Marker: `OGX_OPEN_GENAI_STACK_AGENT_PROOF`. If the free receipt is Yellow or Red, use the paid starter pack: https://payhip.com/b/1nmxV
 <!-- deadline-ogx-open-genai-stack-proof:end -->
 - [RAGFlow RAG-agent pipeline teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-ragflow-rag-agent-pipelines.md) — named proof for `infiniflow/ragflow`-style workflows; buy the $7 pack when the receipt turns Yellow/Red.
+
+## Graphiti agent-memory teams proof
+
+- [Graphiti agent-memory workflow preflight proof](docs/examples/preflight-before-graphiti-agent-memory-workflows.md) (`GRAPHITI_AGENT_MEMORY_WORKFLOW_PROOF`) gives `getzep/graphiti`-style teams a concrete Green / Yellow / Red preflight before memory graph writes, tool calls, repo writes, shell commands, workflow files, database config, and secret-adjacent paths enter an agent run.
+- Honest paid trigger: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when you need reusable hooks, reviewer prompts, and receipts before allowing the workflow to edit or execute.
+
