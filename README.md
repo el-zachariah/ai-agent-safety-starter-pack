@@ -1,3 +1,7 @@
+<!-- deadline-inngest-agentkit-multi-agent-network-proof:start -->
+- [Inngest AgentKit multi-agent network preflight proof](docs/examples/preflight-before-inngest-agentkit-multi-agent-networks.md) — for `inngest/agent-kit` teams before deterministic routing, MCP tools, Inngest functions, package scripts, deploy config, workflow state, and secret-adjacent env values enter an agent network; `INNGEST_AGENTKIT_MULTI_AGENT_NETWORK_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-inngest-agentkit-multi-agent-network-proof:end -->
+
 <!-- deadline-vibe-kanban-coding-agent-task-boards:start -->
 - [Vibe Kanban coding-agent task-board preflight proof](docs/examples/preflight-before-vibe-kanban-coding-agent-task-boards.md) — for `BloopAI/vibe-kanban` teams before task-board prompts, parallel coding-agent runs, repo checkouts, run logs, package scripts, MCP/API tools, and secret-adjacent workspace config enter a real AI-agent run; `VIBE_KANBAN_CODING_AGENT_TASK_BOARD_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-vibe-kanban-coding-agent-task-boards:end -->
