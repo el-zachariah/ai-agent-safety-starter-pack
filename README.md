@@ -1,3 +1,7 @@
+<!-- deadline-helicone-llm-observability-proxy-proof:start -->
+- [Helicone LLM observability/proxy workflow preflight proof](docs/examples/preflight-before-helicone-llm-observability-proxy-workflows.md) — for `Helicone/helicone` teams before prompt/trace logs, proxy/gateway routing, provider keys, eval datasets, webhooks, package scripts, or deployment config enter an agent/eval automation run; `HELICONE_LLM_OBSERVABILITY_PROXY_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-helicone-llm-observability-proxy-proof:end -->
+
 <!-- deadline-opik-observability-eval-workflows:start -->
 - [Opik observability/eval workflow preflight proof](docs/examples/preflight-before-opik-observability-eval-workflows.md) — for `comet-ml/opik` teams before traced agents, eval datasets, scoring jobs, prompt traces, CI workflows, Docker/deploy files, or secret-adjacent provider keys enter an agent/eval run; `OPIK_OBSERVABILITY_EVAL_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-opik-observability-eval-workflows:end -->
