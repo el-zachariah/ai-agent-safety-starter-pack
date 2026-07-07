@@ -623,3 +623,9 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 ## Customer-specific proof pages
 
 - [Goose local-agent teams proof](docs/customer-proofs/goose-local-agent-proof.md) — shows how this segment can use a local Green/Yellow/Red receipt before coding-agent work starts. `deadline-proof:goose-local-agent-proof`
+
+
+## Segment-specific preflight examples
+
+
+- [BAML structured LLM workflow proof](docs/examples/preflight-before-baml-structured-llm-workflows.md) — named proof for `BoundaryML/baml` with a Green/Yellow/Red paid-upgrade trigger. Paid pack: https://payhip.com/b/1nmxV
