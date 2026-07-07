@@ -218,10 +218,16 @@ class LiveDistributionProofTests(unittest.TestCase):
 
         self.assertIn("docs/live-distribution-proof.md", readme)
         self.assertIn("live-distribution-proof", index)
-        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1411", index)
-        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1411", proof)
+        marker = "LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1428"
+        self.assertIn(marker, readme)
+        self.assertIn(marker, index)
+        self.assertIn(marker, proof)
+        self.assertIn("Live public distribution proof", readme)
+        self.assertLess(readme.index("Live public distribution proof"), readme.index("## Recent buyer-specific proof links"))
         self.assertIn("Three checks before checkout", proof)
         self.assertIn("60-second public verification path", proof)
+        self.assertIn("linked near the top of the README", index)
+        self.assertIn("above the long proof wall", proof)
         self.assertIn("merged Claude Code directory route", proof)
         self.assertIn("CLA-green security-org skill marketplace route", proof)
         self.assertIn("One route is merged after maintainer review", proof)

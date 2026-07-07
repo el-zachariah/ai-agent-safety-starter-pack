@@ -1,11 +1,11 @@
 # Live distribution proof for AI Agent Safety Starter Pack
 
-Last refreshed: 2026-07-07 14:11:10 -0500 from the public distribution tracker plus fresh GitHub PR readback.
-Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1411`
+Last refreshed: 2026-07-07 14:28:07 -0500 from the public distribution tracker plus fresh GitHub PR readback.
+Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1428`
 
 If you arrived from a Claude Code, agent-tooling, MCP, SDK, or marketplace directory, this page answers the checkout trust question: **is this seller/product real enough to evaluate before paying?**
 
-The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle. The snapshot is based on public GitHub PR state collected at `2026-07-07T14:11:10-05:00` plus focused live readback of the merged, CLA-green, and strict-review routes; it is public activity proof, not a claim of third-party endorsement. One previously approved marketplace route is now closed as a policy/fit mismatch and is explicitly parked rather than used as checkout proof.
+The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle. The snapshot is based on public GitHub PR state collected at `2026-07-07T14:28:07-05:00` plus focused live readback of the merged, CLA-green, and strict-review routes; it is public activity proof, not a claim of third-party endorsement. One previously approved marketplace route is now closed as a policy/fit mismatch and is explicitly parked rather than used as checkout proof. The README now links this verification path above the long proof wall so cautious buyers can check the public route before scrolling segment examples.
 
 Current notable readback: the merged Build with Claude route includes a maintainer comment that command content, catalog updates, and the prompt-injection/security surface were reviewed and `npm test` passed before merge. The stricter plugin marketplace route reads `OPEN` + `MERGEABLE` at head `526ccb4`, with `prescreen`, `prescreen-grade`, and `Greptile Review` success after public owner readbacks. It still shows `REVIEW_REQUIRED`, so this remains review-progress evidence rather than endorsement.
 
