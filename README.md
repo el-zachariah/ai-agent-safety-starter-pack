@@ -1,3 +1,7 @@
+<!-- deadline-opik-observability-eval-workflows:start -->
+- [Opik observability/eval workflow preflight proof](docs/examples/preflight-before-opik-observability-eval-workflows.md) — for `comet-ml/opik` teams before traced agents, eval datasets, scoring jobs, prompt traces, CI workflows, Docker/deploy files, or secret-adjacent provider keys enter an agent/eval run; `OPIK_OBSERVABILITY_EVAL_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-opik-observability-eval-workflows:end -->
+
 <!-- deadline-mirascope-tool-calling-agent-workflows:start -->
 - [Mirascope tool-calling agent workflow preflight proof](docs/examples/preflight-before-mirascope-tool-calling-agent-workflows.md) — for `Mirascope/mirascope` teams before prompt modules, tool calls, response models, eval scripts, package scripts, workflow files, API connectors, and secret-adjacent provider configuration enter an agent/tool run; `MIRASCOPE_TOOL_CALLING_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 <!-- deadline-mirascope-tool-calling-agent-workflows:end -->
