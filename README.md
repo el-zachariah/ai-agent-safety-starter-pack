@@ -1,3 +1,7 @@
+<!-- deadline-braintrust-eval-observability-workflows:start -->
+- [Braintrust eval/observability workflow preflight proof](docs/examples/preflight-before-braintrust-eval-observability-workflows.md) — for `braintrustdata/braintrust-sdk-javascript` teams before eval prompts, experiment logs, datasets, scorer code, trace exports, provider keys, CI workflows, package scripts, or deployment config enter an agent/eval automation run; `BRAINTRUST_EVAL_OBSERVABILITY_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-braintrust-eval-observability-workflows:end -->
+
 <!-- deadline-trulens-observability-eval-workflows:start -->
 - [TruLens observability/eval workflow preflight proof](docs/examples/preflight-before-trulens-observability-eval-workflows.md) — for `truera/trulens` teams before feedback functions, eval datasets, app traces, provider keys, notebooks, CI workflows, package scripts, or deployment config enter an agent/eval automation run; `TRULENS_OBSERVABILITY_EVAL_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 
