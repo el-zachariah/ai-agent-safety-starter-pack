@@ -7,5 +7,5 @@ class CodingAgentBuyerProofTest(unittest.TestCase):
         doc=(ROOT/"docs/customer-proofs/goose-local-agent-proof.md").read_text(); readme=(ROOT/"README.md").read_text(); index=(ROOT/"index.html").read_text()
         self.assertIn(MARKER, doc); self.assertIn("aaif-goose/goose", doc); self.assertIn("https://payhip.com/b/1nmxV", doc)
         self.assertIn("Yellow", doc); self.assertIn("Red", doc); self.assertIn("docs/customer-proofs/goose-local-agent-proof.md", readme)
-        self.assertIn(MARKER, index); self.assertIn("Buy the $5 starter pack", index)
+        self.assertIn(MARKER, index); self.assertIn("Buy the $7 starter pack", index)
 if __name__ == "__main__": unittest.main()

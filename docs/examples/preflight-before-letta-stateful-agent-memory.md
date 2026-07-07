@@ -28,7 +28,7 @@ Required receipt: save scanner output beside the PR/issue before the agent run s
 python3 agent_preflight.py --path . --format markdown > agent-safety-preflight-receipt.md
 ```
 
-If the receipt is Green, the free repo may be enough. If it turns Yellow/Red, buy the $5 starter pack for the review checklist, buyer-facing receipt template, and rollback handoff: https://payhip.com/b/1nmxV
+If the receipt is Green, the free repo may be enough. If it turns Yellow/Red, buy the $7 starter pack for the review checklist, buyer-facing receipt template, and rollback handoff: https://payhip.com/b/1nmxV
 
 ## Letta stateful-agent memory teams checklist
 

@@ -7,7 +7,7 @@ This page exists so a maintainer can see, before purchase, exactly how the publi
 ## Fast fit check
 
 - **Use the free public preflight when:** a contributor proposes MCP server/tooling changes and you want a visible preflight receipt before running or merging them.
-- **Buy the paid starter pack when:** buy the $5 AI Agent Safety Starter Pack when the PR touches MCP config, command hooks, install scripts, or secrets-adjacent files and you need the deeper checklist, reviewer prompts, and copy-paste policy gates.
+- **Buy the paid starter pack when:** buy the $7 AI Agent Safety Starter Pack when the PR touches MCP config, command hooks, install scripts, or secrets-adjacent files and you need the deeper checklist, reviewer prompts, and copy-paste policy gates.
 - **Skip the paid pack when:** the change is docs-only, already covered by your normal CI, and no agent-generated commands/configs enter the repo.
 
 ## Why this is relevant

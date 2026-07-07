@@ -14,7 +14,7 @@ Use the free `/agent-preflight` command before a Cline task when:
 - You are using MCP servers or custom tools whose filesystem/network reach is not obvious.
 - You need a quick artifact to paste into a PR, issue, or handoff before an autonomous patch lands.
 
-Buy the $5 starter pack when you want the same preflight habit packaged as reusable checklists, buyer-facing receipts, and copy-paste policy language for real team workflows.
+Buy the $7 starter pack when you want the same preflight habit packaged as reusable checklists, buyer-facing receipts, and copy-paste policy language for real team workflows.
 
 ## One-minute Cline preflight example
 

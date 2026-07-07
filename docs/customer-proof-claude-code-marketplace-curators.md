@@ -21,7 +21,7 @@ A curator has a different risk than a generic developer: one accepted listing ca
 
 ## Paid upgrade trigger
 
-Buy the $5 Agent Safety Starter Pack when the curator or small team wants the ready-made scanner, buyer checklist, demo report format, and local-first package rather than assembling the acceptance receipt manually.
+Buy the $7 Agent Safety Starter Pack when the curator or small team wants the ready-made scanner, buyer checklist, demo report format, and local-first package rather than assembling the acceptance receipt manually.
 
 Product: https://payhip.com/b/1nmxV
 

@@ -55,6 +55,21 @@ class LandingPageTests(unittest.TestCase):
         parser.feed(html)
 
         self.assertIn("AI Agent Safety Starter Pack", "".join(parser.title_text))
+
+    def test_public_copy_uses_live_payhip_price(self):
+        public_paths = [ROOT / "README.md", ROOT / "index.html"] + sorted((ROOT / "docs").glob("**/*.md"))
+        stale = []
+        for path in public_paths:
+            if "$5" in path.read_text(encoding="utf-8"):
+                stale.append(str(path.relative_to(ROOT)))
+
+        self.assertEqual([], stale, "Public buyer copy must not advertise stale $5 pricing; Payhip/listing copy uses $7.")
+
+    def test_landing_page_has_purchase_and_free_preview_paths_continued(self):
+        html = LANDING.read_text(encoding="utf-8")
+        parser = LinkParser()
+        parser.feed(html)
+
         self.assertIn("https://payhip.com/b/1nmxV", parser.links)
         self.assertIn("https://github.com/el-zachariah/ai-agent-safety-starter-pack", parser.links)
         self.assertIn('property="og:title"', html)

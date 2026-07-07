@@ -530,7 +530,7 @@ Teams using [Ruflo](https://github.com/ruvnet/ruflo) or a similar Claude Code / 
 
 ## Buyer proof for named workflows
 
-- [MCP server maintainer proof](docs/mcp-server-maintainer-proof.md) — buy/skip criteria for MCP server maintainers considering the $5 pack after a yellow/red agent preflight.
+- [MCP server maintainer proof](docs/mcp-server-maintainer-proof.md) — buy/skip criteria for MCP server maintainers considering the $7 pack after a yellow/red agent preflight.
 
 
 ## Buyer proof: SuperClaude command frameworks
@@ -706,8 +706,8 @@ I added a named proof for [`pipecat-ai/pipecat`](https://github.com/pipecat-ai/p
 
 ## Segment proof library
 
-Named buyer proofs that make the live $5 Payhip upgrade decision concrete for specific agent teams.
-- [Letta stateful-agent memory teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-letta-stateful-agent-memory.md) — named proof for `letta-ai/letta`-style workflows; buy the $5 pack when the receipt turns Yellow/Red.
+Named buyer proofs that make the live $7 Payhip upgrade decision concrete for specific agent teams.
+- [Letta stateful-agent memory teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-letta-stateful-agent-memory.md) — named proof for `letta-ai/letta`-style workflows; buy the $7 pack when the receipt turns Yellow/Red.
 - [Mem0 agent-memory workflow teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-mem0-agent-memory-workflows.md) — named proof for `mem0ai/mem0`-style workflows; buy the $7 pack when the receipt turns Yellow/Red.
 - [Julep long-running agent workflow teams: preflight before graph/tool/checkpoint changes](docs/examples/preflight-before-julep-long-running-agent-workflows.md) — named proof for `julep-ai/julep`-style workflows; buy the $7 pack when the receipt turns Yellow/Red.
 

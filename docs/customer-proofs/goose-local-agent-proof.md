@@ -20,7 +20,7 @@ The receipt turns repo readiness into a Green/Yellow/Red decision for PR descrip
 
 ## Buy trigger for the paid starter pack
 
-Buy the $5 AI Agent Safety Starter Pack when the receipt is **Yellow** or **Red**, or when the team needs a copy-paste handoff pack for:
+Buy the $7 AI Agent Safety Starter Pack when the receipt is **Yellow** or **Red**, or when the team needs a copy-paste handoff pack for:
 
 - agent permission boundaries before install/test/build commands run;
 - private-code and no-secrets handling rules;
