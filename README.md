@@ -752,4 +752,9 @@ Teams evaluating [`ogx-ai/ogx`](https://github.com/ogx-ai/ogx) / Open GenAI Stac
 ## Coze Studio agent-builder preflight proof
 
 Teams using [`coze-dev/coze-studio`](https://github.com/coze-dev/coze-studio) or Coze Studio-style visual agent builders can now preview a named [Coze Studio agent-builder proof](docs/examples/preflight-before-coze-studio-agent-builders.md) before workflows, plugins, knowledge bases, API connectors, webhook handlers, deploy files, or secret-adjacent values enter agent scope. `COZE_STUDIO_AGENT_BUILDER_PROOF`; Green means keep the free receipt, Yellow/Red is the $7 paid-pack trigger: https://payhip.com/b/1nmxV.
+## NVIDIA NeMo Agent Toolkit buyer proof
+
+- New proof: [preflight before NeMo Agent Toolkit multi-agent workflows](docs/examples/preflight-before-nemo-agent-toolkit-multi-agent-workflows.md) for teams connecting and optimizing AI-agent teams with `NVIDIA/NeMo-Agent-Toolkit`.
+- Buy trigger: if the free scanner turns Yellow/Red for package scripts, MCP/API tools, deployment config, vector/database settings, or secret-adjacent files, use the $7 paid pack before granting write or shell scope.
+- Marker: `NEMO_AGENT_TOOLKIT_MULTI_AGENT_WORKFLOW_PROOF`
 

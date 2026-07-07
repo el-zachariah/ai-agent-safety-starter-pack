@@ -1,0 +1,24 @@
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+MARKER = "NEMO_AGENT_TOOLKIT_MULTI_AGENT_WORKFLOW_PROOF"
+DOC = "docs/examples/preflight-before-nemo-agent-toolkit-multi-agent-workflows.md"
+
+class NemoAgentToolkitProofTest(unittest.TestCase):
+    def test_doc_readme_and_landing_include_buyer_trigger(self):
+        doc_text = (ROOT / DOC).read_text()
+        readme_text = (ROOT / "README.md").read_text()
+        index_text = (ROOT / "index.html").read_text()
+        for text in (doc_text, readme_text, index_text):
+            self.assertIn(MARKER, text)
+            self.assertIn("NVIDIA", text)
+        self.assertIn("NVIDIA/NeMo-Agent-Toolkit", doc_text)
+        self.assertIn("Yellow", doc_text)
+        self.assertIn("Red", doc_text)
+        self.assertIn("https://payhip.com/b/1nmxV", doc_text)
+        self.assertIn(DOC, readme_text)
+        self.assertIn(DOC, index_text)
+
+if __name__ == "__main__":
+    unittest.main()
