@@ -188,18 +188,22 @@ if __name__ == "__main__":
     unittest.main()
 
 
-def test_live_distribution_proof_is_linked_and_specific():
-    from pathlib import Path
-    root = Path(__file__).resolve().parents[1]
-    readme = (root / 'README.md').read_text(encoding='utf-8')
-    index = (root / 'index.html').read_text(encoding='utf-8')
-    proof = (root / 'docs/live-distribution-proof.md').read_text(encoding='utf-8')
+class LiveDistributionProofTests(unittest.TestCase):
+    def test_live_distribution_proof_is_linked_and_specific(self):
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        index = (ROOT / "index.html").read_text(encoding="utf-8")
+        proof = (ROOT / "docs/live-distribution-proof.md").read_text(encoding="utf-8")
 
-    assert 'docs/live-distribution-proof.md' in readme
-    assert 'live-distribution-proof' in index
-    assert 'payhip.com/b/1nmxV' in proof
-    assert 'github.com/e2b-dev/awesome-ai-sdks/pull/261' in proof
-    assert 'CodeRabbit success' in proof
+        self.assertIn("docs/live-distribution-proof.md", readme)
+        self.assertIn("live-distribution-proof", index)
+        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0735", index)
+        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0735", proof)
+        self.assertIn("Three checks before checkout", proof)
+        self.assertIn("Build with Claude route is merged", proof)
+        self.assertIn("multi-harness agent route is approved", proof)
+        self.assertIn("payhip.com/b/1nmxV", proof)
+        self.assertIn("github.com/e2b-dev/awesome-ai-sdks/pull/261", proof)
+        self.assertIn("CodeRabbit success", proof)
 
 
 class AutoGenAgentWorkflowProofTests(unittest.TestCase):

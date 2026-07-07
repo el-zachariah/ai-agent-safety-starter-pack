@@ -1,11 +1,17 @@
 # Live distribution proof for AI Agent Safety Starter Pack
 
-Last refreshed: 2026-07-07 07:04:27 -0500 from the public distribution tracker.
-Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0701`
+Last refreshed: 2026-07-07 07:35:05 -0500 from the public distribution tracker.
+Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0735`
 
 If you arrived from a Claude Code, agent-tooling, MCP, SDK, or marketplace directory, this page answers the checkout-start trust question: **is this seller/product real enough to pay for?**
 
-The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle.
+The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle. The snapshot is based on public GitHub PR state collected at `2026-07-07T07:35:05-05:00`; it is public activity proof, not a claim of third-party endorsement.
+
+## Three checks before checkout
+
+1. **Source exists before purchase.** The free scanner, Claude Code command bridge, plugin package, examples, support page, and landing page are all public under `el-zachariah/ai-agent-safety-starter-pack`.
+2. **The distribution trail is externally visible.** A Build with Claude route is merged, a multi-harness agent route is approved, CLA/license checks are green where required, and the stricter plugin route has a public prescreen success plus review follow-up.
+3. **The paid trigger is conditional.** Run the free scan first. Buy only when the result is Yellow/Red and you need reusable templates, destructive-command hooks, demo repo fixtures, and handoff receipts for a real agent-enabled repo.
 
 ## Public distribution trail checked this pulse
 
