@@ -687,6 +687,7 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 
 
 ## Named buyer proof examples
+- [CrewAI agent team preflight](docs/examples/preflight-before-crewai-agent-team-workflows.md) — a named Green/Yellow/Red receipt example for `crewAIInc/crewAI` users deciding whether the $7 pack is needed before agent tools touch real repos.
 - [Context7 MCP docs-server preflight](docs/examples/preflight-before-context7-mcp-docs-server-workflows.md) — a named Green/Yellow/Red receipt example for `upstash/context7` users deciding whether the $7 pack is needed before agent tools touch real repos.
 - [LangGraph stateful agent preflight](docs/examples/preflight-before-langgraph-stateful-agent-workflows.md) — a named Green/Yellow/Red receipt example for `langchain-ai/langgraph` users deciding whether the $7 pack is needed before agent tools touch real repos.
 
