@@ -1,3 +1,7 @@
+<!-- deadline-chroma-rag-vector-workflows:start -->
+- [Chroma RAG/vector workflow preflight proof](docs/examples/preflight-before-chroma-rag-vector-workflows.md) — for `chroma-core/chroma` teams before collections, embeddings, retrievers, metadata filters, persistence paths, provider keys, package scripts, Docker/deploy files, and secret-adjacent env values enter an AI-agent, RAG, or eval automation run; `CHROMA_RAG_VECTOR_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-chroma-rag-vector-workflows:end -->
+
 <!-- deadline-phoenix-llm-observability-eval-workflows:start -->
 - [Phoenix LLM observability/eval workflow preflight proof](docs/examples/preflight-before-phoenix-llm-observability-eval-workflows.md) — for `Arize-ai/phoenix` teams before traces, datasets, eval jobs, prompt versions, provider keys, notebooks, package scripts, Docker files, or deployment config enter an agent/eval automation run; `PHOENIX_LLM_OBSERVABILITY_EVAL_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 
