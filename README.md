@@ -20,7 +20,7 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Pre-checkout decision receipt:** [`docs/pre-checkout-decision-receipt.md`](docs/pre-checkout-decision-receipt.md) gives a copy-paste Green/Yellow/Red task note so a cautious buyer can decide in two minutes without sharing private repo details. `PRECHECKOUT_DECISION_RECEIPT_2026_07_07`
 
-**Live public distribution proof:** [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) gives a 60-second verification path through the free source repo, the merged Build with Claude route, a CLA-green security-org marketplace route, the sentinel-changed jqueryscript route, the parked non-fit route, and the Yellow/Red buy trigger before checkout. `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1516`
+**Live public distribution proof:** [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) gives a 60-second verification path through the free source repo, the merged Build with Claude route, CLA-green marketplace routes, the sentinel-changed jqueryscript route, the parked non-fit route, and the Yellow/Red buy trigger before checkout. Fresh readback marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1643`
 
 **Closed-route hygiene:** [`docs/public-distribution-receipt.md`](docs/public-distribution-receipt.md) and [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) now park the closed `wshobson/agents` route as non-fit and point cautious buyers at the merged Build with Claude route plus the CLA-green security-org route instead. `ROUTE_CLOSURE_HYGIENE_2026_07_07_1551`
 
