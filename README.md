@@ -16,6 +16,8 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Bundle contents before checkout:** [`docs/paid-bundle-contents-preview.md`](docs/paid-bundle-contents-preview.md) lists the expected v0.4 ZIP contents, SHA-256, file count, local verifier, and what is not included before a buyer uses Payhip. `PAID_BUNDLE_CONTENTS_PREVIEW_2026_07_07`
 
+**Pre-checkout decision receipt:** [`docs/pre-checkout-decision-receipt.md`](docs/pre-checkout-decision-receipt.md) gives a copy-paste Green/Yellow/Red task note so a cautious buyer can decide in two minutes without sharing private repo details. `PRECHECKOUT_DECISION_RECEIPT_2026_07_07`
+
 **Named buyer proof:** [`docs/proofs/wshobson-agents-multi-harness-preflight.md`](docs/proofs/wshobson-agents-multi-harness-preflight.md) shows how a team evaluating multi-harness agent catalogs such as `wshobson/agents` can use the free scan first and only buy the `$7` bundle when the repo returns Yellow/Red risk.
 
 **30-second buy/skip rule:** run the free scan first. Buy the `$7` pack only when the result is Yellow/Red: two or more risk buckets, MCP/Cursor/Claude config, package scripts, secret-adjacent files, or shell commands the agent might run. If the result is Green, keep using the free lite scanner and normal review discipline.
