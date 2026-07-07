@@ -747,3 +747,8 @@ Teams evaluating [`ogx-ai/ogx`](https://github.com/ogx-ai/ogx) / Open GenAI Stac
 
 - [Langroid multi-agent application workflow preflight proof](docs/examples/preflight-before-langroid-multi-agent-application-workflows.md) (`LANGROID_MULTI_AGENT_APPLICATION_WORKFLOW_PROOF`) gives `langroid/langroid`-style teams a concrete Green / Yellow / Red preflight before multi-agent task loops, tool calls, repo edits, shell commands, workflow files, vector/db config, and secret-adjacent paths enter an agent run.
 - Honest paid trigger: Green means skip the paid pack; Yellow/Red means use the $7 bundle at https://payhip.com/b/1nmxV when you need reusable hooks, reviewer prompts, and receipts before allowing the workflow to edit or execute.
+
+## Coze Studio agent-builder preflight proof
+
+Teams using [`coze-dev/coze-studio`](https://github.com/coze-dev/coze-studio) or Coze Studio-style visual agent builders can now preview a named [Coze Studio agent-builder proof](docs/examples/preflight-before-coze-studio-agent-builders.md) before workflows, plugins, knowledge bases, API connectors, webhook handlers, deploy files, or secret-adjacent values enter agent scope. `COZE_STUDIO_AGENT_BUILDER_PROOF`; Green means keep the free receipt, Yellow/Red is the $7 paid-pack trigger: https://payhip.com/b/1nmxV.
+
