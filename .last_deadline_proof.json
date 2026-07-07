@@ -1,0 +1,20 @@
+{
+  "chosen": {
+    "angle": "task delegation, tools, crew kickoff, process orchestration, memory, and environment handoffs before an AI agent edits a live repo",
+    "marker": "CREWAI_MULTI_AGENT_WORKFLOW_PROOF",
+    "repo": "crewAIInc/crewAI",
+    "segment": "CrewAI multi-agent teams",
+    "slug": "crewai-multi-agent-workflows-proof",
+    "title": "CrewAI multi-agent workflow preflight proof"
+  },
+  "doc_rel": "docs/customer-proofs/crewai-multi-agent-workflows-proof.md",
+  "test": "tests/test_crewai_multi_agent_workflows_proof.py",
+  "verification": {
+    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+    "isArchived": false,
+    "nameWithOwner": "crewAIInc/crewAI",
+    "stargazerCount": 55049,
+    "updatedAt": "2026-07-07T07:04:39Z",
+    "url": "https://github.com/crewAIInc/crewAI"
+  }
+}

@@ -377,6 +377,11 @@ If your first buyer path is an OpenHands / Devin-style autonomous repo-agent wor
 - **Magentic-UI multi-agent web assistant proof:** [Preflight before Magentic-UI multi-agent web assistant runs](docs/examples/preflight-before-magentic-ui-multi-agent-web-assistants.md) gives this named segment a concrete local preflight receipt and Yellow/Red paid-upgrade trigger for teams running Magentic-UI browser/file/code agents before web tasks, generated code, tool calls, or repo context touch a real project.
 - **Repomix repo-context proof:** [Preflight before Repomix repo-context packs](docs/examples/preflight-before-repomix-repo-context-packs.md) shows the exact free preflight receipt and the Yellow/Red paid-upgrade trigger for teams packing real repositories for AI assistants before source files, package scripts, workflow config, agent instructions, or secret-adjacent paths are handed to a model.
 
+
+### CrewAI multi-agent workflow preflight proof
+<!-- CREWAI_MULTI_AGENT_WORKFLOW_PROOF_README -->
+- [CrewAI multi-agent workflow preflight proof](docs/customer-proofs/crewai-multi-agent-workflows-proof.md) — named proof for `crewAIInc/crewAI`-style teams that need a visible Green/Yellow/Red receipt before multi-agent repo edits. Buy trigger: paid pack if the team needs packaged templates/checklists now; free proof if they only need the example.
+
 ## Named workflow: preflight before Claude Code GitHub Action CI runs
 
 Using `anthropics/claude-code-action` or similar issue/PR-triggered coding automation? Run the free local preflight before granting workflow secrets, write permissions, or shell command scope: [Preflight before Claude Code GitHub Action CI runs](docs/examples/preflight-before-claude-code-action-ci.md).
