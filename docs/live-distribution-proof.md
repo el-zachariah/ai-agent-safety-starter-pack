@@ -1,16 +1,18 @@
 # Live distribution proof for AI Agent Safety Starter Pack
 
-Last refreshed: 2026-07-07 09:49:52 -0500 from the public distribution tracker plus live GitHub readback.
-Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0949`
+Last refreshed: 2026-07-07 10:35:55 -0500 from the public distribution tracker plus live GitHub readback.
+Marker: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1035`
 
 If you arrived from a Claude Code, agent-tooling, MCP, SDK, or marketplace directory, this page answers the checkout trust question: **is this seller/product real enough to evaluate before paying?**
 
-The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle. The snapshot is based on public GitHub PR state collected at `2026-07-07T09:47:55-05:00` plus focused live readback of the merged, approved, and strict-review routes; it is public activity proof, not a claim of third-party endorsement.
+The answer is not "trust a cold Payhip link." The public trail below shows the free repo, marketplace submissions, review state, support page, and the exact buy/skip trigger for the paid $7 bundle. The snapshot is based on public GitHub PR state collected at `2026-07-07T10:35:55-05:00` plus focused live readback of the merged, approved, and strict-review routes; it is public activity proof, not a claim of third-party endorsement.
+
+Current notable readback: the stricter plugin marketplace route now reads `OPEN` + `MERGEABLE` at head `d77a5d6`, with `prescreen`, `prescreen-grade`, and `Greptile Review` success after the public review-fix readback. It still shows `REVIEW_REQUIRED`, so this remains review-progress evidence rather than endorsement.
 
 ## Three checks before checkout
 
 1. **Source exists before purchase.** The free scanner, Claude Code command bridge, native plugin package, examples, support page, and landing page are all public under `el-zachariah/ai-agent-safety-starter-pack`.
-2. **The distribution trail is externally visible.** One route is merged, sixteen tracked routes are open and mergeable, one marketplace route is approved, two CLA/license routes are green, and the stricter plugin route has prescreen plus Greptile Review success and a public review-fix readback.
+2. **The distribution trail is externally visible.** One route is merged, sixteen tracked routes are open and mergeable, one marketplace route is approved, two CLA/license routes are green, and the stricter plugin route is now mergeable with prescreen plus Greptile Review success and a public review-fix readback.
 3. **The paid trigger is conditional.** Run the free scan first. Buy only when the result is Yellow/Red and you need reusable templates, destructive-command hooks, demo repo fixtures, and handoff receipts for a real agent-enabled repo.
 
 ## 60-second public verification path
@@ -32,7 +34,7 @@ These routes are tracked by the public distribution tracker. Open means the free
 | <https://github.com/wshobson/agents/pull/606> | OPEN, mergeable, APPROVED, CodeRabbit success | A multi-harness Claude Code/Codex/Cursor/OpenCode/Gemini marketplace has approved the source-first listing route. |
 | <https://github.com/trailofbits/skills-curated/pull/37> | OPEN, mergeable, license/cla success | A security-org skill marketplace route is public and passes its CLA/license check. |
 | <https://github.com/e2b-dev/awesome-ai-sdks/pull/261> | OPEN, mergeable, verification/cla-signed success | SDK/tooling buyers can see a maintained public submission path with the required CLA signal green. |
-| <https://github.com/jeremylongshore/claude-code-plugins-plus-skills/pull/964> | OPEN, mergeable, REVIEW_REQUIRED, prescreen-grade success, Greptile Review success, review-fix readback posted | A stricter marketplace route has source package review history, public fixes, successful automated review signals, and a successful prescreen. |
+| <https://github.com/jeremylongshore/claude-code-plugins-plus-skills/pull/964> | OPEN, mergeable at head `d77a5d6`, REVIEW_REQUIRED, prescreen-grade success, Greptile Review success, review-fix readback posted | A stricter marketplace route has source package review history, public fixes, successful automated review signals, and a successful prescreen. |
 | <https://github.com/rohitg00/awesome-claude-code-toolkit/pull/616> | OPEN, mergeable, CodeRabbit success | Toolkit curators and buyers can see automated review passed. |
 | <https://github.com/ComposioHQ/awesome-claude-plugins/pull/331> | OPEN, mergeable, checks present | Plugin buyers can verify the free bridge/listing route is not hidden. |
 | <https://github.com/ccplugins/awesome-claude-code-plugins/pull/299> | OPEN, mergeable | Claude Code plugin buyers can inspect a directory submission that links source first. |
