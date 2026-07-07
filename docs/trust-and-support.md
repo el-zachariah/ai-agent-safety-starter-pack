@@ -28,6 +28,8 @@ For buyers who want that boundary before checkout, use the [local-only privacy r
 
 For a quick confidence check after checkout, use the [90-second post-purchase ZIP verification](post-purchase-verification.md) before relying on the files in a real repo. `POST_PURCHASE_ZIP_VERIFICATION_2026_07_07`
 
+Before checkout, use the [paid bundle contents preview](paid-bundle-contents-preview.md) to inspect the expected v0.4 ZIP contents, SHA-256, file count, local verifier, and what is not included. `PAID_BUNDLE_CONTENTS_PREVIEW_2026_07_07`
+
 ## Support channel
 
 For pre-sale questions, install friction, checkout-page friction, or a mismatch between the public description and the ZIP, use the public-safe buyer support form:
