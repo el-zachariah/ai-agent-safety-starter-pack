@@ -196,8 +196,8 @@ class LiveDistributionProofTests(unittest.TestCase):
 
         self.assertIn("docs/live-distribution-proof.md", readme)
         self.assertIn("live-distribution-proof", index)
-        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0821", index)
-        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0821", proof)
+        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0949", index)
+        self.assertIn("LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_0949", proof)
         self.assertIn("Three checks before checkout", proof)
         self.assertIn("60-second public verification path", proof)
         self.assertIn("merged Claude Code directory route", proof)
@@ -207,6 +207,7 @@ class LiveDistributionProofTests(unittest.TestCase):
         self.assertIn("APPROVED, CodeRabbit success", proof)
         self.assertIn("verification/cla-signed success", proof)
         self.assertIn("prescreen-grade success", proof)
+        self.assertIn("Greptile Review success", proof)
         self.assertIn("payhip.com/b/1nmxV", proof)
         self.assertIn("github.com/e2b-dev/awesome-ai-sdks/pull/261", proof)
         self.assertIn("github.com/davepoon/buildwithclaude/pull/224", proof)
