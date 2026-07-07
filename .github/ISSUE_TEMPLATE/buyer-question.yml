@@ -1,0 +1,38 @@
+name: Buyer question or checkout help
+description: Ask a pre-sale question, report checkout friction, or get help with the downloadable pack without posting private details.
+title: "[buyer question] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking the AI Agent Safety Starter Pack. Use this form for pre-sale questions, checkout-page friction, install friction, or mismatches between the public description and the ZIP.
+
+        Do not paste private repository code, secrets, credentials, customer data, card details, billing data, payment-provider screenshots, or order identifiers into a public issue.
+  - type: dropdown
+    id: question_type
+    attributes:
+      label: What kind of help do you need?
+      options:
+        - Pre-sale fit question before buying
+        - Checkout page is unavailable or confusing
+        - Download or ZIP contents question
+        - Install or verifier friction
+        - Public description does not match the ZIP
+        - Other buyer-support question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Public-safe context
+      description: Share only public-safe details. A repo URL is optional; do not include private code, credentials, billing data, or screenshots with account details.
+      placeholder: "Example: The free scan reported Yellow because the repo has MCP config and package scripts. I want to know if the paid pack includes a reusable handoff receipt before I buy."
+    validations:
+      required: true
+  - type: textarea
+    id: expected_help
+    attributes:
+      label: What answer would help you decide or continue?
+      placeholder: "Example: Confirm whether the bundle includes a destructive-command hook example and local verifier for repeated agent runs."
+    validations:
+      required: true

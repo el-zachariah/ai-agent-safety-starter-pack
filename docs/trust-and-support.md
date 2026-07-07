@@ -26,11 +26,15 @@ The bundle does **not** require sending your repository, secrets, or code to Sig
 
 ## Support channel
 
-For pre-sale questions, install friction, or a mismatch between the public description and the ZIP, open a GitHub issue here:
+For pre-sale questions, install friction, checkout-page friction, or a mismatch between the public description and the ZIP, use the public-safe buyer support form:
+
+<https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml>
+
+You can also open a plain GitHub issue here:
 
 <https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues>
 
-Use the issue title prefix `[buyer question]` or `[support]` so it can be triaged quickly. Do not paste private code, secrets, credentials, customer data, or proprietary repo contents into public issues.
+Use the issue title prefix `[buyer question]` or `[support]` so it can be triaged quickly. If the Payhip page is unavailable or confusing, say what public page you were on and what non-private error text you saw; do not paste private code, secrets, credentials, customer data, card details, billing data, payment-provider screenshots, or order identifiers into public issues.
 
 ## What this is not
 
