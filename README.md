@@ -1,3 +1,8 @@
+<!-- deadline-trulens-observability-eval-workflows:start -->
+- [TruLens observability/eval workflow preflight proof](docs/examples/preflight-before-trulens-observability-eval-workflows.md) — for `truera/trulens` teams before feedback functions, eval datasets, app traces, provider keys, notebooks, CI workflows, package scripts, or deployment config enter an agent/eval automation run; `TRULENS_OBSERVABILITY_EVAL_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+
+<!-- deadline-trulens-observability-eval-workflows:end -->
+
 <!-- deadline-ragas-eval-dataset-workflows:start -->
 - [Ragas eval/dataset workflow preflight proof](docs/examples/preflight-before-ragas-eval-dataset-workflows.md) — for `vibrantlabsai/ragas` teams before eval datasets, scoring scripts, judge/model provider keys, notebooks, CI workflows, trace exports, package scripts, or deployment config enter an agent/eval automation run; `RAGAS_EVAL_DATASET_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
 
