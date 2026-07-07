@@ -618,3 +618,8 @@ Named buyer proofs that make the live $5 Payhip upgrade decision concrete for sp
 ## Named buyer proof examples
 - [Context7 MCP docs-server preflight](docs/examples/preflight-before-context7-mcp-docs-server-workflows.md) — a named Green/Yellow/Red receipt example for `upstash/context7` users deciding whether the $7 pack is needed before agent tools touch real repos.
 - [LangGraph stateful agent preflight](docs/examples/preflight-before-langgraph-stateful-agent-workflows.md) — a named Green/Yellow/Red receipt example for `langchain-ai/langgraph` users deciding whether the $7 pack is needed before agent tools touch real repos.
+
+
+## Customer-specific proof pages
+
+- [Goose local-agent teams proof](docs/customer-proofs/goose-local-agent-proof.md) — shows how this segment can use a local Green/Yellow/Red receipt before coding-agent work starts. `deadline-proof:goose-local-agent-proof`
