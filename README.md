@@ -1,3 +1,7 @@
+<!-- deadline-skyvern-browser-agent-workflows:start -->
+- [Skyvern browser-agent workflow preflight proof](docs/examples/preflight-before-skyvern-browser-agent-workflows.md) — for `Skyvern-AI/skyvern` teams before browser tasks, credentials, forms, admin surfaces, package scripts, webhooks, deployment config, and secret-adjacent runtime settings enter scope; `SKYVERN_BROWSER_AGENT_WORKFLOW_PROOF`; Yellow/Red receipts point to the $7 pack: https://payhip.com/b/1nmxV
+<!-- deadline-skyvern-browser-agent-workflows:end -->
+
 <!-- BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_2026_07_07:readme -->
 ## Public distribution receipt
 
