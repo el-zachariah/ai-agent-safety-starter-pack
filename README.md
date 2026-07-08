@@ -16,6 +16,8 @@ cd ai-agent-safety-starter-pack
 python3 agent_preflight_lite.py /path/to/repo
 ```
 
+**Free vs paid in 20 seconds:** [`docs/free-vs-paid-checkout-guide.md`](docs/free-vs-paid-checkout-guide.md) separates the free local scanner/public docs from the `$7` ZIP: reusable handoff templates, destructive-command hook, demo risky repo/report, local verifier, and buyer quickstart. Buy only after a Yellow/Red free scan or a repeated handoff need. `FREE_VS_PAID_CHECKOUT_GUIDE_2026_07_07_2242`
+
 **Trust/support before buying:** [`docs/trust-and-support.md`](docs/trust-and-support.md) explains who is behind the pack, what happens after purchase, privacy limits, the honest buy/skip rule, the direct public-safe [buyer question / checkout help form](https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml), and the standing public-safe [buyer help thread](https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/1).
 
 **Checkout help without private details:** [`docs/checkout-friction-help.md`](docs/checkout-friction-help.md) gives a public-safe fallback if Payhip, download, or ZIP-verifier wording is confusing before or after purchase. `CHECKOUT_FRICTION_HELP_2026_07_07`
