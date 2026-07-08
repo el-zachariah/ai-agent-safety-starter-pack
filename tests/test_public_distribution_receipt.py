@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MARKER = "BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_2026_07_07"
 CLOSURE_MARKER = "ROUTE_CLOSURE_HYGIENE_2026_07_07_1551"
 STRICT_PLUGIN_MARKER = "STRICT_PLUGIN_ROUTE_MERGEABLE_READBACK_2026_07_07_1937"
-STRICT_PLUGIN_CURRENT_HEAD_MARKER = "STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_07_2053"
+STRICT_PLUGIN_CURRENT_HEAD_MARKER = "STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_08_0142"
 
 class PublicDistributionReceiptTest(unittest.TestCase):
     def test_receipt_doc_has_buyer_trust_evidence(self):
@@ -21,7 +21,7 @@ class PublicDistributionReceiptTest(unittest.TestCase):
         self.assertIn("prescreen-grade", text)
         self.assertIn(STRICT_PLUGIN_MARKER, text)
         self.assertIn(STRICT_PLUGIN_CURRENT_HEAD_MARKER, text)
-        self.assertIn("head `c3c3a21`", text)
+        self.assertIn("head `7a4239`", text)
         self.assertIn("CHANGES_REQUESTED", text)
         self.assertIn("review-progress evidence rather than an endorsement claim", text)
         self.assertIn(CLOSURE_MARKER, text)

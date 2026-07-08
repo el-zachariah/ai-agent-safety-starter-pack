@@ -250,7 +250,7 @@ class LiveDistributionProofTests(unittest.TestCase):
         self.assertIn("live-distribution-proof", index)
         marker = "LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1759"
         strict_plugin_marker = "STRICT_PLUGIN_ROUTE_MERGEABLE_READBACK_2026_07_07_1937"
-        strict_plugin_current_head_marker = "STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_07_2053"
+        strict_plugin_current_head_marker = "STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_08_0142"
         self.assertIn(marker, readme)
         self.assertIn(marker, index)
         self.assertIn(marker, proof)
@@ -271,12 +271,12 @@ class LiveDistributionProofTests(unittest.TestCase):
         self.assertIn("One route is merged after maintainer review", proof)
         self.assertIn("fifteen tracked routes are open and mergeable", proof)
         self.assertIn("PUBLIC_ROUTE_READBACK_2026_07_07_1801", proof)
-        self.assertIn("2026-07-07T20:53:08-05:00", proof)
+        self.assertIn("2026-07-08T01:42:33-05:00", proof)
         self.assertIn("sentinel-changed `ai-boost/awesome-harness-engineering` route remains `OPEN` + `MERGEABLE`", proof)
         self.assertIn("after the sentinel-reported change from unknown mergeability", proof)
         self.assertIn("sentinel-changed jqueryscript route remains `OPEN` + `MERGEABLE`", proof)
         self.assertIn("stricter plugin marketplace route remains `OPEN` + `MERGEABLE`", proof)
-        self.assertIn("head `c3c3a21`", proof)
+        self.assertIn("head `7a4239`", proof)
         self.assertIn("public `prescreen`, `prescreen-grade`, and `Greptile Review` success", proof)
         self.assertIn("`CHANGES_REQUESTED` until maintainer re-review", proof)
         self.assertIn("CLOSED after review comment at `2026-07-07T15:39:45Z`", proof)

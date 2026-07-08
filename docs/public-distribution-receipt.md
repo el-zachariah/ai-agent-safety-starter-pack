@@ -4,9 +4,10 @@ Marker: BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_2026_07_07
 Fresh-readback marker: BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_READBACK_2026_07_07_1501
 Route-closure hygiene marker: ROUTE_CLOSURE_HYGIENE_2026_07_07_1551
 Strict plugin route marker: STRICT_PLUGIN_ROUTE_MERGEABLE_READBACK_2026_07_07_1937
-Strict plugin current-head marker: STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_07_2053
+Strict plugin current-head marker: STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_08_0142
+Previous strict plugin current-head marker: STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_07_2053
 Generated: 2026-07-07T08-55-36Z
-Fresh readback: 2026-07-07 20:53:08 -0500 from public GitHub PR state plus route-closure hygiene and strict plugin current-head readback.
+Fresh readback: 2026-07-08 01:42:33 -0500 from public GitHub PR state plus route-closure hygiene and strict plugin current-head readback.
 
 This page exists so a cautious buyer can verify that AI Agent Safety Starter Pack is not a disposable checkout page. The seller identity is Zachariah / Signal Loom Works via el-zachariah, and the free source funnel is public.
 
@@ -19,7 +20,7 @@ This page exists so a cautious buyer can verify that AI Agent Safety Starter Pac
 - Landing page: https://el-zachariah.github.io/ai-agent-safety-starter-pack/
 - Active marketplace/review trail: fifteen tracked routes are open and mergeable for the free agent-safety-preflight asset; these are distribution routes, not endorsement claims.
 - High-signal open route: https://github.com/trailofbits/skills-curated/pull/37 is open, mergeable, and has `license/cla` success with CLAassistant stating all committers have signed the CLA.
-- Stricter plugin review route: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/pull/964 is open and mergeable at head `c3c3a21` with `prescreen`, `prescreen-grade`, and `Greptile Review` success after the upstream-conflict repair. Its formal review state still shows `CHANGES_REQUESTED` until maintainer re-review, so it is review-progress evidence rather than an endorsement claim.
+- Stricter plugin review route: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/pull/964 is open and mergeable at head `7a4239` with `prescreen`, `prescreen-grade`, and `Greptile Review` success after the current-main rebase and allowlist conflict repair. Its formal review state still shows `CHANGES_REQUESTED` until maintainer re-review, so it is review-progress evidence rather than an endorsement claim.
 - Parked non-fit route: https://github.com/wshobson/agents/pull/606 is closed after maintainer review because the plugin content funnels to an external monetized product and overlaps existing governance plugins. It is no longer counted as active proof; this receipt points buyers to the merged Build with Claude route and CLA-green security-org route instead.
 
 ## What this means for a buyer
