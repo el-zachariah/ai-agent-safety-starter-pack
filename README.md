@@ -40,6 +40,8 @@ python3 agent_preflight_lite.py /path/to/repo
 
 **Expense/reimbursement note:** [`docs/expense-reimbursement-note.md`](docs/expense-reimbursement-note.md) gives a copy-paste manager/expense note for a $7 Payhip purchase after a Yellow/Red free scan, without exposing private repo, order, billing, or account details. `EXPENSE_REIMBURSEMENT_NOTE_2026_07_07`
 
+**Security-review factsheet:** [`docs/security-review-factsheet.md`](docs/security-review-factsheet.md) gives a public-safe one-page reviewer note for local-only data handling, current ZIP SHA/file count, pass/pause criteria, and the Yellow/Red purchase trigger before Payhip. `SECURITY_REVIEW_FACTSHEET_2026_07_07`
+
 **Live public distribution proof:** [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) gives a 60-second verification path through the free source repo, the merged Build with Claude route, CLA-green marketplace routes, the sentinel-changed harness-engineering and jqueryscript routes, the strict plugin route still mergeable at head `c3c3a21` after the upstream-conflict repair, the parked non-fit route, and the Yellow/Red buy trigger before checkout. Fresh readback markers: `LIVE_DISTRIBUTION_PROOF_REFRESH_2026_07_07_SENTINEL_1759` `STRICT_PLUGIN_ROUTE_MERGEABLE_READBACK_2026_07_07_1937` `STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_07_2053`
 
 **Closed-route hygiene:** [`docs/public-distribution-receipt.md`](docs/public-distribution-receipt.md) and [`docs/live-distribution-proof.md`](docs/live-distribution-proof.md) now park the closed `wshobson/agents` route as non-fit and point cautious buyers at the merged Build with Claude route plus the CLA-green security-org route instead. `ROUTE_CLOSURE_HYGIENE_2026_07_07_1551`
