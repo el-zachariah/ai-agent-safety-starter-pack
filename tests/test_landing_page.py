@@ -254,6 +254,7 @@ class LiveDistributionProofTests(unittest.TestCase):
         current_marker = "LIVE_DISTRIBUTION_TRUST_REFRESH_2026_07_08_0412"
         harness_clean_marker = "HARNESS_ROUTE_CLEAN_RECHECK_2026_07_08_0735"
         strict_plugin_public_api_marker = "STRICT_PLUGIN_ROUTE_PUBLIC_API_GREEN_RECHECK_2026_07_08_0843"
+        jqueryscript_public_api_marker = "JQUERYSCRIPT_ROUTE_CLEAN_RECHECK_2026_07_08_1053"
         self.assertIn(marker, readme)
         self.assertIn(marker, index)
         self.assertIn(marker, proof)
@@ -272,11 +273,14 @@ class LiveDistributionProofTests(unittest.TestCase):
         self.assertIn(strict_plugin_public_api_marker, readme)
         self.assertIn(strict_plugin_public_api_marker, index)
         self.assertIn(strict_plugin_public_api_marker, proof)
+        self.assertIn(jqueryscript_public_api_marker, readme)
+        self.assertIn(jqueryscript_public_api_marker, index)
+        self.assertIn(jqueryscript_public_api_marker, proof)
         self.assertIn("Live public distribution proof", readme)
         self.assertLess(readme.index("Live public distribution proof"), readme.index("## Recent buyer-specific proof links"))
         self.assertIn("Three checks before checkout", proof)
         self.assertIn("60-second public verification path", proof)
-        self.assertIn("top README points cautious buyers toward the merged, CLA-green, harness-clean, and strict-plugin proof routes", index)
+        self.assertIn("top README points cautious buyers toward the merged, CLA-green, harness-clean, jqueryscript-clean, and strict-plugin proof routes", index)
         self.assertIn("above the long proof wall", proof)
         self.assertIn("merged Claude Code directory route", proof)
         self.assertIn("CLA-green security-org skill marketplace route", proof)
@@ -288,7 +292,9 @@ class LiveDistributionProofTests(unittest.TestCase):
         self.assertIn("harness-engineering route was rechecked clean after a transient unknown state", proof)
         self.assertIn("mergeable clean after the 07:33 sentinel unknown-mergeability alert", proof)
         self.assertIn("c24639cc881bce5242df137f40c31529d363bde6", proof)
-        self.assertIn("the jqueryscript route is still mergeable", proof)
+        self.assertIn("jqueryscript route was rechecked clean at head `07a8f07fc12f`", proof)
+        self.assertIn("2026-07-08T10:53:14-05:00", proof)
+        self.assertIn("public GitHub API `mergeable=true` with `mergeable_state` `clean`", proof)
         self.assertIn("stricter plugin marketplace route is `OPEN`, GitHub API `mergeable=true`", proof)
         self.assertIn("head `7a4239ff0e30`", proof)
         self.assertIn("public checks include `prescreen`, `prescreen-grade`, and `Greptile Review` success", proof)
