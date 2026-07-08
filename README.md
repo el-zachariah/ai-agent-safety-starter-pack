@@ -36,6 +36,8 @@ python3 agent_preflight_lite.py /path/to/repo
 
 **Pre-checkout decision receipt:** [`docs/pre-checkout-decision-receipt.md`](docs/pre-checkout-decision-receipt.md) gives a copy-paste Green/Yellow/Red task note so a cautious buyer can decide in two minutes without sharing private repo details. `PRECHECKOUT_DECISION_RECEIPT_2026_07_07`
 
+**Two-minute value check:** [`docs/value-check-before-checkout.md`](docs/value-check-before-checkout.md) helps a buyer decide whether the $7 ZIP is worth opening Payhip for after the free scan: Green skip, Yellow buy only if it saves one setup loop, Red buy when a reusable handoff/guardrail is needed. `VALUE_CHECK_BEFORE_CHECKOUT_2026_07_08`
+
 **Team purchase note:** [`docs/team-purchase-note.md`](docs/team-purchase-note.md) gives a copy-paste maintainer/team-lead note for approving the $7 pack after a Yellow/Red free scan, without sharing private repo, billing, or account details. `TEAM_PURCHASE_NOTE_2026_07_07`
 
 **Expense/reimbursement note:** [`docs/expense-reimbursement-note.md`](docs/expense-reimbursement-note.md) gives a copy-paste manager/expense note for a $7 Payhip purchase after a Yellow/Red free scan, without exposing private repo, order, billing, or account details. `EXPENSE_REIMBURSEMENT_NOTE_2026_07_07`
