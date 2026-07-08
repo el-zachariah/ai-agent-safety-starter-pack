@@ -30,13 +30,13 @@ For a quick confidence check after checkout, use the [90-second post-purchase ZI
 
 If you want to preview the first local commands before checkout, use [first five minutes after download](first-five-minutes-after-download.md) to see the verifier, top-level runner, and Yellow/Red stop signal. `FIRST_FIVE_MINUTES_AFTER_DOWNLOAD_2026_07_07`
 
-If Payhip, download, or ZIP-verifier wording is confusing, use the [checkout friction help path](checkout-friction-help.md) before posting anything public. It keeps the support report limited to the free scan color, the step that stalled, and non-secret symptom text. `CHECKOUT_FRICTION_HELP_2026_07_07`
+If Payhip, the payment step, download, or ZIP-verifier wording is confusing, use the [checkout friction help path](checkout-friction-help.md) before posting anything public. It keeps the support report limited to the free scan color, the step that stalled, and non-secret symptom text. `CHECKOUT_FRICTION_HELP_2026_07_07` `PAYMENT_FRICTION_PUBLIC_SAFE_HELP_2026_07_07_2316`
 
 Before checkout, use the [paid bundle contents preview](paid-bundle-contents-preview.md) to inspect the expected v0.4 ZIP contents, SHA-256, file count, local verifier, and what is not included. `PAID_BUNDLE_CONTENTS_PREVIEW_2026_07_07`
 
 ## Support channel
 
-For pre-sale questions, install friction, checkout-page friction, or a mismatch between the public description and the ZIP, use the public-safe buyer support form:
+For pre-sale questions, install friction, checkout-page friction or payment-step friction, or a mismatch between the public description and the ZIP, use the public-safe buyer support form:
 
 <https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml>
 
@@ -48,7 +48,7 @@ You can also open a plain GitHub issue here:
 
 <https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues>
 
-Use the issue title prefix `[buyer question]` or `[support]` so it can be triaged quickly. If the Payhip page is unavailable or confusing, say what public page you were on and what non-private error text you saw; do not paste private code, secrets, credentials, customer data, card details, billing data, payment-provider screenshots, or order identifiers into public issues.
+Use the issue title prefix `[buyer question]` or `[support]` so it can be triaged quickly. If the Payhip page or payment step is unavailable/confusing, say what public page you were on and what non-private error text you saw; do not paste private code, secrets, credentials, customer data, names, email addresses, card details, billing data, payment-provider screenshots, account dashboards, or order identifiers into public issues.
 
 ## What this is not
 

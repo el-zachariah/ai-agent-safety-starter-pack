@@ -3,6 +3,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 MARKER = "CHECKOUT_FRICTION_HELP_2026_07_07"
+PAYMENT_MARKER = "PAYMENT_FRICTION_PUBLIC_SAFE_HELP_2026_07_07_2316"
 HELP_DOC = ROOT / "docs" / "checkout-friction-help.md"
 
 
@@ -18,17 +19,25 @@ class CheckoutFrictionHelpTests(unittest.TestCase):
         self.assertIn(MARKER, readme)
         self.assertIn(MARKER, index)
         self.assertIn(MARKER, trust)
+        self.assertIn(PAYMENT_MARKER, readme)
+        self.assertIn(PAYMENT_MARKER, index)
+        self.assertIn(PAYMENT_MARKER, trust)
         self.assertLess(readme.index("Checkout help without private details"), readme.index("## Recent buyer-specific proof links"))
+        self.assertLess(readme.index("Payment step stalled?"), readme.index("## Recent buyer-specific proof links"))
         self.assertLess(index.index("Checkout help without private details"), index.index("deadline-github-mcp-server-workflows-proof:start"))
 
     def test_checkout_help_gives_public_safe_support_path(self):
         help_text = HELP_DOC.read_text(encoding="utf-8")
 
         self.assertIn(MARKER, help_text)
+        self.assertIn(PAYMENT_MARKER, help_text)
         self.assertIn("https://payhip.com/b/1nmxV", help_text)
         self.assertIn("issues/new?template=buyer-question.yml", help_text)
         self.assertIn("free scanner", help_text)
         self.assertIn("Green / Yellow / Red", help_text)
+        self.assertIn("If the payment step does not complete", help_text)
+        self.assertIn("payment-provider screenshots", help_text)
+        self.assertIn("order identifiers", help_text)
         self.assertIn("Do not paste private code", help_text)
         self.assertIn("card details", help_text)
         self.assertIn("order identifiers", help_text)

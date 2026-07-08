@@ -1,13 +1,14 @@
 name: Buyer question or checkout help
-description: Ask a pre-sale question, report checkout friction, or get help with the downloadable pack without posting private details.
+description: Ask a pre-sale question, report checkout/payment friction, or get help with the downloadable pack without posting private details.
 title: "[buyer question] "
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for checking the AI Agent Safety Starter Pack. Use this form for pre-sale questions, checkout-page friction, install friction, or mismatches between the public description and the ZIP.
+        Thanks for checking the AI Agent Safety Starter Pack. Use this form for pre-sale questions, checkout-page friction, payment-step friction, install friction, or mismatches between the public description and the ZIP.
 
         Do not paste private repository code, secrets, credentials, customer data, card details, billing data, payment-provider screenshots, or order identifiers into a public issue.
+        `PAYMENT_FRICTION_PUBLIC_SAFE_HELP_2026_07_07_2316`
   - type: dropdown
     id: question_type
     attributes:
@@ -15,17 +16,28 @@ body:
       options:
         - Pre-sale fit question before buying
         - Checkout page is unavailable or confusing
+        - Payment step will not complete (no private details)
         - Download or ZIP contents question
         - Install or verifier friction
         - Public description does not match the ZIP
         - Other buyer-support question
     validations:
       required: true
+  - type: dropdown
+    id: free_scan_result
+    attributes:
+      label: Free scan result, if you ran it
+      options:
+        - Not run yet
+        - Green
+        - Yellow
+        - Red
+        - Not applicable
   - type: textarea
     id: context
     attributes:
       label: Public-safe context
-      description: Share only public-safe details. A repo URL is optional; do not include private code, credentials, billing data, or screenshots with account details.
+      description: Share only public-safe details. A repo URL is optional; do not include private code, credentials, billing data, payment-provider screenshots, card details, account dashboards, or order identifiers.
       placeholder: "Example: The free scan reported Yellow because the repo has MCP config and package scripts. I want to know if the paid pack includes a reusable handoff receipt before I buy."
     validations:
       required: true

@@ -22,6 +22,8 @@ python3 agent_preflight_lite.py /path/to/repo
 
 **Checkout help without private details:** [`docs/checkout-friction-help.md`](docs/checkout-friction-help.md) gives a public-safe fallback if Payhip, download, or ZIP-verifier wording is confusing before or after purchase. `CHECKOUT_FRICTION_HELP_2026_07_07`
 
+**Payment step stalled?** Use the same public-safe help path if a checkout option will not complete; share only the free scan color, where it stalled, and non-secret symptom text. Do not post card, billing, account, screenshot, order, or private repo details. `PAYMENT_FRICTION_PUBLIC_SAFE_HELP_2026_07_07_2316`
+
 **Privacy before checkout:** [`docs/privacy-before-checkout.md`](docs/privacy-before-checkout.md) spells out the local-only path: run the free scan without uploading private code, keep paid ZIP verification local, and use only public-safe support details. `LOCAL_ONLY_PRIVACY_RECEIPT_2026_07_07`
 
 **After purchase:** [`docs/post-purchase-verification.md`](docs/post-purchase-verification.md) gives a 90-second post-purchase ZIP verification path before relying on the bundle in a real repo. `POST_PURCHASE_ZIP_VERIFICATION_2026_07_07`

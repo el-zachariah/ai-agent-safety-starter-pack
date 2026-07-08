@@ -5,6 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ISSUE_TEMPLATE = ROOT / ".github" / "ISSUE_TEMPLATE" / "buyer-question.yml"
 SUPPORT_LINK = "https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml"
 STANDING_HELP_THREAD = "https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/1"
+PAYMENT_MARKER = "PAYMENT_FRICTION_PUBLIC_SAFE_HELP_2026_07_07_2316"
 
 
 class BuyerSupportIntakeTests(unittest.TestCase):
@@ -22,6 +23,8 @@ class BuyerSupportIntakeTests(unittest.TestCase):
         self.assertIn("Public-safe help thread", landing)
         self.assertIn("Buyer question / checkout help", landing)
         self.assertIn("checkout-page friction", trust)
+        self.assertIn("payment-step friction", trust)
+        self.assertIn(PAYMENT_MARKER, trust)
         self.assertIn("do not paste private code", trust.lower())
         self.assertIn("card details", trust)
 
@@ -31,9 +34,13 @@ class BuyerSupportIntakeTests(unittest.TestCase):
         self.assertIn("name: Buyer question or checkout help", raw)
         self.assertIn('title: "[buyer question] "', raw)
         self.assertIn("Checkout page is unavailable or confusing", raw)
+        self.assertIn("Payment step will not complete (no private details)", raw)
+        self.assertIn("Free scan result, if you ran it", raw)
+        self.assertIn(PAYMENT_MARKER, raw)
         self.assertIn("Do not paste private repository code", raw)
         self.assertIn("card details", raw)
         self.assertIn("billing data", raw)
+        self.assertIn("payment-provider screenshots", raw)
         self.assertIn("order identifiers", raw)
 
 
