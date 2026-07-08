@@ -6,6 +6,7 @@ MARKER = "BUILDWITHCLAUDE_MERGED_DISTRIBUTION_RECEIPT_2026_07_07"
 CLOSURE_MARKER = "ROUTE_CLOSURE_HYGIENE_2026_07_07_1551"
 STRICT_PLUGIN_MARKER = "STRICT_PLUGIN_ROUTE_MERGEABLE_READBACK_2026_07_07_1937"
 STRICT_PLUGIN_CURRENT_HEAD_MARKER = "STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_08_0142"
+LIVE_DISTRIBUTION_CURRENT_MARKER = "LIVE_DISTRIBUTION_TRUST_REFRESH_2026_07_08_0412"
 
 class PublicDistributionReceiptTest(unittest.TestCase):
     def test_receipt_doc_has_buyer_trust_evidence(self):
@@ -31,6 +32,16 @@ class PublicDistributionReceiptTest(unittest.TestCase):
         self.assertIn("https://payhip.com/b/1nmxV", text)
         self.assertIn("Buy / skip trigger", text)
 
+    def test_live_distribution_proof_has_current_buyer_trust_readback(self):
+        text = (ROOT / "docs" / "live-distribution-proof.md").read_text(encoding="utf-8")
+
+        self.assertIn(LIVE_DISTRIBUTION_CURRENT_MARKER, text)
+        self.assertIn("2026-07-08T04:10:54-05:00", text)
+        self.assertIn("fifteen tracked routes remain `OPEN` + `MERGEABLE`", text)
+        self.assertIn("license/CLA status contexts", text)
+        self.assertIn("7a4239ff0e3073f767cb13c5b6b2f1185780c488", text)
+        self.assertIn("review-progress evidence rather than endorsement", text)
+
     def test_readme_and_landing_link_receipt(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         index = (ROOT / "index.html").read_text(encoding="utf-8")
@@ -38,11 +49,13 @@ class PublicDistributionReceiptTest(unittest.TestCase):
         self.assertIn(CLOSURE_MARKER, readme)
         self.assertIn(STRICT_PLUGIN_MARKER, readme)
         self.assertIn(STRICT_PLUGIN_CURRENT_HEAD_MARKER, readme)
+        self.assertIn(LIVE_DISTRIBUTION_CURRENT_MARKER, readme)
         self.assertIn("docs/public-distribution-receipt.md", readme)
         self.assertIn(MARKER, index)
         self.assertIn(CLOSURE_MARKER, index)
         self.assertIn(STRICT_PLUGIN_MARKER, index)
         self.assertIn(STRICT_PLUGIN_CURRENT_HEAD_MARKER, index)
+        self.assertIn(LIVE_DISTRIBUTION_CURRENT_MARKER, index)
         self.assertIn("public-distribution-receipt", index)
 
     def test_parked_route_is_not_presented_as_top_buyer_proof(self):
