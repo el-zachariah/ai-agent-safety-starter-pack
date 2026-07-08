@@ -253,6 +253,7 @@ class LiveDistributionProofTests(unittest.TestCase):
         strict_plugin_current_head_marker = "STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_08_0142"
         current_marker = "LIVE_DISTRIBUTION_TRUST_REFRESH_2026_07_08_0412"
         harness_clean_marker = "HARNESS_ROUTE_CLEAN_RECHECK_2026_07_08_0735"
+        strict_plugin_public_api_marker = "STRICT_PLUGIN_ROUTE_PUBLIC_API_GREEN_RECHECK_2026_07_08_0843"
         self.assertIn(marker, readme)
         self.assertIn(marker, index)
         self.assertIn(marker, proof)
@@ -268,6 +269,9 @@ class LiveDistributionProofTests(unittest.TestCase):
         self.assertIn(harness_clean_marker, readme)
         self.assertIn(harness_clean_marker, index)
         self.assertIn(harness_clean_marker, proof)
+        self.assertIn(strict_plugin_public_api_marker, readme)
+        self.assertIn(strict_plugin_public_api_marker, index)
+        self.assertIn(strict_plugin_public_api_marker, proof)
         self.assertIn("Live public distribution proof", readme)
         self.assertLess(readme.index("Live public distribution proof"), readme.index("## Recent buyer-specific proof links"))
         self.assertIn("Three checks before checkout", proof)
@@ -285,9 +289,13 @@ class LiveDistributionProofTests(unittest.TestCase):
         self.assertIn("mergeable clean after the 07:33 sentinel unknown-mergeability alert", proof)
         self.assertIn("c24639cc881bce5242df137f40c31529d363bde6", proof)
         self.assertIn("the jqueryscript route is still mergeable", proof)
-        self.assertIn("stricter plugin marketplace route remains `OPEN` + `MERGEABLE`", proof)
+        self.assertIn("stricter plugin marketplace route is `OPEN`, GitHub API `mergeable=true`", proof)
         self.assertIn("head `7a4239ff0e30`", proof)
-        self.assertIn("public `prescreen`, `prescreen-grade`, and `Greptile Review` success", proof)
+        self.assertIn("public checks include `prescreen`, `prescreen-grade`, and `Greptile Review` success", proof)
+        self.assertIn("GitHub API `mergeable=true`", proof)
+        self.assertIn("mergeable_state` `unstable`", proof)
+        self.assertIn("latest owner maintainer-ready readback comment at `2026-07-08T02:52:12Z`", proof)
+        self.assertIn("PASS: 1 skill(s) inspected", proof)
         self.assertIn("`CHANGES_REQUESTED` until maintainer re-review", proof)
         self.assertIn("CLOSED after review comment at `2026-07-07T15:39:45Z`", proof)
         self.assertIn("no longer counted as active buyer proof", proof)
