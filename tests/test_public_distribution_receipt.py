@@ -8,6 +8,7 @@ STRICT_PLUGIN_MARKER = "STRICT_PLUGIN_ROUTE_MERGEABLE_READBACK_2026_07_07_1937"
 STRICT_PLUGIN_CURRENT_HEAD_MARKER = "STRICT_PLUGIN_ROUTE_GREEN_RECHECK_2026_07_08_0142"
 LIVE_DISTRIBUTION_CURRENT_MARKER = "LIVE_DISTRIBUTION_TRUST_REFRESH_2026_07_08_0412"
 STRICT_PLUGIN_PUBLIC_API_MARKER = "STRICT_PLUGIN_ROUTE_PUBLIC_API_GREEN_RECHECK_2026_07_08_0843"
+JQUERYSCRIPT_PUBLIC_API_MARKER = "JQUERYSCRIPT_ROUTE_CLEAN_RECHECK_2026_07_08_1053"
 
 class PublicDistributionReceiptTest(unittest.TestCase):
     def test_receipt_doc_has_buyer_trust_evidence(self):
@@ -38,9 +39,13 @@ class PublicDistributionReceiptTest(unittest.TestCase):
 
         self.assertIn(LIVE_DISTRIBUTION_CURRENT_MARKER, text)
         self.assertIn(STRICT_PLUGIN_PUBLIC_API_MARKER, text)
+        self.assertIn(JQUERYSCRIPT_PUBLIC_API_MARKER, text)
         self.assertIn("2026-07-08T04:10:54-05:00", text)
         self.assertIn("fifteen tracked routes remain `OPEN` + `MERGEABLE`", text)
         self.assertIn("license/CLA status contexts", text)
+        self.assertIn("2026-07-08T10:53:14-05:00", text)
+        self.assertIn("07a8f07fc12fd50d360cf9c9a86a1134017eb7e1", text)
+        self.assertIn("mergeable_state` `clean`", text)
         self.assertIn("7a4239ff0e3073f767cb13c5b6b2f1185780c488", text)
         self.assertIn("GitHub API `mergeable=true`", text)
         self.assertIn("mergeable_state` `unstable`", text)
@@ -55,6 +60,7 @@ class PublicDistributionReceiptTest(unittest.TestCase):
         self.assertIn(STRICT_PLUGIN_CURRENT_HEAD_MARKER, readme)
         self.assertIn(LIVE_DISTRIBUTION_CURRENT_MARKER, readme)
         self.assertIn(STRICT_PLUGIN_PUBLIC_API_MARKER, readme)
+        self.assertIn(JQUERYSCRIPT_PUBLIC_API_MARKER, readme)
         self.assertIn("docs/public-distribution-receipt.md", readme)
         self.assertIn(MARKER, index)
         self.assertIn(CLOSURE_MARKER, index)
@@ -62,6 +68,7 @@ class PublicDistributionReceiptTest(unittest.TestCase):
         self.assertIn(STRICT_PLUGIN_CURRENT_HEAD_MARKER, index)
         self.assertIn(LIVE_DISTRIBUTION_CURRENT_MARKER, index)
         self.assertIn(STRICT_PLUGIN_PUBLIC_API_MARKER, index)
+        self.assertIn(JQUERYSCRIPT_PUBLIC_API_MARKER, index)
         self.assertIn("public-distribution-receipt", index)
 
     def test_parked_route_is_not_presented_as_top_buyer_proof(self):
