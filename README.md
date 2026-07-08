@@ -8,6 +8,14 @@ This repository includes a free lite scanner/checklist. The paid `$7` starter pa
 
 **Buy the full bundle:** https://payhip.com/b/1nmxV
 
+**Run this before checkout:** clone the public repo, scan your local checkout, then use the Green/Yellow/Red result to decide whether the `$7` pack is actually useful for this agent run. `FREE_SCAN_FIRST_COMMAND_2026_07_07_2230`
+
+```bash
+git clone https://github.com/el-zachariah/ai-agent-safety-starter-pack.git
+cd ai-agent-safety-starter-pack
+python3 agent_preflight_lite.py /path/to/repo
+```
+
 **Trust/support before buying:** [`docs/trust-and-support.md`](docs/trust-and-support.md) explains who is behind the pack, what happens after purchase, privacy limits, the honest buy/skip rule, the direct public-safe [buyer question / checkout help form](https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/new?template=buyer-question.yml), and the standing public-safe [buyer help thread](https://github.com/el-zachariah/ai-agent-safety-starter-pack/issues/1).
 
 **Checkout help without private details:** [`docs/checkout-friction-help.md`](docs/checkout-friction-help.md) gives a public-safe fallback if Payhip, download, or ZIP-verifier wording is confusing before or after purchase. `CHECKOUT_FRICTION_HELP_2026_07_07`

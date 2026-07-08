@@ -30,6 +30,21 @@ class LinkParser(HTMLParser):
 
 
 class LandingPageTests(unittest.TestCase):
+    def test_free_scan_command_is_above_proof_wall(self):
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        html = LANDING.read_text(encoding="utf-8")
+        marker = "FREE_SCAN_FIRST_COMMAND_2026_07_07_2230"
+
+        for text in (readme, html):
+            self.assertEqual(text.count(marker), 1)
+            self.assertIn("git clone https://github.com/el-zachariah/ai-agent-safety-starter-pack.git", text)
+            self.assertIn("python3 agent_preflight_lite.py /path/to/repo", text)
+            self.assertIn("Green", text)
+            self.assertIn("Yellow/Red", text)
+
+        self.assertLess(readme.index(marker), readme.index("## Recent buyer-specific proof links"))
+        self.assertLess(html.index(marker), html.index("deadline-github-mcp-server-workflows-proof:start"))
+
     def test_purchase_decision_is_above_proof_wall(self):
         html = LANDING.read_text(encoding="utf-8")
 
