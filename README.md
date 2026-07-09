@@ -40,6 +40,8 @@ python3 agent_preflight_lite.py /path/to/repo
 
 **Approval packet before checkout:** [`docs/approval-packet-before-checkout.md`](docs/approval-packet-before-checkout.md) gives a one-screen public-safe packet for a maintainer, reviewer, or manager: free scan result, seller/project, checkout link, privacy boundary, and Green/Yellow/Red buy/skip rule. `APPROVAL_PACKET_BEFORE_CHECKOUT_2026_07_08`
 
+**CI / PR reviewer receipt before checkout:** [`docs/ci-preflight-recipe.md`](docs/ci-preflight-recipe.md) gives a copy-paste GitHub Actions step and reviewer rule for attaching a Green/Yellow/Red preflight receipt to AI-agent pull requests before deciding whether the `$7` pack saves repeatable handoff work. `CI_PR_REVIEWER_RECEIPT_BEFORE_CHECKOUT_2026_07_08`
+
 **Team purchase note:** [`docs/team-purchase-note.md`](docs/team-purchase-note.md) gives a copy-paste maintainer/team-lead note for approving the $7 pack after a Yellow/Red free scan, without sharing private repo, billing, or account details. `TEAM_PURCHASE_NOTE_2026_07_07`
 
 **Expense/reimbursement note:** [`docs/expense-reimbursement-note.md`](docs/expense-reimbursement-note.md) gives a copy-paste manager/expense note for a $7 Payhip purchase after a Yellow/Red free scan, without exposing private repo, order, billing, or account details. `EXPENSE_REIMBURSEMENT_NOTE_2026_07_07`
